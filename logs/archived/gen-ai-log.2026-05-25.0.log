@@ -1,0 +1,1091 @@
+2026-05-25 13:41:41 [main] INFO  traceId= spanId= c.j.f.FirstAiProjectApplication - Starting FirstAiProjectApplication using Java 25.0.3 with PID 20888 (/Users/jialli/Documents/spring_ai/first-ai-project/target/classes started by jialli in /Users/jialli/Documents/spring_ai)
+2026-05-25 13:41:41 [main] INFO  traceId= spanId= c.j.f.FirstAiProjectApplication - No active profile set, falling back to 1 default profile: "default"
+2026-05-25 13:41:41 [main] INFO  traceId= spanId= o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8081 (http)
+2026-05-25 13:41:41 [main] INFO  traceId= spanId= o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2026-05-25 13:41:41 [main] INFO  traceId= spanId= o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-05-25 13:41:41 [main] INFO  traceId= spanId= o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.49]
+2026-05-25 13:41:41 [main] INFO  traceId= spanId= o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-05-25 13:41:41 [main] INFO  traceId= spanId= o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 569 ms
+2026-05-25 13:41:42 [main] INFO  traceId= spanId= o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2026-05-25 13:41:42 [main] WARN  traceId= spanId= o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2026-05-25 13:41:42 [main] WARN  traceId= spanId= o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'vertexAiGeminiChat': java.lang.IllegalStateException: java.io.IOException: Your default credentials were not found. To set up Application Default Credentials for your environment, see https://cloud.google.com/docs/authentication/external/set-up-adc.
+2026-05-25 13:41:42 [main] WARN  traceId= spanId= o.s.b.f.s.DisposableBeanAdapter - Invocation of close method failed on bean with name 'vertexAi': java.lang.IllegalStateException: java.io.IOException: Your default credentials were not found. To set up Application Default Credentials for your environment, see https://cloud.google.com/docs/authentication/external/set-up-adc.
+2026-05-25 13:41:42 [main] INFO  traceId= spanId= o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2026-05-25 13:41:42 [main] ERROR traceId= spanId= o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8081 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8081 or configure this application to listen on another port.
+
+2026-05-25 13:42:48 [main] INFO  traceId= spanId= c.j.f.FirstAiProjectApplication - Starting FirstAiProjectApplication using Java 25.0.3 with PID 20924 (/Users/jialli/Documents/spring_ai/first-ai-project/target/classes started by jialli in /Users/jialli/Documents/spring_ai)
+2026-05-25 13:42:48 [main] INFO  traceId= spanId= c.j.f.FirstAiProjectApplication - No active profile set, falling back to 1 default profile: "default"
+2026-05-25 13:42:48 [main] INFO  traceId= spanId= o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8081 (http)
+2026-05-25 13:42:48 [main] INFO  traceId= spanId= o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2026-05-25 13:42:48 [main] INFO  traceId= spanId= o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-05-25 13:42:48 [main] INFO  traceId= spanId= o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.49]
+2026-05-25 13:42:48 [main] INFO  traceId= spanId= o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-05-25 13:42:48 [main] INFO  traceId= spanId= o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 506 ms
+2026-05-25 13:42:49 [main] INFO  traceId= spanId= o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2026-05-25 13:42:49 [main] INFO  traceId= spanId= o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8081 (http) with context path '/'
+2026-05-25 13:42:49 [main] INFO  traceId= spanId= c.j.f.FirstAiProjectApplication - Started FirstAiProjectApplication in 1.433 seconds (process running for 1.63)
+2026-05-25 13:50:59 [http-nio-8081-exec-1] INFO  traceId= spanId= o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-05-25 13:50:59 [http-nio-8081-exec-1] INFO  traceId= spanId= o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-05-25 13:50:59 [http-nio-8081-exec-1] INFO  traceId= spanId= o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2026-05-25 13:51:42 [SpringApplicationShutdownHook] INFO  traceId= spanId= o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-05-25 13:51:42 [tomcat-shutdown] INFO  traceId= spanId= o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-05-25 13:51:43 [SpringApplicationShutdownHook] WARN  traceId= spanId= o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'vertexAiGeminiChat': java.lang.IllegalStateException: java.io.IOException: Your default credentials were not found. To set up Application Default Credentials for your environment, see https://cloud.google.com/docs/authentication/external/set-up-adc.
+2026-05-25 13:51:43 [SpringApplicationShutdownHook] WARN  traceId= spanId= o.s.b.f.s.DisposableBeanAdapter - Invocation of close method failed on bean with name 'vertexAi': java.lang.IllegalStateException: java.io.IOException: Your default credentials were not found. To set up Application Default Credentials for your environment, see https://cloud.google.com/docs/authentication/external/set-up-adc.
+2026-05-25 13:51:44 [main] INFO  traceId= spanId= c.j.f.FirstAiProjectApplication - Starting FirstAiProjectApplication using Java 25.0.3 with PID 21253 (/Users/jialli/Documents/spring_ai/first-ai-project/target/classes started by jialli in /Users/jialli/Documents/spring_ai)
+2026-05-25 13:51:44 [main] INFO  traceId= spanId= c.j.f.FirstAiProjectApplication - No active profile set, falling back to 1 default profile: "default"
+2026-05-25 13:51:45 [main] INFO  traceId= spanId= o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8081 (http)
+2026-05-25 13:51:45 [main] INFO  traceId= spanId= o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2026-05-25 13:51:45 [main] INFO  traceId= spanId= o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-05-25 13:51:45 [main] INFO  traceId= spanId= o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.49]
+2026-05-25 13:51:45 [main] INFO  traceId= spanId= o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-05-25 13:51:45 [main] INFO  traceId= spanId= o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 525 ms
+2026-05-25 13:51:46 [main] INFO  traceId= spanId= o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2026-05-25 13:51:46 [main] INFO  traceId= spanId= o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8081 (http) with context path '/'
+2026-05-25 13:51:46 [main] INFO  traceId= spanId= c.j.f.FirstAiProjectApplication - Started FirstAiProjectApplication in 1.511 seconds (process running for 1.712)
+2026-05-25 13:51:50 [http-nio-8081-exec-1] INFO  traceId= spanId= o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-05-25 13:51:50 [http-nio-8081-exec-1] INFO  traceId= spanId= o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-05-25 13:51:50 [http-nio-8081-exec-1] INFO  traceId= spanId= o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2026-05-25 14:08:41 [SpringApplicationShutdownHook] INFO  traceId= spanId= o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-05-25 14:08:41 [tomcat-shutdown] INFO  traceId= spanId= o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-05-25 14:08:41 [SpringApplicationShutdownHook] WARN  traceId= spanId= o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'vertexAiGeminiChat': java.lang.IllegalStateException: java.io.IOException: Your default credentials were not found. To set up Application Default Credentials for your environment, see https://cloud.google.com/docs/authentication/external/set-up-adc.
+2026-05-25 14:08:41 [SpringApplicationShutdownHook] WARN  traceId= spanId= o.s.b.f.s.DisposableBeanAdapter - Invocation of close method failed on bean with name 'vertexAi': java.lang.IllegalStateException: java.io.IOException: Your default credentials were not found. To set up Application Default Credentials for your environment, see https://cloud.google.com/docs/authentication/external/set-up-adc.
+2026-05-25 14:08:43 [main] INFO  traceId= spanId= c.j.f.FirstAiProjectApplication - Starting FirstAiProjectApplication using Java 25.0.3 with PID 21649 (/Users/jialli/Documents/spring_ai/first-ai-project/target/classes started by jialli in /Users/jialli/Documents/spring_ai)
+2026-05-25 14:08:43 [main] INFO  traceId= spanId= c.j.f.FirstAiProjectApplication - No active profile set, falling back to 1 default profile: "default"
+2026-05-25 14:08:43 [main] INFO  traceId= spanId= o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8081 (http)
+2026-05-25 14:08:43 [main] INFO  traceId= spanId= o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2026-05-25 14:08:43 [main] INFO  traceId= spanId= o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-05-25 14:08:43 [main] INFO  traceId= spanId= o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.49]
+2026-05-25 14:08:43 [main] INFO  traceId= spanId= o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-05-25 14:08:43 [main] INFO  traceId= spanId= o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 502 ms
+2026-05-25 14:08:44 [main] INFO  traceId= spanId= o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2026-05-25 14:08:44 [main] INFO  traceId= spanId= o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8081 (http) with context path '/'
+2026-05-25 14:08:44 [main] INFO  traceId= spanId= c.j.f.FirstAiProjectApplication - Started FirstAiProjectApplication in 1.436 seconds (process running for 1.633)
+2026-05-25 14:09:47 [http-nio-8081-exec-2] INFO  traceId= spanId= o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-05-25 14:09:47 [http-nio-8081-exec-2] INFO  traceId= spanId= o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-05-25 14:09:47 [http-nio-8081-exec-2] INFO  traceId= spanId= o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2026-05-25 14:10:27 [SpringApplicationShutdownHook] INFO  traceId= spanId= o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-05-25 14:10:27 [tomcat-shutdown] INFO  traceId= spanId= o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-05-25 14:10:27 [SpringApplicationShutdownHook] WARN  traceId= spanId= o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'vertexAiGeminiChat': java.lang.IllegalStateException: java.io.IOException: Your default credentials were not found. To set up Application Default Credentials for your environment, see https://cloud.google.com/docs/authentication/external/set-up-adc.
+2026-05-25 14:10:27 [SpringApplicationShutdownHook] WARN  traceId= spanId= o.s.b.f.s.DisposableBeanAdapter - Invocation of close method failed on bean with name 'vertexAi': java.lang.IllegalStateException: java.io.IOException: Your default credentials were not found. To set up Application Default Credentials for your environment, see https://cloud.google.com/docs/authentication/external/set-up-adc.
+2026-05-25 14:10:29 [main] INFO  traceId= spanId= c.j.f.FirstAiProjectApplication - Starting FirstAiProjectApplication using Java 25.0.3 with PID 21685 (/Users/jialli/Documents/spring_ai/first-ai-project/target/classes started by jialli in /Users/jialli/Documents/spring_ai)
+2026-05-25 14:10:29 [main] INFO  traceId= spanId= c.j.f.FirstAiProjectApplication - No active profile set, falling back to 1 default profile: "default"
+2026-05-25 14:10:30 [main] INFO  traceId= spanId= o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8081 (http)
+2026-05-25 14:10:30 [main] INFO  traceId= spanId= o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2026-05-25 14:10:30 [main] INFO  traceId= spanId= o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-05-25 14:10:30 [main] INFO  traceId= spanId= o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.49]
+2026-05-25 14:10:30 [main] INFO  traceId= spanId= o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-05-25 14:10:30 [main] INFO  traceId= spanId= o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 508 ms
+2026-05-25 14:10:30 [main] INFO  traceId= spanId= o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2026-05-25 14:10:30 [main] INFO  traceId= spanId= o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8081 (http) with context path '/'
+2026-05-25 14:10:30 [main] INFO  traceId= spanId= c.j.f.FirstAiProjectApplication - Started FirstAiProjectApplication in 1.442 seconds (process running for 1.639)
+2026-05-25 14:10:35 [http-nio-8081-exec-2] INFO  traceId= spanId= o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-05-25 14:10:35 [http-nio-8081-exec-2] INFO  traceId= spanId= o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-05-25 14:10:35 [http-nio-8081-exec-2] INFO  traceId= spanId= o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2026-05-25 16:11:21 [SpringApplicationShutdownHook] INFO  traceId= spanId= o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-05-25 16:11:21 [tomcat-shutdown] INFO  traceId= spanId= o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-05-25 16:11:22 [SpringApplicationShutdownHook] WARN  traceId= spanId= o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'vertexAiGeminiChat': java.lang.IllegalStateException: java.io.IOException: Your default credentials were not found. To set up Application Default Credentials for your environment, see https://cloud.google.com/docs/authentication/external/set-up-adc.
+2026-05-25 16:11:22 [SpringApplicationShutdownHook] WARN  traceId= spanId= o.s.b.f.s.DisposableBeanAdapter - Invocation of close method failed on bean with name 'vertexAi': java.lang.IllegalStateException: java.io.IOException: Your default credentials were not found. To set up Application Default Credentials for your environment, see https://cloud.google.com/docs/authentication/external/set-up-adc.
+2026-05-25 16:11:24 [main] INFO  traceId= spanId= c.j.f.FirstAiProjectApplication - Starting FirstAiProjectApplication using Java 25.0.3 with PID 25169 (/Users/jialli/Documents/spring_ai/first-ai-project/target/classes started by jialli in /Users/jialli/Documents/spring_ai)
+2026-05-25 16:11:24 [main] INFO  traceId= spanId= c.j.f.FirstAiProjectApplication - No active profile set, falling back to 1 default profile: "default"
+2026-05-25 16:11:24 [main] INFO  traceId= spanId= o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8081 (http)
+2026-05-25 16:11:24 [main] INFO  traceId= spanId= o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2026-05-25 16:11:24 [main] INFO  traceId= spanId= o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-05-25 16:11:24 [main] INFO  traceId= spanId= o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.49]
+2026-05-25 16:11:24 [main] INFO  traceId= spanId= o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-05-25 16:11:24 [main] INFO  traceId= spanId= o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 504 ms
+2026-05-25 16:11:25 [main] INFO  traceId= spanId= o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2026-05-25 16:11:25 [main] INFO  traceId= spanId= o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8081 (http) with context path '/'
+2026-05-25 16:11:25 [main] INFO  traceId= spanId= c.j.f.FirstAiProjectApplication - Started FirstAiProjectApplication in 1.429 seconds (process running for 1.623)
+2026-05-25 16:11:47 [http-nio-8081-exec-2] INFO  traceId= spanId= o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-05-25 16:11:47 [http-nio-8081-exec-2] INFO  traceId= spanId= o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-05-25 16:11:47 [http-nio-8081-exec-2] INFO  traceId= spanId= o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2026-05-25 16:42:20 [SpringApplicationShutdownHook] INFO  traceId= spanId= o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-05-25 16:42:20 [tomcat-shutdown] INFO  traceId= spanId= o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-05-25 16:42:20 [SpringApplicationShutdownHook] WARN  traceId= spanId= o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'vertexAiGeminiChat': java.lang.IllegalStateException: java.io.IOException: Your default credentials were not found. To set up Application Default Credentials for your environment, see https://cloud.google.com/docs/authentication/external/set-up-adc.
+2026-05-25 16:42:20 [SpringApplicationShutdownHook] WARN  traceId= spanId= o.s.b.f.s.DisposableBeanAdapter - Invocation of close method failed on bean with name 'vertexAi': java.lang.IllegalStateException: java.io.IOException: Your default credentials were not found. To set up Application Default Credentials for your environment, see https://cloud.google.com/docs/authentication/external/set-up-adc.
+2026-05-25 16:42:22 [main] INFO  traceId= spanId= c.j.f.FirstAiProjectApplication - Starting FirstAiProjectApplication using Java 25.0.3 with PID 26611 (/Users/jialli/Documents/spring_ai/first-ai-project/target/classes started by jialli in /Users/jialli/Documents/spring_ai)
+2026-05-25 16:42:22 [main] INFO  traceId= spanId= c.j.f.FirstAiProjectApplication - No active profile set, falling back to 1 default profile: "default"
+2026-05-25 16:42:22 [main] INFO  traceId= spanId= o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8081 (http)
+2026-05-25 16:42:22 [main] INFO  traceId= spanId= o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2026-05-25 16:42:22 [main] INFO  traceId= spanId= o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-05-25 16:42:22 [main] INFO  traceId= spanId= o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.49]
+2026-05-25 16:42:22 [main] INFO  traceId= spanId= o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-05-25 16:42:22 [main] INFO  traceId= spanId= o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 510 ms
+2026-05-25 16:42:23 [main] INFO  traceId= spanId= o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2026-05-25 16:42:23 [main] INFO  traceId= spanId= o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8081 (http) with context path '/'
+2026-05-25 16:42:23 [main] INFO  traceId= spanId= c.j.f.FirstAiProjectApplication - Started FirstAiProjectApplication in 1.427 seconds (process running for 1.625)
+2026-05-25 16:42:28 [http-nio-8081-exec-1] INFO  traceId= spanId= o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-05-25 16:42:28 [http-nio-8081-exec-1] INFO  traceId= spanId= o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-05-25 16:42:28 [http-nio-8081-exec-1] INFO  traceId= spanId= o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2026-05-25 16:42:29 [ForkJoinPool.commonPool-worker-1] ERROR traceId= spanId= o.s.ai.chat.model.MessageAggregator - Aggregation Error
+org.springframework.web.reactive.function.client.WebClientRequestException: null
+	at org.springframework.web.reactive.function.client.ExchangeFunctions$DefaultExchangeFunction.lambda$wrapException$9(ExchangeFunctions.java:137)
+	Suppressed: reactor.core.publisher.FluxOnAssembly$OnAssemblyException: 
+Error has been observed at the following site(s):
+	*__checkpoint ⇢ Request to POST http://localhost:12434/engines/llama.cpp/v1/chat/completions [DefaultWebClient]
+Original Stack Trace:
+		at org.springframework.web.reactive.function.client.ExchangeFunctions$DefaultExchangeFunction.lambda$wrapException$9(ExchangeFunctions.java:137)
+		at reactor.core.publisher.MonoErrorSupplied.subscribe(MonoErrorSupplied.java:55)
+		at reactor.core.publisher.Mono.subscribe(Mono.java:4576)
+		at reactor.core.publisher.FluxOnErrorResume$ResumeSubscriber.onError(FluxOnErrorResume.java:103)
+		at reactor.core.publisher.FluxPeek$PeekSubscriber.onError(FluxPeek.java:222)
+		at reactor.core.publisher.FluxPeek$PeekSubscriber.onError(FluxPeek.java:222)
+		at reactor.core.publisher.MonoIgnoreThen$ThenIgnoreMain.onError(MonoIgnoreThen.java:280)
+		at reactor.core.publisher.FluxMap$MapSubscriber.onError(FluxMap.java:134)
+		at reactor.core.publisher.MonoCompletionStage$MonoCompletionStageSubscription.apply(MonoCompletionStage.java:115)
+		at reactor.core.publisher.MonoCompletionStage$MonoCompletionStageSubscription.apply(MonoCompletionStage.java:67)
+		at java.base/java.util.concurrent.CompletableFuture.uniHandle(CompletableFuture.java:955)
+		at java.base/java.util.concurrent.CompletableFuture$UniHandle.tryFire(CompletableFuture.java:932)
+		at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:531)
+		at java.base/java.util.concurrent.CompletableFuture.postFire(CompletableFuture.java:635)
+		at java.base/java.util.concurrent.CompletableFuture$UniWhenComplete.tryFire(CompletableFuture.java:865)
+		at java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:504)
+		at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:511)
+		at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1450)
+		at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:2019)
+		at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:187)
+Caused by: java.net.ConnectException: null
+	at java.net.http/jdk.internal.net.http.common.Utils.toConnectException(Utils.java:1070)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:223)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.checkRetryConnect(PlainHttpConnection.java:277)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.lambda$connectAsync$0(PlainHttpConnection.java:235)
+	at java.base/java.util.concurrent.CompletableFuture.uniHandle(CompletableFuture.java:955)
+	at java.base/java.util.concurrent.CompletableFuture$UniHandle.tryFire(CompletableFuture.java:932)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:531)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1794)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+Caused by: java.nio.channels.ClosedChannelException: null
+	at java.base/sun.nio.ch.SocketChannelImpl.ensureOpen(SocketChannelImpl.java:204)
+	at java.base/sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:942)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:211)
+	... 9 common frames omitted
+2026-05-25 16:42:29 [boundedElastic-1] ERROR traceId= spanId= o.s.ai.chat.model.MessageAggregator - Aggregation Error
+org.springframework.web.reactive.function.client.WebClientRequestException: null
+	at org.springframework.web.reactive.function.client.ExchangeFunctions$DefaultExchangeFunction.lambda$wrapException$9(ExchangeFunctions.java:137)
+	Suppressed: reactor.core.publisher.FluxOnAssembly$OnAssemblyException: 
+Error has been observed at the following site(s):
+	*__checkpoint ⇢ Request to POST http://localhost:12434/engines/llama.cpp/v1/chat/completions [DefaultWebClient]
+Original Stack Trace:
+		at org.springframework.web.reactive.function.client.ExchangeFunctions$DefaultExchangeFunction.lambda$wrapException$9(ExchangeFunctions.java:137)
+		at reactor.core.publisher.MonoErrorSupplied.subscribe(MonoErrorSupplied.java:55)
+		at reactor.core.publisher.Mono.subscribe(Mono.java:4576)
+		at reactor.core.publisher.FluxOnErrorResume$ResumeSubscriber.onError(FluxOnErrorResume.java:103)
+		at reactor.core.publisher.FluxPeek$PeekSubscriber.onError(FluxPeek.java:222)
+		at reactor.core.publisher.FluxPeek$PeekSubscriber.onError(FluxPeek.java:222)
+		at reactor.core.publisher.MonoIgnoreThen$ThenIgnoreMain.onError(MonoIgnoreThen.java:280)
+		at reactor.core.publisher.FluxMap$MapSubscriber.onError(FluxMap.java:134)
+		at reactor.core.publisher.MonoCompletionStage$MonoCompletionStageSubscription.apply(MonoCompletionStage.java:115)
+		at reactor.core.publisher.MonoCompletionStage$MonoCompletionStageSubscription.apply(MonoCompletionStage.java:67)
+		at java.base/java.util.concurrent.CompletableFuture.uniHandle(CompletableFuture.java:955)
+		at java.base/java.util.concurrent.CompletableFuture$UniHandle.tryFire(CompletableFuture.java:932)
+		at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:531)
+		at java.base/java.util.concurrent.CompletableFuture.postFire(CompletableFuture.java:635)
+		at java.base/java.util.concurrent.CompletableFuture$UniWhenComplete.tryFire(CompletableFuture.java:865)
+		at java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:504)
+		at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:511)
+		at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1450)
+		at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:2019)
+		at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:187)
+Caused by: java.net.ConnectException: null
+	at java.net.http/jdk.internal.net.http.common.Utils.toConnectException(Utils.java:1070)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:223)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.checkRetryConnect(PlainHttpConnection.java:277)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.lambda$connectAsync$0(PlainHttpConnection.java:235)
+	at java.base/java.util.concurrent.CompletableFuture.uniHandle(CompletableFuture.java:955)
+	at java.base/java.util.concurrent.CompletableFuture$UniHandle.tryFire(CompletableFuture.java:932)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:531)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1794)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+Caused by: java.nio.channels.ClosedChannelException: null
+	at java.base/sun.nio.ch.SocketChannelImpl.ensureOpen(SocketChannelImpl.java:204)
+	at java.base/sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:942)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:211)
+	... 9 common frames omitted
+2026-05-25 16:42:29 [boundedElastic-1] ERROR traceId= spanId= o.s.ai.chat.model.MessageAggregator - Aggregation Error
+org.springframework.web.reactive.function.client.WebClientRequestException: null
+	at org.springframework.web.reactive.function.client.ExchangeFunctions$DefaultExchangeFunction.lambda$wrapException$9(ExchangeFunctions.java:137)
+	Suppressed: reactor.core.publisher.FluxOnAssembly$OnAssemblyException: 
+Error has been observed at the following site(s):
+	*__checkpoint ⇢ Request to POST http://localhost:12434/engines/llama.cpp/v1/chat/completions [DefaultWebClient]
+Original Stack Trace:
+		at org.springframework.web.reactive.function.client.ExchangeFunctions$DefaultExchangeFunction.lambda$wrapException$9(ExchangeFunctions.java:137)
+		at reactor.core.publisher.MonoErrorSupplied.subscribe(MonoErrorSupplied.java:55)
+		at reactor.core.publisher.Mono.subscribe(Mono.java:4576)
+		at reactor.core.publisher.FluxOnErrorResume$ResumeSubscriber.onError(FluxOnErrorResume.java:103)
+		at reactor.core.publisher.FluxPeek$PeekSubscriber.onError(FluxPeek.java:222)
+		at reactor.core.publisher.FluxPeek$PeekSubscriber.onError(FluxPeek.java:222)
+		at reactor.core.publisher.MonoIgnoreThen$ThenIgnoreMain.onError(MonoIgnoreThen.java:280)
+		at reactor.core.publisher.FluxMap$MapSubscriber.onError(FluxMap.java:134)
+		at reactor.core.publisher.MonoCompletionStage$MonoCompletionStageSubscription.apply(MonoCompletionStage.java:115)
+		at reactor.core.publisher.MonoCompletionStage$MonoCompletionStageSubscription.apply(MonoCompletionStage.java:67)
+		at java.base/java.util.concurrent.CompletableFuture.uniHandle(CompletableFuture.java:955)
+		at java.base/java.util.concurrent.CompletableFuture$UniHandle.tryFire(CompletableFuture.java:932)
+		at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:531)
+		at java.base/java.util.concurrent.CompletableFuture.postFire(CompletableFuture.java:635)
+		at java.base/java.util.concurrent.CompletableFuture$UniWhenComplete.tryFire(CompletableFuture.java:865)
+		at java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:504)
+		at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:511)
+		at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1450)
+		at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:2019)
+		at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:187)
+Caused by: java.net.ConnectException: null
+	at java.net.http/jdk.internal.net.http.common.Utils.toConnectException(Utils.java:1070)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:223)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.checkRetryConnect(PlainHttpConnection.java:277)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.lambda$connectAsync$0(PlainHttpConnection.java:235)
+	at java.base/java.util.concurrent.CompletableFuture.uniHandle(CompletableFuture.java:955)
+	at java.base/java.util.concurrent.CompletableFuture$UniHandle.tryFire(CompletableFuture.java:932)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:531)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1794)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+Caused by: java.nio.channels.ClosedChannelException: null
+	at java.base/sun.nio.ch.SocketChannelImpl.ensureOpen(SocketChannelImpl.java:204)
+	at java.base/sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:942)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:211)
+	... 9 common frames omitted
+2026-05-25 16:42:29 [http-nio-8081-exec-3] ERROR traceId= spanId= o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] threw exception
+java.nio.channels.ClosedChannelException: null
+	at java.base/sun.nio.ch.SocketChannelImpl.ensureOpen(SocketChannelImpl.java:204)
+	at java.base/sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:942)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:211)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.checkRetryConnect(PlainHttpConnection.java:277)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.lambda$connectAsync$0(PlainHttpConnection.java:235)
+	at java.base/java.util.concurrent.CompletableFuture.uniHandle(CompletableFuture.java:955)
+	at java.base/java.util.concurrent.CompletableFuture$UniHandle.tryFire(CompletableFuture.java:932)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:531)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1794)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+2026-05-25 16:42:29 [http-nio-8081-exec-3] ERROR traceId= spanId= o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: org.springframework.web.reactive.function.client.WebClientRequestException] with root cause
+java.nio.channels.ClosedChannelException: null
+	at java.base/sun.nio.ch.SocketChannelImpl.ensureOpen(SocketChannelImpl.java:204)
+	at java.base/sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:942)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:211)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.checkRetryConnect(PlainHttpConnection.java:277)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.lambda$connectAsync$0(PlainHttpConnection.java:235)
+	at java.base/java.util.concurrent.CompletableFuture.uniHandle(CompletableFuture.java:955)
+	at java.base/java.util.concurrent.CompletableFuture$UniHandle.tryFire(CompletableFuture.java:932)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:531)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1794)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+2026-05-25 16:43:16 [ForkJoinPool.commonPool-worker-1] ERROR traceId= spanId= o.s.ai.chat.model.MessageAggregator - Aggregation Error
+org.springframework.web.reactive.function.client.WebClientRequestException: null
+	at org.springframework.web.reactive.function.client.ExchangeFunctions$DefaultExchangeFunction.lambda$wrapException$9(ExchangeFunctions.java:137)
+	Suppressed: reactor.core.publisher.FluxOnAssembly$OnAssemblyException: 
+Error has been observed at the following site(s):
+	*__checkpoint ⇢ Request to POST http://localhost:12434/engines/llama.cpp/v1/chat/completions [DefaultWebClient]
+Original Stack Trace:
+		at org.springframework.web.reactive.function.client.ExchangeFunctions$DefaultExchangeFunction.lambda$wrapException$9(ExchangeFunctions.java:137)
+		at reactor.core.publisher.MonoErrorSupplied.subscribe(MonoErrorSupplied.java:55)
+		at reactor.core.publisher.Mono.subscribe(Mono.java:4576)
+		at reactor.core.publisher.FluxOnErrorResume$ResumeSubscriber.onError(FluxOnErrorResume.java:103)
+		at reactor.core.publisher.FluxPeek$PeekSubscriber.onError(FluxPeek.java:222)
+		at reactor.core.publisher.FluxPeek$PeekSubscriber.onError(FluxPeek.java:222)
+		at reactor.core.publisher.MonoIgnoreThen$ThenIgnoreMain.onError(MonoIgnoreThen.java:280)
+		at reactor.core.publisher.FluxMap$MapSubscriber.onError(FluxMap.java:134)
+		at reactor.core.publisher.MonoCompletionStage$MonoCompletionStageSubscription.apply(MonoCompletionStage.java:115)
+		at reactor.core.publisher.MonoCompletionStage$MonoCompletionStageSubscription.apply(MonoCompletionStage.java:67)
+		at java.base/java.util.concurrent.CompletableFuture.uniHandle(CompletableFuture.java:955)
+		at java.base/java.util.concurrent.CompletableFuture$UniHandle.tryFire(CompletableFuture.java:932)
+		at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:531)
+		at java.base/java.util.concurrent.CompletableFuture.postFire(CompletableFuture.java:635)
+		at java.base/java.util.concurrent.CompletableFuture$UniWhenComplete.tryFire(CompletableFuture.java:865)
+		at java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:504)
+		at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:511)
+		at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1450)
+		at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:2019)
+		at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:187)
+Caused by: java.net.ConnectException: null
+	at java.net.http/jdk.internal.net.http.common.Utils.toConnectException(Utils.java:1070)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:223)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.checkRetryConnect(PlainHttpConnection.java:277)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.lambda$connectAsync$0(PlainHttpConnection.java:235)
+	at java.base/java.util.concurrent.CompletableFuture.uniHandle(CompletableFuture.java:955)
+	at java.base/java.util.concurrent.CompletableFuture$UniHandle.tryFire(CompletableFuture.java:932)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:531)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1794)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+Caused by: java.nio.channels.ClosedChannelException: null
+	at java.base/sun.nio.ch.SocketChannelImpl.ensureOpen(SocketChannelImpl.java:204)
+	at java.base/sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:942)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:211)
+	... 9 common frames omitted
+2026-05-25 16:43:16 [boundedElastic-1] ERROR traceId= spanId= o.s.ai.chat.model.MessageAggregator - Aggregation Error
+org.springframework.web.reactive.function.client.WebClientRequestException: null
+	at org.springframework.web.reactive.function.client.ExchangeFunctions$DefaultExchangeFunction.lambda$wrapException$9(ExchangeFunctions.java:137)
+	Suppressed: reactor.core.publisher.FluxOnAssembly$OnAssemblyException: 
+Error has been observed at the following site(s):
+	*__checkpoint ⇢ Request to POST http://localhost:12434/engines/llama.cpp/v1/chat/completions [DefaultWebClient]
+Original Stack Trace:
+		at org.springframework.web.reactive.function.client.ExchangeFunctions$DefaultExchangeFunction.lambda$wrapException$9(ExchangeFunctions.java:137)
+		at reactor.core.publisher.MonoErrorSupplied.subscribe(MonoErrorSupplied.java:55)
+		at reactor.core.publisher.Mono.subscribe(Mono.java:4576)
+		at reactor.core.publisher.FluxOnErrorResume$ResumeSubscriber.onError(FluxOnErrorResume.java:103)
+		at reactor.core.publisher.FluxPeek$PeekSubscriber.onError(FluxPeek.java:222)
+		at reactor.core.publisher.FluxPeek$PeekSubscriber.onError(FluxPeek.java:222)
+		at reactor.core.publisher.MonoIgnoreThen$ThenIgnoreMain.onError(MonoIgnoreThen.java:280)
+		at reactor.core.publisher.FluxMap$MapSubscriber.onError(FluxMap.java:134)
+		at reactor.core.publisher.MonoCompletionStage$MonoCompletionStageSubscription.apply(MonoCompletionStage.java:115)
+		at reactor.core.publisher.MonoCompletionStage$MonoCompletionStageSubscription.apply(MonoCompletionStage.java:67)
+		at java.base/java.util.concurrent.CompletableFuture.uniHandle(CompletableFuture.java:955)
+		at java.base/java.util.concurrent.CompletableFuture$UniHandle.tryFire(CompletableFuture.java:932)
+		at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:531)
+		at java.base/java.util.concurrent.CompletableFuture.postFire(CompletableFuture.java:635)
+		at java.base/java.util.concurrent.CompletableFuture$UniWhenComplete.tryFire(CompletableFuture.java:865)
+		at java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:504)
+		at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:511)
+		at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1450)
+		at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:2019)
+		at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:187)
+Caused by: java.net.ConnectException: null
+	at java.net.http/jdk.internal.net.http.common.Utils.toConnectException(Utils.java:1070)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:223)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.checkRetryConnect(PlainHttpConnection.java:277)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.lambda$connectAsync$0(PlainHttpConnection.java:235)
+	at java.base/java.util.concurrent.CompletableFuture.uniHandle(CompletableFuture.java:955)
+	at java.base/java.util.concurrent.CompletableFuture$UniHandle.tryFire(CompletableFuture.java:932)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:531)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1794)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+Caused by: java.nio.channels.ClosedChannelException: null
+	at java.base/sun.nio.ch.SocketChannelImpl.ensureOpen(SocketChannelImpl.java:204)
+	at java.base/sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:942)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:211)
+	... 9 common frames omitted
+2026-05-25 16:43:16 [boundedElastic-1] ERROR traceId= spanId= o.s.ai.chat.model.MessageAggregator - Aggregation Error
+org.springframework.web.reactive.function.client.WebClientRequestException: null
+	at org.springframework.web.reactive.function.client.ExchangeFunctions$DefaultExchangeFunction.lambda$wrapException$9(ExchangeFunctions.java:137)
+	Suppressed: reactor.core.publisher.FluxOnAssembly$OnAssemblyException: 
+Error has been observed at the following site(s):
+	*__checkpoint ⇢ Request to POST http://localhost:12434/engines/llama.cpp/v1/chat/completions [DefaultWebClient]
+Original Stack Trace:
+		at org.springframework.web.reactive.function.client.ExchangeFunctions$DefaultExchangeFunction.lambda$wrapException$9(ExchangeFunctions.java:137)
+		at reactor.core.publisher.MonoErrorSupplied.subscribe(MonoErrorSupplied.java:55)
+		at reactor.core.publisher.Mono.subscribe(Mono.java:4576)
+		at reactor.core.publisher.FluxOnErrorResume$ResumeSubscriber.onError(FluxOnErrorResume.java:103)
+		at reactor.core.publisher.FluxPeek$PeekSubscriber.onError(FluxPeek.java:222)
+		at reactor.core.publisher.FluxPeek$PeekSubscriber.onError(FluxPeek.java:222)
+		at reactor.core.publisher.MonoIgnoreThen$ThenIgnoreMain.onError(MonoIgnoreThen.java:280)
+		at reactor.core.publisher.FluxMap$MapSubscriber.onError(FluxMap.java:134)
+		at reactor.core.publisher.MonoCompletionStage$MonoCompletionStageSubscription.apply(MonoCompletionStage.java:115)
+		at reactor.core.publisher.MonoCompletionStage$MonoCompletionStageSubscription.apply(MonoCompletionStage.java:67)
+		at java.base/java.util.concurrent.CompletableFuture.uniHandle(CompletableFuture.java:955)
+		at java.base/java.util.concurrent.CompletableFuture$UniHandle.tryFire(CompletableFuture.java:932)
+		at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:531)
+		at java.base/java.util.concurrent.CompletableFuture.postFire(CompletableFuture.java:635)
+		at java.base/java.util.concurrent.CompletableFuture$UniWhenComplete.tryFire(CompletableFuture.java:865)
+		at java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:504)
+		at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:511)
+		at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1450)
+		at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:2019)
+		at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:187)
+Caused by: java.net.ConnectException: null
+	at java.net.http/jdk.internal.net.http.common.Utils.toConnectException(Utils.java:1070)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:223)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.checkRetryConnect(PlainHttpConnection.java:277)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.lambda$connectAsync$0(PlainHttpConnection.java:235)
+	at java.base/java.util.concurrent.CompletableFuture.uniHandle(CompletableFuture.java:955)
+	at java.base/java.util.concurrent.CompletableFuture$UniHandle.tryFire(CompletableFuture.java:932)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:531)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1794)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+Caused by: java.nio.channels.ClosedChannelException: null
+	at java.base/sun.nio.ch.SocketChannelImpl.ensureOpen(SocketChannelImpl.java:204)
+	at java.base/sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:942)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:211)
+	... 9 common frames omitted
+2026-05-25 16:43:16 [http-nio-8081-exec-6] ERROR traceId= spanId= o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] threw exception
+java.nio.channels.ClosedChannelException: null
+	at java.base/sun.nio.ch.SocketChannelImpl.ensureOpen(SocketChannelImpl.java:204)
+	at java.base/sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:942)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:211)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.checkRetryConnect(PlainHttpConnection.java:277)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.lambda$connectAsync$0(PlainHttpConnection.java:235)
+	at java.base/java.util.concurrent.CompletableFuture.uniHandle(CompletableFuture.java:955)
+	at java.base/java.util.concurrent.CompletableFuture$UniHandle.tryFire(CompletableFuture.java:932)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:531)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1794)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+2026-05-25 16:43:16 [http-nio-8081-exec-6] ERROR traceId= spanId= o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: org.springframework.web.reactive.function.client.WebClientRequestException] with root cause
+java.nio.channels.ClosedChannelException: null
+	at java.base/sun.nio.ch.SocketChannelImpl.ensureOpen(SocketChannelImpl.java:204)
+	at java.base/sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:942)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:211)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.checkRetryConnect(PlainHttpConnection.java:277)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.lambda$connectAsync$0(PlainHttpConnection.java:235)
+	at java.base/java.util.concurrent.CompletableFuture.uniHandle(CompletableFuture.java:955)
+	at java.base/java.util.concurrent.CompletableFuture$UniHandle.tryFire(CompletableFuture.java:932)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:531)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1794)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+2026-05-25 16:43:27 [ForkJoinPool.commonPool-worker-1] ERROR traceId= spanId= o.s.ai.chat.model.MessageAggregator - Aggregation Error
+org.springframework.web.reactive.function.client.WebClientRequestException: null
+	at org.springframework.web.reactive.function.client.ExchangeFunctions$DefaultExchangeFunction.lambda$wrapException$9(ExchangeFunctions.java:137)
+	Suppressed: reactor.core.publisher.FluxOnAssembly$OnAssemblyException: 
+Error has been observed at the following site(s):
+	*__checkpoint ⇢ Request to POST http://localhost:12434/engines/llama.cpp/v1/chat/completions [DefaultWebClient]
+Original Stack Trace:
+		at org.springframework.web.reactive.function.client.ExchangeFunctions$DefaultExchangeFunction.lambda$wrapException$9(ExchangeFunctions.java:137)
+		at reactor.core.publisher.MonoErrorSupplied.subscribe(MonoErrorSupplied.java:55)
+		at reactor.core.publisher.Mono.subscribe(Mono.java:4576)
+		at reactor.core.publisher.FluxOnErrorResume$ResumeSubscriber.onError(FluxOnErrorResume.java:103)
+		at reactor.core.publisher.FluxPeek$PeekSubscriber.onError(FluxPeek.java:222)
+		at reactor.core.publisher.FluxPeek$PeekSubscriber.onError(FluxPeek.java:222)
+		at reactor.core.publisher.MonoIgnoreThen$ThenIgnoreMain.onError(MonoIgnoreThen.java:280)
+		at reactor.core.publisher.FluxMap$MapSubscriber.onError(FluxMap.java:134)
+		at reactor.core.publisher.MonoCompletionStage$MonoCompletionStageSubscription.apply(MonoCompletionStage.java:115)
+		at reactor.core.publisher.MonoCompletionStage$MonoCompletionStageSubscription.apply(MonoCompletionStage.java:67)
+		at java.base/java.util.concurrent.CompletableFuture.uniHandle(CompletableFuture.java:955)
+		at java.base/java.util.concurrent.CompletableFuture$UniHandle.tryFire(CompletableFuture.java:932)
+		at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:531)
+		at java.base/java.util.concurrent.CompletableFuture.postFire(CompletableFuture.java:635)
+		at java.base/java.util.concurrent.CompletableFuture$UniWhenComplete.tryFire(CompletableFuture.java:865)
+		at java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:504)
+		at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:511)
+		at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1450)
+		at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:2019)
+		at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:187)
+Caused by: java.net.ConnectException: null
+	at java.net.http/jdk.internal.net.http.common.Utils.toConnectException(Utils.java:1070)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:223)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.checkRetryConnect(PlainHttpConnection.java:277)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.lambda$connectAsync$0(PlainHttpConnection.java:235)
+	at java.base/java.util.concurrent.CompletableFuture.uniHandle(CompletableFuture.java:955)
+	at java.base/java.util.concurrent.CompletableFuture$UniHandle.tryFire(CompletableFuture.java:932)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:531)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1794)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+Caused by: java.nio.channels.ClosedChannelException: null
+	at java.base/sun.nio.ch.SocketChannelImpl.ensureOpen(SocketChannelImpl.java:204)
+	at java.base/sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:942)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:211)
+	... 9 common frames omitted
+2026-05-25 16:43:27 [boundedElastic-1] ERROR traceId= spanId= o.s.ai.chat.model.MessageAggregator - Aggregation Error
+org.springframework.web.reactive.function.client.WebClientRequestException: null
+	at org.springframework.web.reactive.function.client.ExchangeFunctions$DefaultExchangeFunction.lambda$wrapException$9(ExchangeFunctions.java:137)
+	Suppressed: reactor.core.publisher.FluxOnAssembly$OnAssemblyException: 
+Error has been observed at the following site(s):
+	*__checkpoint ⇢ Request to POST http://localhost:12434/engines/llama.cpp/v1/chat/completions [DefaultWebClient]
+Original Stack Trace:
+		at org.springframework.web.reactive.function.client.ExchangeFunctions$DefaultExchangeFunction.lambda$wrapException$9(ExchangeFunctions.java:137)
+		at reactor.core.publisher.MonoErrorSupplied.subscribe(MonoErrorSupplied.java:55)
+		at reactor.core.publisher.Mono.subscribe(Mono.java:4576)
+		at reactor.core.publisher.FluxOnErrorResume$ResumeSubscriber.onError(FluxOnErrorResume.java:103)
+		at reactor.core.publisher.FluxPeek$PeekSubscriber.onError(FluxPeek.java:222)
+		at reactor.core.publisher.FluxPeek$PeekSubscriber.onError(FluxPeek.java:222)
+		at reactor.core.publisher.MonoIgnoreThen$ThenIgnoreMain.onError(MonoIgnoreThen.java:280)
+		at reactor.core.publisher.FluxMap$MapSubscriber.onError(FluxMap.java:134)
+		at reactor.core.publisher.MonoCompletionStage$MonoCompletionStageSubscription.apply(MonoCompletionStage.java:115)
+		at reactor.core.publisher.MonoCompletionStage$MonoCompletionStageSubscription.apply(MonoCompletionStage.java:67)
+		at java.base/java.util.concurrent.CompletableFuture.uniHandle(CompletableFuture.java:955)
+		at java.base/java.util.concurrent.CompletableFuture$UniHandle.tryFire(CompletableFuture.java:932)
+		at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:531)
+		at java.base/java.util.concurrent.CompletableFuture.postFire(CompletableFuture.java:635)
+		at java.base/java.util.concurrent.CompletableFuture$UniWhenComplete.tryFire(CompletableFuture.java:865)
+		at java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:504)
+		at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:511)
+		at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1450)
+		at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:2019)
+		at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:187)
+Caused by: java.net.ConnectException: null
+	at java.net.http/jdk.internal.net.http.common.Utils.toConnectException(Utils.java:1070)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:223)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.checkRetryConnect(PlainHttpConnection.java:277)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.lambda$connectAsync$0(PlainHttpConnection.java:235)
+	at java.base/java.util.concurrent.CompletableFuture.uniHandle(CompletableFuture.java:955)
+	at java.base/java.util.concurrent.CompletableFuture$UniHandle.tryFire(CompletableFuture.java:932)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:531)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1794)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+Caused by: java.nio.channels.ClosedChannelException: null
+	at java.base/sun.nio.ch.SocketChannelImpl.ensureOpen(SocketChannelImpl.java:204)
+	at java.base/sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:942)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:211)
+	... 9 common frames omitted
+2026-05-25 16:43:27 [boundedElastic-1] ERROR traceId= spanId= o.s.ai.chat.model.MessageAggregator - Aggregation Error
+org.springframework.web.reactive.function.client.WebClientRequestException: null
+	at org.springframework.web.reactive.function.client.ExchangeFunctions$DefaultExchangeFunction.lambda$wrapException$9(ExchangeFunctions.java:137)
+	Suppressed: reactor.core.publisher.FluxOnAssembly$OnAssemblyException: 
+Error has been observed at the following site(s):
+	*__checkpoint ⇢ Request to POST http://localhost:12434/engines/llama.cpp/v1/chat/completions [DefaultWebClient]
+Original Stack Trace:
+		at org.springframework.web.reactive.function.client.ExchangeFunctions$DefaultExchangeFunction.lambda$wrapException$9(ExchangeFunctions.java:137)
+		at reactor.core.publisher.MonoErrorSupplied.subscribe(MonoErrorSupplied.java:55)
+		at reactor.core.publisher.Mono.subscribe(Mono.java:4576)
+		at reactor.core.publisher.FluxOnErrorResume$ResumeSubscriber.onError(FluxOnErrorResume.java:103)
+		at reactor.core.publisher.FluxPeek$PeekSubscriber.onError(FluxPeek.java:222)
+		at reactor.core.publisher.FluxPeek$PeekSubscriber.onError(FluxPeek.java:222)
+		at reactor.core.publisher.MonoIgnoreThen$ThenIgnoreMain.onError(MonoIgnoreThen.java:280)
+		at reactor.core.publisher.FluxMap$MapSubscriber.onError(FluxMap.java:134)
+		at reactor.core.publisher.MonoCompletionStage$MonoCompletionStageSubscription.apply(MonoCompletionStage.java:115)
+		at reactor.core.publisher.MonoCompletionStage$MonoCompletionStageSubscription.apply(MonoCompletionStage.java:67)
+		at java.base/java.util.concurrent.CompletableFuture.uniHandle(CompletableFuture.java:955)
+		at java.base/java.util.concurrent.CompletableFuture$UniHandle.tryFire(CompletableFuture.java:932)
+		at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:531)
+		at java.base/java.util.concurrent.CompletableFuture.postFire(CompletableFuture.java:635)
+		at java.base/java.util.concurrent.CompletableFuture$UniWhenComplete.tryFire(CompletableFuture.java:865)
+		at java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:504)
+		at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:511)
+		at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1450)
+		at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:2019)
+		at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:187)
+Caused by: java.net.ConnectException: null
+	at java.net.http/jdk.internal.net.http.common.Utils.toConnectException(Utils.java:1070)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:223)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.checkRetryConnect(PlainHttpConnection.java:277)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.lambda$connectAsync$0(PlainHttpConnection.java:235)
+	at java.base/java.util.concurrent.CompletableFuture.uniHandle(CompletableFuture.java:955)
+	at java.base/java.util.concurrent.CompletableFuture$UniHandle.tryFire(CompletableFuture.java:932)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:531)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1794)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+Caused by: java.nio.channels.ClosedChannelException: null
+	at java.base/sun.nio.ch.SocketChannelImpl.ensureOpen(SocketChannelImpl.java:204)
+	at java.base/sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:942)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:211)
+	... 9 common frames omitted
+2026-05-25 16:43:27 [http-nio-8081-exec-9] ERROR traceId= spanId= o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] threw exception
+java.nio.channels.ClosedChannelException: null
+	at java.base/sun.nio.ch.SocketChannelImpl.ensureOpen(SocketChannelImpl.java:204)
+	at java.base/sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:942)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:211)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.checkRetryConnect(PlainHttpConnection.java:277)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.lambda$connectAsync$0(PlainHttpConnection.java:235)
+	at java.base/java.util.concurrent.CompletableFuture.uniHandle(CompletableFuture.java:955)
+	at java.base/java.util.concurrent.CompletableFuture$UniHandle.tryFire(CompletableFuture.java:932)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:531)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1794)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+2026-05-25 16:43:27 [http-nio-8081-exec-9] ERROR traceId= spanId= o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: org.springframework.web.reactive.function.client.WebClientRequestException] with root cause
+java.nio.channels.ClosedChannelException: null
+	at java.base/sun.nio.ch.SocketChannelImpl.ensureOpen(SocketChannelImpl.java:204)
+	at java.base/sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:942)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:211)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.checkRetryConnect(PlainHttpConnection.java:277)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.lambda$connectAsync$0(PlainHttpConnection.java:235)
+	at java.base/java.util.concurrent.CompletableFuture.uniHandle(CompletableFuture.java:955)
+	at java.base/java.util.concurrent.CompletableFuture$UniHandle.tryFire(CompletableFuture.java:932)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:531)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1794)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+2026-05-25 16:43:28 [ForkJoinPool.commonPool-worker-1] ERROR traceId= spanId= o.s.ai.chat.model.MessageAggregator - Aggregation Error
+org.springframework.web.reactive.function.client.WebClientRequestException: null
+	at org.springframework.web.reactive.function.client.ExchangeFunctions$DefaultExchangeFunction.lambda$wrapException$9(ExchangeFunctions.java:137)
+	Suppressed: reactor.core.publisher.FluxOnAssembly$OnAssemblyException: 
+Error has been observed at the following site(s):
+	*__checkpoint ⇢ Request to POST http://localhost:12434/engines/llama.cpp/v1/chat/completions [DefaultWebClient]
+Original Stack Trace:
+		at org.springframework.web.reactive.function.client.ExchangeFunctions$DefaultExchangeFunction.lambda$wrapException$9(ExchangeFunctions.java:137)
+		at reactor.core.publisher.MonoErrorSupplied.subscribe(MonoErrorSupplied.java:55)
+		at reactor.core.publisher.Mono.subscribe(Mono.java:4576)
+		at reactor.core.publisher.FluxOnErrorResume$ResumeSubscriber.onError(FluxOnErrorResume.java:103)
+		at reactor.core.publisher.FluxPeek$PeekSubscriber.onError(FluxPeek.java:222)
+		at reactor.core.publisher.FluxPeek$PeekSubscriber.onError(FluxPeek.java:222)
+		at reactor.core.publisher.MonoIgnoreThen$ThenIgnoreMain.onError(MonoIgnoreThen.java:280)
+		at reactor.core.publisher.FluxMap$MapSubscriber.onError(FluxMap.java:134)
+		at reactor.core.publisher.MonoCompletionStage$MonoCompletionStageSubscription.apply(MonoCompletionStage.java:115)
+		at reactor.core.publisher.MonoCompletionStage$MonoCompletionStageSubscription.apply(MonoCompletionStage.java:67)
+		at java.base/java.util.concurrent.CompletableFuture.uniHandle(CompletableFuture.java:955)
+		at java.base/java.util.concurrent.CompletableFuture$UniHandle.tryFire(CompletableFuture.java:932)
+		at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:531)
+		at java.base/java.util.concurrent.CompletableFuture.postFire(CompletableFuture.java:635)
+		at java.base/java.util.concurrent.CompletableFuture$UniWhenComplete.tryFire(CompletableFuture.java:865)
+		at java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:504)
+		at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:511)
+		at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1450)
+		at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:2019)
+		at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:187)
+Caused by: java.net.ConnectException: null
+	at java.net.http/jdk.internal.net.http.common.Utils.toConnectException(Utils.java:1070)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:223)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.checkRetryConnect(PlainHttpConnection.java:277)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.lambda$connectAsync$0(PlainHttpConnection.java:235)
+	at java.base/java.util.concurrent.CompletableFuture.uniHandle(CompletableFuture.java:955)
+	at java.base/java.util.concurrent.CompletableFuture$UniHandle.tryFire(CompletableFuture.java:932)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:531)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1794)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+Caused by: java.nio.channels.ClosedChannelException: null
+	at java.base/sun.nio.ch.SocketChannelImpl.ensureOpen(SocketChannelImpl.java:204)
+	at java.base/sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:942)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:211)
+	... 9 common frames omitted
+2026-05-25 16:43:28 [boundedElastic-1] ERROR traceId= spanId= o.s.ai.chat.model.MessageAggregator - Aggregation Error
+org.springframework.web.reactive.function.client.WebClientRequestException: null
+	at org.springframework.web.reactive.function.client.ExchangeFunctions$DefaultExchangeFunction.lambda$wrapException$9(ExchangeFunctions.java:137)
+	Suppressed: reactor.core.publisher.FluxOnAssembly$OnAssemblyException: 
+Error has been observed at the following site(s):
+	*__checkpoint ⇢ Request to POST http://localhost:12434/engines/llama.cpp/v1/chat/completions [DefaultWebClient]
+Original Stack Trace:
+		at org.springframework.web.reactive.function.client.ExchangeFunctions$DefaultExchangeFunction.lambda$wrapException$9(ExchangeFunctions.java:137)
+		at reactor.core.publisher.MonoErrorSupplied.subscribe(MonoErrorSupplied.java:55)
+		at reactor.core.publisher.Mono.subscribe(Mono.java:4576)
+		at reactor.core.publisher.FluxOnErrorResume$ResumeSubscriber.onError(FluxOnErrorResume.java:103)
+		at reactor.core.publisher.FluxPeek$PeekSubscriber.onError(FluxPeek.java:222)
+		at reactor.core.publisher.FluxPeek$PeekSubscriber.onError(FluxPeek.java:222)
+		at reactor.core.publisher.MonoIgnoreThen$ThenIgnoreMain.onError(MonoIgnoreThen.java:280)
+		at reactor.core.publisher.FluxMap$MapSubscriber.onError(FluxMap.java:134)
+		at reactor.core.publisher.MonoCompletionStage$MonoCompletionStageSubscription.apply(MonoCompletionStage.java:115)
+		at reactor.core.publisher.MonoCompletionStage$MonoCompletionStageSubscription.apply(MonoCompletionStage.java:67)
+		at java.base/java.util.concurrent.CompletableFuture.uniHandle(CompletableFuture.java:955)
+		at java.base/java.util.concurrent.CompletableFuture$UniHandle.tryFire(CompletableFuture.java:932)
+		at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:531)
+		at java.base/java.util.concurrent.CompletableFuture.postFire(CompletableFuture.java:635)
+		at java.base/java.util.concurrent.CompletableFuture$UniWhenComplete.tryFire(CompletableFuture.java:865)
+		at java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:504)
+		at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:511)
+		at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1450)
+		at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:2019)
+		at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:187)
+Caused by: java.net.ConnectException: null
+	at java.net.http/jdk.internal.net.http.common.Utils.toConnectException(Utils.java:1070)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:223)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.checkRetryConnect(PlainHttpConnection.java:277)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.lambda$connectAsync$0(PlainHttpConnection.java:235)
+	at java.base/java.util.concurrent.CompletableFuture.uniHandle(CompletableFuture.java:955)
+	at java.base/java.util.concurrent.CompletableFuture$UniHandle.tryFire(CompletableFuture.java:932)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:531)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1794)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+Caused by: java.nio.channels.ClosedChannelException: null
+	at java.base/sun.nio.ch.SocketChannelImpl.ensureOpen(SocketChannelImpl.java:204)
+	at java.base/sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:942)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:211)
+	... 9 common frames omitted
+2026-05-25 16:43:28 [boundedElastic-1] ERROR traceId= spanId= o.s.ai.chat.model.MessageAggregator - Aggregation Error
+org.springframework.web.reactive.function.client.WebClientRequestException: null
+	at org.springframework.web.reactive.function.client.ExchangeFunctions$DefaultExchangeFunction.lambda$wrapException$9(ExchangeFunctions.java:137)
+	Suppressed: reactor.core.publisher.FluxOnAssembly$OnAssemblyException: 
+Error has been observed at the following site(s):
+	*__checkpoint ⇢ Request to POST http://localhost:12434/engines/llama.cpp/v1/chat/completions [DefaultWebClient]
+Original Stack Trace:
+		at org.springframework.web.reactive.function.client.ExchangeFunctions$DefaultExchangeFunction.lambda$wrapException$9(ExchangeFunctions.java:137)
+		at reactor.core.publisher.MonoErrorSupplied.subscribe(MonoErrorSupplied.java:55)
+		at reactor.core.publisher.Mono.subscribe(Mono.java:4576)
+		at reactor.core.publisher.FluxOnErrorResume$ResumeSubscriber.onError(FluxOnErrorResume.java:103)
+		at reactor.core.publisher.FluxPeek$PeekSubscriber.onError(FluxPeek.java:222)
+		at reactor.core.publisher.FluxPeek$PeekSubscriber.onError(FluxPeek.java:222)
+		at reactor.core.publisher.MonoIgnoreThen$ThenIgnoreMain.onError(MonoIgnoreThen.java:280)
+		at reactor.core.publisher.FluxMap$MapSubscriber.onError(FluxMap.java:134)
+		at reactor.core.publisher.MonoCompletionStage$MonoCompletionStageSubscription.apply(MonoCompletionStage.java:115)
+		at reactor.core.publisher.MonoCompletionStage$MonoCompletionStageSubscription.apply(MonoCompletionStage.java:67)
+		at java.base/java.util.concurrent.CompletableFuture.uniHandle(CompletableFuture.java:955)
+		at java.base/java.util.concurrent.CompletableFuture$UniHandle.tryFire(CompletableFuture.java:932)
+		at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:531)
+		at java.base/java.util.concurrent.CompletableFuture.postFire(CompletableFuture.java:635)
+		at java.base/java.util.concurrent.CompletableFuture$UniWhenComplete.tryFire(CompletableFuture.java:865)
+		at java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:504)
+		at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:511)
+		at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1450)
+		at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:2019)
+		at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:187)
+Caused by: java.net.ConnectException: null
+	at java.net.http/jdk.internal.net.http.common.Utils.toConnectException(Utils.java:1070)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:223)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.checkRetryConnect(PlainHttpConnection.java:277)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.lambda$connectAsync$0(PlainHttpConnection.java:235)
+	at java.base/java.util.concurrent.CompletableFuture.uniHandle(CompletableFuture.java:955)
+	at java.base/java.util.concurrent.CompletableFuture$UniHandle.tryFire(CompletableFuture.java:932)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:531)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1794)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+Caused by: java.nio.channels.ClosedChannelException: null
+	at java.base/sun.nio.ch.SocketChannelImpl.ensureOpen(SocketChannelImpl.java:204)
+	at java.base/sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:942)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:211)
+	... 9 common frames omitted
+2026-05-25 16:43:28 [http-nio-8081-exec-1] ERROR traceId= spanId= o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] threw exception
+java.nio.channels.ClosedChannelException: null
+	at java.base/sun.nio.ch.SocketChannelImpl.ensureOpen(SocketChannelImpl.java:204)
+	at java.base/sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:942)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:211)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.checkRetryConnect(PlainHttpConnection.java:277)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.lambda$connectAsync$0(PlainHttpConnection.java:235)
+	at java.base/java.util.concurrent.CompletableFuture.uniHandle(CompletableFuture.java:955)
+	at java.base/java.util.concurrent.CompletableFuture$UniHandle.tryFire(CompletableFuture.java:932)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:531)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1794)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+2026-05-25 16:43:28 [http-nio-8081-exec-1] ERROR traceId= spanId= o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: org.springframework.web.reactive.function.client.WebClientRequestException] with root cause
+java.nio.channels.ClosedChannelException: null
+	at java.base/sun.nio.ch.SocketChannelImpl.ensureOpen(SocketChannelImpl.java:204)
+	at java.base/sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:942)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:211)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.checkRetryConnect(PlainHttpConnection.java:277)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.lambda$connectAsync$0(PlainHttpConnection.java:235)
+	at java.base/java.util.concurrent.CompletableFuture.uniHandle(CompletableFuture.java:955)
+	at java.base/java.util.concurrent.CompletableFuture$UniHandle.tryFire(CompletableFuture.java:932)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:531)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1794)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+2026-05-25 19:18:41 [SpringApplicationShutdownHook] INFO  traceId= spanId= o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-05-25 19:18:41 [tomcat-shutdown] INFO  traceId= spanId= o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-05-25 19:18:41 [SpringApplicationShutdownHook] WARN  traceId= spanId= o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'vertexAiGeminiChat': java.lang.IllegalStateException: java.io.IOException: Your default credentials were not found. To set up Application Default Credentials for your environment, see https://cloud.google.com/docs/authentication/external/set-up-adc.
+2026-05-25 19:18:41 [SpringApplicationShutdownHook] WARN  traceId= spanId= o.s.b.f.s.DisposableBeanAdapter - Invocation of close method failed on bean with name 'vertexAi': java.lang.IllegalStateException: java.io.IOException: Your default credentials were not found. To set up Application Default Credentials for your environment, see https://cloud.google.com/docs/authentication/external/set-up-adc.
+2026-05-25 19:18:43 [main] INFO  traceId= spanId= c.j.f.FirstAiProjectApplication - Starting FirstAiProjectApplication using Java 25.0.3 with PID 31708 (/Users/jialli/Documents/spring_ai/first-ai-project/target/classes started by jialli in /Users/jialli/Documents/spring_ai)
+2026-05-25 19:18:43 [main] INFO  traceId= spanId= c.j.f.FirstAiProjectApplication - No active profile set, falling back to 1 default profile: "default"
+2026-05-25 19:18:43 [main] INFO  traceId= spanId= o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8081 (http)
+2026-05-25 19:18:43 [main] INFO  traceId= spanId= o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2026-05-25 19:18:43 [main] INFO  traceId= spanId= o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-05-25 19:18:43 [main] INFO  traceId= spanId= o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.49]
+2026-05-25 19:18:43 [main] INFO  traceId= spanId= o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-05-25 19:18:43 [main] INFO  traceId= spanId= o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 606 ms
+2026-05-25 19:18:44 [main] INFO  traceId= spanId= o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2026-05-25 19:18:44 [main] INFO  traceId= spanId= o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8081 (http) with context path '/'
+2026-05-25 19:18:44 [main] INFO  traceId= spanId= c.j.f.FirstAiProjectApplication - Started FirstAiProjectApplication in 1.806 seconds (process running for 2.509)
+2026-05-25 19:19:05 [http-nio-8081-exec-2] INFO  traceId= spanId= o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-05-25 19:19:05 [http-nio-8081-exec-2] INFO  traceId= spanId= o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-05-25 19:19:05 [http-nio-8081-exec-2] INFO  traceId= spanId= o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2026-05-25 20:21:35 [SpringApplicationShutdownHook] INFO  traceId= spanId= o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-05-25 20:21:35 [tomcat-shutdown] INFO  traceId= spanId= o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-05-25 20:21:35 [SpringApplicationShutdownHook] WARN  traceId= spanId= o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'vertexAiGeminiChat': java.lang.IllegalStateException: java.io.IOException: Your default credentials were not found. To set up Application Default Credentials for your environment, see https://cloud.google.com/docs/authentication/external/set-up-adc.
+2026-05-25 20:21:35 [SpringApplicationShutdownHook] WARN  traceId= spanId= o.s.b.f.s.DisposableBeanAdapter - Invocation of close method failed on bean with name 'vertexAi': java.lang.IllegalStateException: java.io.IOException: Your default credentials were not found. To set up Application Default Credentials for your environment, see https://cloud.google.com/docs/authentication/external/set-up-adc.
+2026-05-25 20:21:37 [main] INFO  traceId= spanId= c.j.f.FirstAiProjectApplication - Starting FirstAiProjectApplication using Java 25.0.3 with PID 33438 (/Users/jialli/Documents/spring_ai/first-ai-project/target/classes started by jialli in /Users/jialli/Documents/spring_ai)
+2026-05-25 20:21:37 [main] INFO  traceId= spanId= c.j.f.FirstAiProjectApplication - No active profile set, falling back to 1 default profile: "default"
+2026-05-25 20:21:38 [main] INFO  traceId= spanId= o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8081 (http)
+2026-05-25 20:21:38 [main] INFO  traceId= spanId= o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2026-05-25 20:21:38 [main] INFO  traceId= spanId= o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-05-25 20:21:38 [main] INFO  traceId= spanId= o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.49]
+2026-05-25 20:21:38 [main] INFO  traceId= spanId= o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-05-25 20:21:38 [main] INFO  traceId= spanId= o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 660 ms
+2026-05-25 20:21:39 [main] INFO  traceId= spanId= o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2026-05-25 20:21:39 [main] INFO  traceId= spanId= o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8081 (http) with context path '/'
+2026-05-25 20:21:39 [main] INFO  traceId= spanId= c.j.f.FirstAiProjectApplication - Started FirstAiProjectApplication in 1.89 seconds (process running for 2.159)
+2026-05-25 20:23:02 [http-nio-8081-exec-2] INFO  traceId= spanId= o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-05-25 20:23:02 [http-nio-8081-exec-2] INFO  traceId= spanId= o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-05-25 20:23:02 [http-nio-8081-exec-2] INFO  traceId= spanId= o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2026-05-25 20:51:41 [SpringApplicationShutdownHook] INFO  traceId= spanId= o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-05-25 20:51:41 [tomcat-shutdown] INFO  traceId= spanId= o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-05-25 20:51:41 [SpringApplicationShutdownHook] WARN  traceId= spanId= o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'vertexAiGeminiChat': java.lang.IllegalStateException: java.io.IOException: Your default credentials were not found. To set up Application Default Credentials for your environment, see https://cloud.google.com/docs/authentication/external/set-up-adc.
+2026-05-25 20:51:41 [SpringApplicationShutdownHook] WARN  traceId= spanId= o.s.b.f.s.DisposableBeanAdapter - Invocation of close method failed on bean with name 'vertexAi': java.lang.IllegalStateException: java.io.IOException: Your default credentials were not found. To set up Application Default Credentials for your environment, see https://cloud.google.com/docs/authentication/external/set-up-adc.
+2026-05-25 20:51:43 [main] INFO  traceId= spanId= c.j.f.FirstAiProjectApplication - Starting FirstAiProjectApplication using Java 25.0.3 with PID 34295 (/Users/jialli/Documents/spring_ai/first-ai-project/target/classes started by jialli in /Users/jialli/Documents/spring_ai)
+2026-05-25 20:51:43 [main] INFO  traceId= spanId= c.j.f.FirstAiProjectApplication - No active profile set, falling back to 1 default profile: "default"
+2026-05-25 20:51:44 [main] INFO  traceId= spanId= o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8081 (http)
+2026-05-25 20:51:44 [main] INFO  traceId= spanId= o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2026-05-25 20:51:44 [main] INFO  traceId= spanId= o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-05-25 20:51:44 [main] INFO  traceId= spanId= o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.49]
+2026-05-25 20:51:44 [main] INFO  traceId= spanId= o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-05-25 20:51:44 [main] INFO  traceId= spanId= o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 656 ms
+2026-05-25 20:51:44 [main] INFO  traceId= spanId= o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2026-05-25 20:51:44 [main] INFO  traceId= spanId= o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8081 (http) with context path '/'
+2026-05-25 20:51:44 [main] INFO  traceId= spanId= c.j.f.FirstAiProjectApplication - Started FirstAiProjectApplication in 1.772 seconds (process running for 2.025)
+2026-05-25 20:51:58 [SpringApplicationShutdownHook] INFO  traceId= spanId= o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-05-25 20:51:58 [tomcat-shutdown] INFO  traceId= spanId= o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-05-25 20:51:58 [SpringApplicationShutdownHook] WARN  traceId= spanId= o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'vertexAiGeminiChat': java.lang.IllegalStateException: java.io.IOException: Your default credentials were not found. To set up Application Default Credentials for your environment, see https://cloud.google.com/docs/authentication/external/set-up-adc.
+2026-05-25 20:51:58 [SpringApplicationShutdownHook] WARN  traceId= spanId= o.s.b.f.s.DisposableBeanAdapter - Invocation of close method failed on bean with name 'vertexAi': java.lang.IllegalStateException: java.io.IOException: Your default credentials were not found. To set up Application Default Credentials for your environment, see https://cloud.google.com/docs/authentication/external/set-up-adc.
+2026-05-25 20:51:59 [main] INFO  traceId= spanId= c.j.f.FirstAiProjectApplication - Starting FirstAiProjectApplication using Java 25.0.3 with PID 34303 (/Users/jialli/Documents/spring_ai/first-ai-project/target/classes started by jialli in /Users/jialli/Documents/spring_ai)
+2026-05-25 20:51:59 [main] INFO  traceId= spanId= c.j.f.FirstAiProjectApplication - No active profile set, falling back to 1 default profile: "default"
+2026-05-25 20:52:00 [main] INFO  traceId= spanId= o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8081 (http)
+2026-05-25 20:52:00 [main] INFO  traceId= spanId= o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2026-05-25 20:52:00 [main] INFO  traceId= spanId= o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-05-25 20:52:00 [main] INFO  traceId= spanId= o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.49]
+2026-05-25 20:52:00 [main] INFO  traceId= spanId= o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-05-25 20:52:00 [main] INFO  traceId= spanId= o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 496 ms
+2026-05-25 20:52:00 [main] INFO  traceId= spanId= o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2026-05-25 20:52:00 [main] INFO  traceId= spanId= o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8081 (http) with context path '/'
+2026-05-25 20:52:00 [main] INFO  traceId= spanId= c.j.f.FirstAiProjectApplication - Started FirstAiProjectApplication in 1.417 seconds (process running for 1.607)
+2026-05-25 20:53:40 [SpringApplicationShutdownHook] INFO  traceId= spanId= o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-05-25 20:53:40 [tomcat-shutdown] INFO  traceId= spanId= o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-05-25 20:53:40 [SpringApplicationShutdownHook] WARN  traceId= spanId= o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'vertexAiGeminiChat': java.lang.IllegalStateException: java.io.IOException: Your default credentials were not found. To set up Application Default Credentials for your environment, see https://cloud.google.com/docs/authentication/external/set-up-adc.
+2026-05-25 20:53:40 [SpringApplicationShutdownHook] WARN  traceId= spanId= o.s.b.f.s.DisposableBeanAdapter - Invocation of close method failed on bean with name 'vertexAi': java.lang.IllegalStateException: java.io.IOException: Your default credentials were not found. To set up Application Default Credentials for your environment, see https://cloud.google.com/docs/authentication/external/set-up-adc.
+2026-05-25 20:53:41 [main] INFO  traceId= spanId= c.j.f.FirstAiProjectApplication - Starting FirstAiProjectApplication using Java 25.0.3 with PID 34382 (/Users/jialli/Documents/spring_ai/first-ai-project/target/classes started by jialli in /Users/jialli/Documents/spring_ai)
+2026-05-25 20:53:41 [main] INFO  traceId= spanId= c.j.f.FirstAiProjectApplication - No active profile set, falling back to 1 default profile: "default"
+2026-05-25 20:53:42 [main] INFO  traceId= spanId= o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8081 (http)
+2026-05-25 20:53:42 [main] INFO  traceId= spanId= o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2026-05-25 20:53:42 [main] INFO  traceId= spanId= o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-05-25 20:53:42 [main] INFO  traceId= spanId= o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.49]
+2026-05-25 20:53:42 [main] INFO  traceId= spanId= o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-05-25 20:53:42 [main] INFO  traceId= spanId= o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 491 ms
+2026-05-25 20:53:42 [main] WARN  traceId= spanId= o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'googleVertexAIController' defined in file [/Users/jialli/Documents/spring_ai/first-ai-project/target/classes/com/jialli/first_ai_project/chat/googlevertexai/GoogleVertexAIController.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'vertexAiChatClient' defined in class path resource [com/jialli/first_ai_project/config/AIProviderConfig.class]: Unsatisfied dependency expressed through method 'vertexAIchatclient' parameter 0: Error creating bean with name 'vertexAiGeminiChat' defined in class path resource [org/springframework/ai/model/vertexai/autoconfigure/gemini/VertexAiGeminiChatAutoConfiguration.class]: Unsatisfied dependency expressed through method 'vertexAiGeminiChat' parameter 0: Error creating bean with name 'vertexAi' defined in class path resource [org/springframework/ai/model/vertexai/autoconfigure/gemini/VertexAiGeminiChatAutoConfiguration.class]: Failed to instantiate [com.google.cloud.vertexai.VertexAI]: Factory method 'vertexAi' threw exception with message: Vertex AI project-id must be set!
+2026-05-25 20:53:42 [main] INFO  traceId= spanId= o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2026-05-25 20:53:42 [main] INFO  traceId= spanId= o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2026-05-25 20:53:42 [main] ERROR traceId= spanId= o.s.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'googleVertexAIController' defined in file [/Users/jialli/Documents/spring_ai/first-ai-project/target/classes/com/jialli/first_ai_project/chat/googlevertexai/GoogleVertexAIController.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'vertexAiChatClient' defined in class path resource [com/jialli/first_ai_project/config/AIProviderConfig.class]: Unsatisfied dependency expressed through method 'vertexAIchatclient' parameter 0: Error creating bean with name 'vertexAiGeminiChat' defined in class path resource [org/springframework/ai/model/vertexai/autoconfigure/gemini/VertexAiGeminiChatAutoConfiguration.class]: Unsatisfied dependency expressed through method 'vertexAiGeminiChat' parameter 0: Error creating bean with name 'vertexAi' defined in class path resource [org/springframework/ai/model/vertexai/autoconfigure/gemini/VertexAiGeminiChatAutoConfiguration.class]: Failed to instantiate [com.google.cloud.vertexai.VertexAI]: Factory method 'vertexAi' threw exception with message: Vertex AI project-id must be set!
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:804)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:240)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1395)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1232)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:569)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:529)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:373)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.instantiateSingleton(DefaultListableBeanFactory.java:1228)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingleton(DefaultListableBeanFactory.java:1194)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:1130)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:990)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:627)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350)
+	at com.jialli.first_ai_project.FirstAiProjectApplication.main(FirstAiProjectApplication.java:10)
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'vertexAiChatClient' defined in class path resource [com/jialli/first_ai_project/config/AIProviderConfig.class]: Unsatisfied dependency expressed through method 'vertexAIchatclient' parameter 0: Error creating bean with name 'vertexAiGeminiChat' defined in class path resource [org/springframework/ai/model/vertexai/autoconfigure/gemini/VertexAiGeminiChatAutoConfiguration.class]: Unsatisfied dependency expressed through method 'vertexAiGeminiChat' parameter 0: Error creating bean with name 'vertexAi' defined in class path resource [org/springframework/ai/model/vertexai/autoconfigure/gemini/VertexAiGeminiChatAutoConfiguration.class]: Failed to instantiate [com.google.cloud.vertexai.VertexAI]: Factory method 'vertexAi' threw exception with message: Vertex AI project-id must be set!
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:804)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:546)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1375)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1205)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:569)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:529)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:373)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1708)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1653)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:913)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791)
+	... 21 common frames omitted
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'vertexAiGeminiChat' defined in class path resource [org/springframework/ai/model/vertexai/autoconfigure/gemini/VertexAiGeminiChatAutoConfiguration.class]: Unsatisfied dependency expressed through method 'vertexAiGeminiChat' parameter 0: Error creating bean with name 'vertexAi' defined in class path resource [org/springframework/ai/model/vertexai/autoconfigure/gemini/VertexAiGeminiChatAutoConfiguration.class]: Failed to instantiate [com.google.cloud.vertexai.VertexAI]: Factory method 'vertexAi' threw exception with message: Vertex AI project-id must be set!
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:804)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:546)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1375)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1205)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:569)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:529)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:373)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:254)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1770)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1653)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:913)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791)
+	... 34 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'vertexAi' defined in class path resource [org/springframework/ai/model/vertexai/autoconfigure/gemini/VertexAiGeminiChatAutoConfiguration.class]: Failed to instantiate [com.google.cloud.vertexai.VertexAI]: Factory method 'vertexAi' threw exception with message: Vertex AI project-id must be set!
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:657)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:645)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1375)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1205)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:569)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:529)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:373)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1708)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1653)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:913)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791)
+	... 48 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.google.cloud.vertexai.VertexAI]: Factory method 'vertexAi' threw exception with message: Vertex AI project-id must be set!
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.lambda$instantiate$0(SimpleInstantiationStrategy.java:200)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiateWithFactoryMethod(SimpleInstantiationStrategy.java:89)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:169)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653)
+	... 61 common frames omitted
+Caused by: java.lang.IllegalArgumentException: Vertex AI project-id must be set!
+	at org.springframework.util.Assert.hasText(Assert.java:253)
+	at org.springframework.ai.model.vertexai.autoconfigure.gemini.VertexAiGeminiChatAutoConfiguration.vertexAi(VertexAiGeminiChatAutoConfiguration.java:67)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.lambda$instantiate$0(SimpleInstantiationStrategy.java:172)
+	... 64 common frames omitted
+2026-05-25 20:53:58 [main] INFO  traceId= spanId= c.j.f.FirstAiProjectApplication - Starting FirstAiProjectApplication using Java 25.0.3 with PID 34401 (/Users/jialli/Documents/spring_ai/first-ai-project/target/classes started by jialli in /Users/jialli/Documents/spring_ai)
+2026-05-25 20:53:58 [main] INFO  traceId= spanId= c.j.f.FirstAiProjectApplication - No active profile set, falling back to 1 default profile: "default"
+2026-05-25 20:53:59 [main] INFO  traceId= spanId= o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8081 (http)
+2026-05-25 20:53:59 [main] INFO  traceId= spanId= o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2026-05-25 20:53:59 [main] INFO  traceId= spanId= o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-05-25 20:53:59 [main] INFO  traceId= spanId= o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.49]
+2026-05-25 20:53:59 [main] INFO  traceId= spanId= o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-05-25 20:53:59 [main] INFO  traceId= spanId= o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 502 ms
+2026-05-25 20:53:59 [main] WARN  traceId= spanId= o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'googleVertexAIController' defined in file [/Users/jialli/Documents/spring_ai/first-ai-project/target/classes/com/jialli/first_ai_project/chat/googlevertexai/GoogleVertexAIController.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'vertexAiChatClient' defined in class path resource [com/jialli/first_ai_project/config/AIProviderConfig.class]: Unsatisfied dependency expressed through method 'vertexAIchatclient' parameter 0: Error creating bean with name 'vertexAiGeminiChat' defined in class path resource [org/springframework/ai/model/vertexai/autoconfigure/gemini/VertexAiGeminiChatAutoConfiguration.class]: Unsatisfied dependency expressed through method 'vertexAiGeminiChat' parameter 0: Error creating bean with name 'vertexAi' defined in class path resource [org/springframework/ai/model/vertexai/autoconfigure/gemini/VertexAiGeminiChatAutoConfiguration.class]: Failed to instantiate [com.google.cloud.vertexai.VertexAI]: Factory method 'vertexAi' threw exception with message: Vertex AI project-id must be set!
+2026-05-25 20:53:59 [main] INFO  traceId= spanId= o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2026-05-25 20:53:59 [main] INFO  traceId= spanId= o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2026-05-25 20:53:59 [main] ERROR traceId= spanId= o.s.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'googleVertexAIController' defined in file [/Users/jialli/Documents/spring_ai/first-ai-project/target/classes/com/jialli/first_ai_project/chat/googlevertexai/GoogleVertexAIController.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'vertexAiChatClient' defined in class path resource [com/jialli/first_ai_project/config/AIProviderConfig.class]: Unsatisfied dependency expressed through method 'vertexAIchatclient' parameter 0: Error creating bean with name 'vertexAiGeminiChat' defined in class path resource [org/springframework/ai/model/vertexai/autoconfigure/gemini/VertexAiGeminiChatAutoConfiguration.class]: Unsatisfied dependency expressed through method 'vertexAiGeminiChat' parameter 0: Error creating bean with name 'vertexAi' defined in class path resource [org/springframework/ai/model/vertexai/autoconfigure/gemini/VertexAiGeminiChatAutoConfiguration.class]: Failed to instantiate [com.google.cloud.vertexai.VertexAI]: Factory method 'vertexAi' threw exception with message: Vertex AI project-id must be set!
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:804)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:240)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1395)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1232)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:569)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:529)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:373)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.instantiateSingleton(DefaultListableBeanFactory.java:1228)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingleton(DefaultListableBeanFactory.java:1194)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:1130)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:990)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:627)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350)
+	at com.jialli.first_ai_project.FirstAiProjectApplication.main(FirstAiProjectApplication.java:10)
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'vertexAiChatClient' defined in class path resource [com/jialli/first_ai_project/config/AIProviderConfig.class]: Unsatisfied dependency expressed through method 'vertexAIchatclient' parameter 0: Error creating bean with name 'vertexAiGeminiChat' defined in class path resource [org/springframework/ai/model/vertexai/autoconfigure/gemini/VertexAiGeminiChatAutoConfiguration.class]: Unsatisfied dependency expressed through method 'vertexAiGeminiChat' parameter 0: Error creating bean with name 'vertexAi' defined in class path resource [org/springframework/ai/model/vertexai/autoconfigure/gemini/VertexAiGeminiChatAutoConfiguration.class]: Failed to instantiate [com.google.cloud.vertexai.VertexAI]: Factory method 'vertexAi' threw exception with message: Vertex AI project-id must be set!
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:804)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:546)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1375)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1205)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:569)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:529)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:373)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1708)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1653)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:913)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791)
+	... 21 common frames omitted
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'vertexAiGeminiChat' defined in class path resource [org/springframework/ai/model/vertexai/autoconfigure/gemini/VertexAiGeminiChatAutoConfiguration.class]: Unsatisfied dependency expressed through method 'vertexAiGeminiChat' parameter 0: Error creating bean with name 'vertexAi' defined in class path resource [org/springframework/ai/model/vertexai/autoconfigure/gemini/VertexAiGeminiChatAutoConfiguration.class]: Failed to instantiate [com.google.cloud.vertexai.VertexAI]: Factory method 'vertexAi' threw exception with message: Vertex AI project-id must be set!
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:804)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:546)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1375)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1205)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:569)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:529)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:373)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:254)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1770)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1653)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:913)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791)
+	... 34 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'vertexAi' defined in class path resource [org/springframework/ai/model/vertexai/autoconfigure/gemini/VertexAiGeminiChatAutoConfiguration.class]: Failed to instantiate [com.google.cloud.vertexai.VertexAI]: Factory method 'vertexAi' threw exception with message: Vertex AI project-id must be set!
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:657)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:645)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1375)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1205)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:569)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:529)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:373)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1708)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1653)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:913)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791)
+	... 48 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.google.cloud.vertexai.VertexAI]: Factory method 'vertexAi' threw exception with message: Vertex AI project-id must be set!
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.lambda$instantiate$0(SimpleInstantiationStrategy.java:200)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiateWithFactoryMethod(SimpleInstantiationStrategy.java:89)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:169)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653)
+	... 61 common frames omitted
+Caused by: java.lang.IllegalArgumentException: Vertex AI project-id must be set!
+	at org.springframework.util.Assert.hasText(Assert.java:253)
+	at org.springframework.ai.model.vertexai.autoconfigure.gemini.VertexAiGeminiChatAutoConfiguration.vertexAi(VertexAiGeminiChatAutoConfiguration.java:67)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.lambda$instantiate$0(SimpleInstantiationStrategy.java:172)
+	... 64 common frames omitted
+2026-05-25 20:54:41 [main] INFO  traceId= spanId= c.j.f.FirstAiProjectApplication - Starting FirstAiProjectApplication using Java 25.0.3 with PID 34599 (/Users/jialli/Documents/spring_ai/first-ai-project/target/classes started by jialli in /Users/jialli/Documents/spring_ai)
+2026-05-25 20:54:41 [main] INFO  traceId= spanId= c.j.f.FirstAiProjectApplication - No active profile set, falling back to 1 default profile: "default"
+2026-05-25 20:54:41 [main] INFO  traceId= spanId= o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8081 (http)
+2026-05-25 20:54:41 [main] INFO  traceId= spanId= o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2026-05-25 20:54:41 [main] INFO  traceId= spanId= o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-05-25 20:54:41 [main] INFO  traceId= spanId= o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.49]
+2026-05-25 20:54:41 [main] INFO  traceId= spanId= o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-05-25 20:54:41 [main] INFO  traceId= spanId= o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 486 ms
+2026-05-25 20:54:42 [main] INFO  traceId= spanId= o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2026-05-25 20:54:42 [main] INFO  traceId= spanId= o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8081 (http) with context path '/'
+2026-05-25 20:54:42 [main] INFO  traceId= spanId= c.j.f.FirstAiProjectApplication - Started FirstAiProjectApplication in 1.379 seconds (process running for 1.555)
+2026-05-25 20:54:56 [http-nio-8081-exec-2] INFO  traceId= spanId= o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-05-25 20:54:56 [http-nio-8081-exec-2] INFO  traceId= spanId= o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-05-25 20:54:56 [http-nio-8081-exec-2] INFO  traceId= spanId= o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2026-05-25 21:10:48 [SpringApplicationShutdownHook] INFO  traceId= spanId= o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-05-25 21:10:48 [tomcat-shutdown] INFO  traceId= spanId= o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-05-25 21:10:49 [SpringApplicationShutdownHook] WARN  traceId= spanId= o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'vertexAiGeminiChat': java.lang.IllegalStateException: java.io.IOException: Your default credentials were not found. To set up Application Default Credentials for your environment, see https://cloud.google.com/docs/authentication/external/set-up-adc.
+2026-05-25 21:10:49 [SpringApplicationShutdownHook] WARN  traceId= spanId= o.s.b.f.s.DisposableBeanAdapter - Invocation of close method failed on bean with name 'vertexAi': java.lang.IllegalStateException: java.io.IOException: Your default credentials were not found. To set up Application Default Credentials for your environment, see https://cloud.google.com/docs/authentication/external/set-up-adc.
+2026-05-25 21:10:51 [main] INFO  traceId= spanId= c.j.f.FirstAiProjectApplication - Starting FirstAiProjectApplication using Java 25.0.3 with PID 35167 (/Users/jialli/Documents/spring_ai/first-ai-project/target/classes started by jialli in /Users/jialli/Documents/spring_ai)
+2026-05-25 21:10:51 [main] INFO  traceId= spanId= c.j.f.FirstAiProjectApplication - No active profile set, falling back to 1 default profile: "default"
+2026-05-25 21:10:51 [main] INFO  traceId= spanId= o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8081 (http)
+2026-05-25 21:10:51 [main] INFO  traceId= spanId= o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2026-05-25 21:10:51 [main] INFO  traceId= spanId= o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-05-25 21:10:51 [main] INFO  traceId= spanId= o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.49]
+2026-05-25 21:10:51 [main] INFO  traceId= spanId= o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-05-25 21:10:51 [main] INFO  traceId= spanId= o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 597 ms
+2026-05-25 21:10:52 [main] INFO  traceId= spanId= o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2026-05-25 21:10:52 [main] INFO  traceId= spanId= o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8081 (http) with context path '/'
+2026-05-25 21:10:52 [main] INFO  traceId= spanId= c.j.f.FirstAiProjectApplication - Started FirstAiProjectApplication in 1.707 seconds (process running for 1.939)
+2026-05-25 21:11:23 [http-nio-8081-exec-2] INFO  traceId= spanId= o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-05-25 21:11:23 [http-nio-8081-exec-2] INFO  traceId= spanId= o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-05-25 21:11:23 [http-nio-8081-exec-2] INFO  traceId= spanId= o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2026-05-25 21:15:53 [SpringApplicationShutdownHook] INFO  traceId= spanId= o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-05-25 21:15:53 [tomcat-shutdown] INFO  traceId= spanId= o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-05-25 21:15:54 [SpringApplicationShutdownHook] WARN  traceId= spanId= o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'vertexAiGeminiChat': java.lang.IllegalStateException: java.io.IOException: Your default credentials were not found. To set up Application Default Credentials for your environment, see https://cloud.google.com/docs/authentication/external/set-up-adc.
+2026-05-25 21:15:54 [SpringApplicationShutdownHook] WARN  traceId= spanId= o.s.b.f.s.DisposableBeanAdapter - Invocation of close method failed on bean with name 'vertexAi': java.lang.IllegalStateException: java.io.IOException: Your default credentials were not found. To set up Application Default Credentials for your environment, see https://cloud.google.com/docs/authentication/external/set-up-adc.
+2026-05-25 21:15:55 [main] INFO  traceId= spanId= c.j.f.FirstAiProjectApplication - Starting FirstAiProjectApplication using Java 25.0.3 with PID 35315 (/Users/jialli/Documents/spring_ai/first-ai-project/target/classes started by jialli in /Users/jialli/Documents/spring_ai)
+2026-05-25 21:15:55 [main] INFO  traceId= spanId= c.j.f.FirstAiProjectApplication - No active profile set, falling back to 1 default profile: "default"
+2026-05-25 21:15:56 [main] INFO  traceId= spanId= o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8081 (http)
+2026-05-25 21:15:56 [main] INFO  traceId= spanId= o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2026-05-25 21:15:56 [main] INFO  traceId= spanId= o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-05-25 21:15:56 [main] INFO  traceId= spanId= o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.49]
+2026-05-25 21:15:56 [main] INFO  traceId= spanId= o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-05-25 21:15:56 [main] INFO  traceId= spanId= o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 542 ms
+2026-05-25 21:15:57 [main] INFO  traceId= spanId= o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2026-05-25 21:15:57 [main] INFO  traceId= spanId= o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8081 (http) with context path '/'
+2026-05-25 21:15:57 [main] INFO  traceId= spanId= c.j.f.FirstAiProjectApplication - Started FirstAiProjectApplication in 1.528 seconds (process running for 1.753)
+2026-05-25 21:16:01 [http-nio-8081-exec-2] INFO  traceId= spanId= o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-05-25 21:16:01 [http-nio-8081-exec-2] INFO  traceId= spanId= o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-05-25 21:16:01 [http-nio-8081-exec-2] INFO  traceId= spanId= o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms

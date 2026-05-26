@@ -1,0 +1,1302 @@
+2026-05-22 15:16:37 [main] INFO  traceId= spanId= c.j.f.FirstAiProjectApplication - Starting FirstAiProjectApplication using Java 25.0.3 with PID 85371 (/Users/jialli/Documents/spring_ai/first-ai-project/target/classes started by jialli in /Users/jialli/Documents/spring_ai)
+2026-05-22 15:16:37 [main] INFO  traceId= spanId= c.j.f.FirstAiProjectApplication - No active profile set, falling back to 1 default profile: "default"
+2026-05-22 15:16:38 [main] INFO  traceId= spanId= o.s.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-05-22 15:16:38 [main] INFO  traceId= spanId= o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2026-05-22 15:16:38 [main] INFO  traceId= spanId= o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-05-22 15:16:38 [main] INFO  traceId= spanId= o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.21]
+2026-05-22 15:16:38 [main] INFO  traceId= spanId= o.s.b.w.c.s.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 480 ms
+2026-05-22 15:16:38 [main] INFO  traceId= spanId= o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2026-05-22 15:16:38 [main] INFO  traceId= spanId= o.s.boot.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2026-05-22 15:16:38 [main] INFO  traceId= spanId= c.j.f.FirstAiProjectApplication - Started FirstAiProjectApplication in 1.194 seconds (process running for 1.485)
+2026-05-22 15:18:09 [SpringApplicationShutdownHook] INFO  traceId= spanId= o.s.boot.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-05-22 15:18:09 [tomcat-shutdown] INFO  traceId= spanId= o.s.boot.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-05-22 15:18:10 [main] INFO  traceId= spanId= c.j.f.FirstAiProjectApplication - Starting FirstAiProjectApplication using Java 25.0.3 with PID 85445 (/Users/jialli/Documents/spring_ai/first-ai-project/target/classes started by jialli in /Users/jialli/Documents/spring_ai)
+2026-05-22 15:18:10 [main] INFO  traceId= spanId= c.j.f.FirstAiProjectApplication - No active profile set, falling back to 1 default profile: "default"
+2026-05-22 15:18:10 [main] INFO  traceId= spanId= o.s.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-05-22 15:18:10 [main] INFO  traceId= spanId= o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2026-05-22 15:18:10 [main] INFO  traceId= spanId= o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-05-22 15:18:10 [main] INFO  traceId= spanId= o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.21]
+2026-05-22 15:18:10 [main] INFO  traceId= spanId= o.s.b.w.c.s.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 442 ms
+2026-05-22 15:18:11 [main] INFO  traceId= spanId= o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2026-05-22 15:18:11 [main] INFO  traceId= spanId= o.s.boot.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2026-05-22 15:18:11 [main] INFO  traceId= spanId= c.j.f.FirstAiProjectApplication - Started FirstAiProjectApplication in 1.197 seconds (process running for 1.409)
+2026-05-22 15:22:30 [http-nio-8080-exec-2] INFO  traceId= spanId= o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-05-22 15:22:30 [http-nio-8080-exec-2] INFO  traceId= spanId= o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-05-22 15:22:30 [http-nio-8080-exec-2] INFO  traceId= spanId= o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2026-05-22 15:23:39 [SpringApplicationShutdownHook] INFO  traceId= spanId= o.s.boot.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-05-22 15:23:39 [tomcat-shutdown] INFO  traceId= spanId= o.s.boot.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-05-22 15:23:41 [main] INFO  traceId= spanId= c.j.f.FirstAiProjectApplication - Starting FirstAiProjectApplication using Java 25.0.3 with PID 85587 (/Users/jialli/Documents/spring_ai/first-ai-project/target/classes started by jialli in /Users/jialli/Documents/spring_ai)
+2026-05-22 15:23:41 [main] INFO  traceId= spanId= c.j.f.FirstAiProjectApplication - No active profile set, falling back to 1 default profile: "default"
+2026-05-22 15:23:41 [main] INFO  traceId= spanId= o.s.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-05-22 15:23:41 [main] INFO  traceId= spanId= o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2026-05-22 15:23:41 [main] INFO  traceId= spanId= o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-05-22 15:23:41 [main] INFO  traceId= spanId= o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.21]
+2026-05-22 15:23:41 [main] INFO  traceId= spanId= o.s.b.w.c.s.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 440 ms
+2026-05-22 15:23:41 [main] INFO  traceId= spanId= o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2026-05-22 15:23:41 [main] INFO  traceId= spanId= o.s.boot.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2026-05-22 15:23:41 [main] INFO  traceId= spanId= c.j.f.FirstAiProjectApplication - Started FirstAiProjectApplication in 1.157 seconds (process running for 1.357)
+2026-05-22 15:23:58 [http-nio-8080-exec-1] INFO  traceId= spanId= o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-05-22 15:23:58 [http-nio-8080-exec-1] INFO  traceId= spanId= o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-05-22 15:23:58 [http-nio-8080-exec-1] INFO  traceId= spanId= o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2026-05-22 15:26:45 [SpringApplicationShutdownHook] INFO  traceId= spanId= o.s.boot.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-05-22 15:26:45 [tomcat-shutdown] INFO  traceId= spanId= o.s.boot.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-05-22 15:26:47 [main] INFO  traceId= spanId= c.j.f.FirstAiProjectApplication - Starting FirstAiProjectApplication using Java 25.0.3 with PID 85776 (/Users/jialli/Documents/spring_ai/first-ai-project/target/classes started by jialli in /Users/jialli/Documents/spring_ai)
+2026-05-22 15:26:47 [main] INFO  traceId= spanId= c.j.f.FirstAiProjectApplication - No active profile set, falling back to 1 default profile: "default"
+2026-05-22 15:26:47 [main] INFO  traceId= spanId= o.s.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-05-22 15:26:47 [main] INFO  traceId= spanId= o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2026-05-22 15:26:47 [main] INFO  traceId= spanId= o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-05-22 15:26:47 [main] INFO  traceId= spanId= o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.21]
+2026-05-22 15:26:47 [main] INFO  traceId= spanId= o.s.b.w.c.s.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 442 ms
+2026-05-22 15:26:47 [main] INFO  traceId= spanId= o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2026-05-22 15:26:47 [main] INFO  traceId= spanId= o.s.boot.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2026-05-22 15:26:47 [main] INFO  traceId= spanId= c.j.f.FirstAiProjectApplication - Started FirstAiProjectApplication in 1.248 seconds (process running for 1.458)
+2026-05-22 15:26:53 [http-nio-8080-exec-1] INFO  traceId= spanId= o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-05-22 15:26:53 [http-nio-8080-exec-1] INFO  traceId= spanId= o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-05-22 15:26:53 [http-nio-8080-exec-1] INFO  traceId= spanId= o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2026-05-22 15:38:46 [SpringApplicationShutdownHook] INFO  traceId= spanId= o.s.boot.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-05-22 15:38:46 [tomcat-shutdown] INFO  traceId= spanId= o.s.boot.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-05-22 15:38:48 [main] INFO  traceId= spanId= c.j.f.FirstAiProjectApplication - Starting FirstAiProjectApplication using Java 25.0.3 with PID 86153 (/Users/jialli/Documents/spring_ai/first-ai-project/target/classes started by jialli in /Users/jialli/Documents/spring_ai)
+2026-05-22 15:38:48 [main] INFO  traceId= spanId= c.j.f.FirstAiProjectApplication - No active profile set, falling back to 1 default profile: "default"
+2026-05-22 15:38:48 [main] INFO  traceId= spanId= o.s.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-05-22 15:38:48 [main] INFO  traceId= spanId= o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2026-05-22 15:38:48 [main] INFO  traceId= spanId= o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-05-22 15:38:48 [main] INFO  traceId= spanId= o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.21]
+2026-05-22 15:38:48 [main] INFO  traceId= spanId= o.s.b.w.c.s.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 441 ms
+2026-05-22 15:38:49 [main] INFO  traceId= spanId= o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2026-05-22 15:38:49 [main] INFO  traceId= spanId= o.s.boot.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2026-05-22 15:38:49 [main] INFO  traceId= spanId= c.j.f.FirstAiProjectApplication - Started FirstAiProjectApplication in 1.152 seconds (process running for 1.366)
+2026-05-22 15:38:56 [http-nio-8080-exec-1] INFO  traceId= spanId= o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-05-22 15:38:56 [http-nio-8080-exec-1] INFO  traceId= spanId= o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-05-22 15:38:56 [http-nio-8080-exec-1] INFO  traceId= spanId= o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2026-05-22 16:07:46 [SpringApplicationShutdownHook] INFO  traceId= spanId= o.s.boot.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-05-22 16:07:46 [tomcat-shutdown] INFO  traceId= spanId= o.s.boot.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-05-22 16:07:48 [main] INFO  traceId= spanId= c.j.f.FirstAiProjectApplication - Starting FirstAiProjectApplication using Java 25.0.3 with PID 86855 (/Users/jialli/Documents/spring_ai/first-ai-project/target/classes started by jialli in /Users/jialli/Documents/spring_ai)
+2026-05-22 16:07:48 [main] INFO  traceId= spanId= c.j.f.FirstAiProjectApplication - No active profile set, falling back to 1 default profile: "default"
+2026-05-22 16:07:48 [main] INFO  traceId= spanId= o.s.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-05-22 16:07:48 [main] INFO  traceId= spanId= o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2026-05-22 16:07:48 [main] INFO  traceId= spanId= o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-05-22 16:07:48 [main] INFO  traceId= spanId= o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.21]
+2026-05-22 16:07:48 [main] INFO  traceId= spanId= o.s.b.w.c.s.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 486 ms
+2026-05-22 16:07:48 [main] INFO  traceId= spanId= o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2026-05-22 16:07:48 [main] INFO  traceId= spanId= o.s.boot.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2026-05-22 16:07:48 [main] INFO  traceId= spanId= c.j.f.FirstAiProjectApplication - Started FirstAiProjectApplication in 1.256 seconds (process running for 1.459)
+2026-05-22 16:08:54 [http-nio-8080-exec-1] INFO  traceId= spanId= o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-05-22 16:08:54 [http-nio-8080-exec-1] INFO  traceId= spanId= o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-05-22 16:08:54 [http-nio-8080-exec-1] INFO  traceId= spanId= o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2026-05-22 16:36:19 [SpringApplicationShutdownHook] INFO  traceId= spanId= o.s.boot.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-05-22 16:36:19 [tomcat-shutdown] INFO  traceId= spanId= o.s.boot.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-05-22 16:36:21 [main] INFO  traceId= spanId= c.j.f.FirstAiProjectApplication - Starting FirstAiProjectApplication using Java 25.0.3 with PID 87675 (/Users/jialli/Documents/spring_ai/first-ai-project/target/classes started by jialli in /Users/jialli/Documents/spring_ai)
+2026-05-22 16:36:21 [main] INFO  traceId= spanId= c.j.f.FirstAiProjectApplication - No active profile set, falling back to 1 default profile: "default"
+2026-05-22 16:36:21 [main] INFO  traceId= spanId= o.s.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-05-22 16:36:21 [main] INFO  traceId= spanId= o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2026-05-22 16:36:21 [main] INFO  traceId= spanId= o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-05-22 16:36:21 [main] INFO  traceId= spanId= o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.21]
+2026-05-22 16:36:21 [main] INFO  traceId= spanId= o.s.b.w.c.s.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 465 ms
+2026-05-22 16:36:22 [main] WARN  traceId= spanId= o.s.b.w.s.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'geminiChatController' defined in file [/Users/jialli/Documents/spring_ai/first-ai-project/target/classes/com/jialli/first_ai_project/chat/gemini/GeminiChatController.class]: Unsatisfied dependency expressed through constructor parameter 1: Error creating bean with name 'openAiChatClient' defined in class path resource [com/jialli/first_ai_project/config/AIProviderConfig.class]: Unsatisfied dependency expressed through method 'openAiChatClient' parameter 0: Error creating bean with name 'openAiChatModel' defined in class path resource [org/springframework/ai/model/openai/autoconfigure/OpenAiChatAutoConfiguration.class]: Failed to instantiate [org.springframework.ai.openai.OpenAiChatModel]: Factory method 'openAiChatModel' threw exception with message: At least one credential source must be specified: credential (apiKey), workloadIdentity, or adminApiKey
+2026-05-22 16:36:22 [main] INFO  traceId= spanId= o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2026-05-22 16:36:22 [main] INFO  traceId= spanId= o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2026-05-22 16:36:22 [main] ERROR traceId= spanId= o.s.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'geminiChatController' defined in file [/Users/jialli/Documents/spring_ai/first-ai-project/target/classes/com/jialli/first_ai_project/chat/gemini/GeminiChatController.class]: Unsatisfied dependency expressed through constructor parameter 1: Error creating bean with name 'openAiChatClient' defined in class path resource [com/jialli/first_ai_project/config/AIProviderConfig.class]: Unsatisfied dependency expressed through method 'openAiChatClient' parameter 0: Error creating bean with name 'openAiChatModel' defined in class path resource [org/springframework/ai/model/openai/autoconfigure/OpenAiChatAutoConfiguration.class]: Failed to instantiate [org.springframework.ai.openai.OpenAiChatModel]: Factory method 'openAiChatModel' threw exception with message: At least one credential source must be specified: credential (apiKey), workloadIdentity, or adminApiKey
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:804)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:240)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1382)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1221)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:565)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:525)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:371)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:331)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:196)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.instantiateSingleton(DefaultListableBeanFactory.java:1218)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingleton(DefaultListableBeanFactory.java:1184)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:1121)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:994)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:621)
+	at org.springframework.boot.web.server.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:756)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:445)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:321)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1365)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354)
+	at com.jialli.first_ai_project.FirstAiProjectApplication.main(FirstAiProjectApplication.java:10)
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'openAiChatClient' defined in class path resource [com/jialli/first_ai_project/config/AIProviderConfig.class]: Unsatisfied dependency expressed through method 'openAiChatClient' parameter 0: Error creating bean with name 'openAiChatModel' defined in class path resource [org/springframework/ai/model/openai/autoconfigure/OpenAiChatAutoConfiguration.class]: Failed to instantiate [org.springframework.ai.openai.OpenAiChatModel]: Factory method 'openAiChatModel' threw exception with message: At least one credential source must be specified: credential (apiKey), workloadIdentity, or adminApiKey
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:804)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:546)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1362)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1194)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:565)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:525)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:371)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:331)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:201)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveBean(DefaultListableBeanFactory.java:1225)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1704)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1651)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:912)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791)
+	... 21 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'openAiChatModel' defined in class path resource [org/springframework/ai/model/openai/autoconfigure/OpenAiChatAutoConfiguration.class]: Failed to instantiate [org.springframework.ai.openai.OpenAiChatModel]: Factory method 'openAiChatModel' threw exception with message: At least one credential source must be specified: credential (apiKey), workloadIdentity, or adminApiKey
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:657)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:645)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1362)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1194)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:565)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:525)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:371)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:331)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:201)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveBean(DefaultListableBeanFactory.java:1225)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1704)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1651)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:912)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791)
+	... 35 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.ai.openai.OpenAiChatModel]: Factory method 'openAiChatModel' threw exception with message: At least one credential source must be specified: credential (apiKey), workloadIdentity, or adminApiKey
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.lambda$instantiate$0(SimpleInstantiationStrategy.java:183)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiateWithFactoryMethod(SimpleInstantiationStrategy.java:72)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:152)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653)
+	... 49 common frames omitted
+Caused by: java.lang.IllegalStateException: At least one credential source must be specified: credential (apiKey), workloadIdentity, or adminApiKey
+	at com.openai.core.ClientOptions$Builder.effectiveCredential(ClientOptions.kt:503)
+	at com.openai.core.ClientOptions$Builder.build(ClientOptions.kt:640)
+	at com.openai.client.okhttp.OpenAIOkHttpClient$Builder.build(OpenAIOkHttpClient.kt:430)
+	at org.springframework.ai.openai.setup.OpenAiSetup.setupSyncClient(OpenAiSetup.java:115)
+	at org.springframework.ai.model.openai.autoconfigure.OpenAiChatAutoConfiguration.openAiClient(OpenAiChatAutoConfiguration.java:86)
+	at org.springframework.ai.model.openai.autoconfigure.OpenAiChatAutoConfiguration.openAiChatModel(OpenAiChatAutoConfiguration.java:65)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.lambda$instantiate$0(SimpleInstantiationStrategy.java:155)
+	... 52 common frames omitted
+2026-05-22 16:37:05 [main] INFO  traceId= spanId= c.j.f.FirstAiProjectApplication - Starting FirstAiProjectApplication using Java 25.0.3 with PID 87700 (/Users/jialli/Documents/spring_ai/first-ai-project/target/classes started by jialli in /Users/jialli/Documents/spring_ai)
+2026-05-22 16:37:05 [main] INFO  traceId= spanId= c.j.f.FirstAiProjectApplication - No active profile set, falling back to 1 default profile: "default"
+2026-05-22 16:37:05 [main] INFO  traceId= spanId= o.s.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8081 (http)
+2026-05-22 16:37:05 [main] INFO  traceId= spanId= o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2026-05-22 16:37:05 [main] INFO  traceId= spanId= o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-05-22 16:37:05 [main] INFO  traceId= spanId= o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.21]
+2026-05-22 16:37:05 [main] INFO  traceId= spanId= o.s.b.w.c.s.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 444 ms
+2026-05-22 16:37:05 [main] WARN  traceId= spanId= o.s.b.w.s.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'geminiChatController' defined in file [/Users/jialli/Documents/spring_ai/first-ai-project/target/classes/com/jialli/first_ai_project/chat/gemini/GeminiChatController.class]: Unsatisfied dependency expressed through constructor parameter 1: Error creating bean with name 'openAiChatClient' defined in class path resource [com/jialli/first_ai_project/config/AIProviderConfig.class]: Unsatisfied dependency expressed through method 'openAiChatClient' parameter 0: Error creating bean with name 'openAiChatModel' defined in class path resource [org/springframework/ai/model/openai/autoconfigure/OpenAiChatAutoConfiguration.class]: Failed to instantiate [org.springframework.ai.openai.OpenAiChatModel]: Factory method 'openAiChatModel' threw exception with message: At least one credential source must be specified: credential (apiKey), workloadIdentity, or adminApiKey
+2026-05-22 16:37:05 [main] INFO  traceId= spanId= o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2026-05-22 16:37:05 [main] INFO  traceId= spanId= o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2026-05-22 16:37:05 [main] ERROR traceId= spanId= o.s.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'geminiChatController' defined in file [/Users/jialli/Documents/spring_ai/first-ai-project/target/classes/com/jialli/first_ai_project/chat/gemini/GeminiChatController.class]: Unsatisfied dependency expressed through constructor parameter 1: Error creating bean with name 'openAiChatClient' defined in class path resource [com/jialli/first_ai_project/config/AIProviderConfig.class]: Unsatisfied dependency expressed through method 'openAiChatClient' parameter 0: Error creating bean with name 'openAiChatModel' defined in class path resource [org/springframework/ai/model/openai/autoconfigure/OpenAiChatAutoConfiguration.class]: Failed to instantiate [org.springframework.ai.openai.OpenAiChatModel]: Factory method 'openAiChatModel' threw exception with message: At least one credential source must be specified: credential (apiKey), workloadIdentity, or adminApiKey
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:804)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:240)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1382)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1221)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:565)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:525)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:371)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:331)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:196)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.instantiateSingleton(DefaultListableBeanFactory.java:1218)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingleton(DefaultListableBeanFactory.java:1184)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:1121)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:994)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:621)
+	at org.springframework.boot.web.server.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:756)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:445)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:321)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1365)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354)
+	at com.jialli.first_ai_project.FirstAiProjectApplication.main(FirstAiProjectApplication.java:10)
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'openAiChatClient' defined in class path resource [com/jialli/first_ai_project/config/AIProviderConfig.class]: Unsatisfied dependency expressed through method 'openAiChatClient' parameter 0: Error creating bean with name 'openAiChatModel' defined in class path resource [org/springframework/ai/model/openai/autoconfigure/OpenAiChatAutoConfiguration.class]: Failed to instantiate [org.springframework.ai.openai.OpenAiChatModel]: Factory method 'openAiChatModel' threw exception with message: At least one credential source must be specified: credential (apiKey), workloadIdentity, or adminApiKey
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:804)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:546)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1362)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1194)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:565)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:525)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:371)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:331)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:201)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveBean(DefaultListableBeanFactory.java:1225)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1704)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1651)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:912)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791)
+	... 21 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'openAiChatModel' defined in class path resource [org/springframework/ai/model/openai/autoconfigure/OpenAiChatAutoConfiguration.class]: Failed to instantiate [org.springframework.ai.openai.OpenAiChatModel]: Factory method 'openAiChatModel' threw exception with message: At least one credential source must be specified: credential (apiKey), workloadIdentity, or adminApiKey
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:657)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:645)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1362)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1194)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:565)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:525)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:371)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:331)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:201)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveBean(DefaultListableBeanFactory.java:1225)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1704)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1651)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:912)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791)
+	... 35 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.ai.openai.OpenAiChatModel]: Factory method 'openAiChatModel' threw exception with message: At least one credential source must be specified: credential (apiKey), workloadIdentity, or adminApiKey
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.lambda$instantiate$0(SimpleInstantiationStrategy.java:183)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiateWithFactoryMethod(SimpleInstantiationStrategy.java:72)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:152)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653)
+	... 49 common frames omitted
+Caused by: java.lang.IllegalStateException: At least one credential source must be specified: credential (apiKey), workloadIdentity, or adminApiKey
+	at com.openai.core.ClientOptions$Builder.effectiveCredential(ClientOptions.kt:503)
+	at com.openai.core.ClientOptions$Builder.build(ClientOptions.kt:640)
+	at com.openai.client.okhttp.OpenAIOkHttpClient$Builder.build(OpenAIOkHttpClient.kt:430)
+	at org.springframework.ai.openai.setup.OpenAiSetup.setupSyncClient(OpenAiSetup.java:115)
+	at org.springframework.ai.model.openai.autoconfigure.OpenAiChatAutoConfiguration.openAiClient(OpenAiChatAutoConfiguration.java:86)
+	at org.springframework.ai.model.openai.autoconfigure.OpenAiChatAutoConfiguration.openAiChatModel(OpenAiChatAutoConfiguration.java:65)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.lambda$instantiate$0(SimpleInstantiationStrategy.java:155)
+	... 52 common frames omitted
+2026-05-22 16:37:59 [main] INFO  traceId= spanId= c.j.f.FirstAiProjectApplication - Starting FirstAiProjectApplication using Java 25.0.3 with PID 87765 (/Users/jialli/Documents/spring_ai/first-ai-project/target/classes started by jialli in /Users/jialli/Documents/spring_ai)
+2026-05-22 16:37:59 [main] INFO  traceId= spanId= c.j.f.FirstAiProjectApplication - No active profile set, falling back to 1 default profile: "default"
+2026-05-22 16:37:59 [main] INFO  traceId= spanId= o.s.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8081 (http)
+2026-05-22 16:37:59 [main] INFO  traceId= spanId= o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2026-05-22 16:37:59 [main] INFO  traceId= spanId= o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-05-22 16:37:59 [main] INFO  traceId= spanId= o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.21]
+2026-05-22 16:37:59 [main] INFO  traceId= spanId= o.s.b.w.c.s.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 433 ms
+2026-05-22 16:38:00 [main] WARN  traceId= spanId= o.s.b.w.s.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'openAiSdkAudioSpeechModel' defined in class path resource [org/springframework/ai/model/openai/autoconfigure/OpenAiAudioSpeechAutoConfiguration.class]: Failed to instantiate [org.springframework.ai.openai.OpenAiAudioSpeechModel]: Factory method 'openAiSdkAudioSpeechModel' threw exception with message: At least one credential source must be specified: credential (apiKey), workloadIdentity, or adminApiKey
+2026-05-22 16:38:00 [main] INFO  traceId= spanId= o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2026-05-22 16:38:00 [main] INFO  traceId= spanId= o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2026-05-22 16:38:00 [main] ERROR traceId= spanId= o.s.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'openAiSdkAudioSpeechModel' defined in class path resource [org/springframework/ai/model/openai/autoconfigure/OpenAiAudioSpeechAutoConfiguration.class]: Failed to instantiate [org.springframework.ai.openai.OpenAiAudioSpeechModel]: Factory method 'openAiSdkAudioSpeechModel' threw exception with message: At least one credential source must be specified: credential (apiKey), workloadIdentity, or adminApiKey
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:657)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:645)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1362)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1194)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:565)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:525)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:371)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:331)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:196)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.instantiateSingleton(DefaultListableBeanFactory.java:1218)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingleton(DefaultListableBeanFactory.java:1184)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:1121)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:994)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:621)
+	at org.springframework.boot.web.server.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:756)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:445)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:321)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1365)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354)
+	at com.jialli.first_ai_project.FirstAiProjectApplication.main(FirstAiProjectApplication.java:10)
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.ai.openai.OpenAiAudioSpeechModel]: Factory method 'openAiSdkAudioSpeechModel' threw exception with message: At least one credential source must be specified: credential (apiKey), workloadIdentity, or adminApiKey
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.lambda$instantiate$0(SimpleInstantiationStrategy.java:183)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiateWithFactoryMethod(SimpleInstantiationStrategy.java:72)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:152)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653)
+	... 21 common frames omitted
+Caused by: java.lang.IllegalStateException: At least one credential source must be specified: credential (apiKey), workloadIdentity, or adminApiKey
+	at com.openai.core.ClientOptions$Builder.effectiveCredential(ClientOptions.kt:503)
+	at com.openai.core.ClientOptions$Builder.build(ClientOptions.kt:640)
+	at com.openai.client.okhttp.OpenAIOkHttpClient$Builder.build(OpenAIOkHttpClient.kt:430)
+	at org.springframework.ai.openai.setup.OpenAiSetup.setupSyncClient(OpenAiSetup.java:115)
+	at org.springframework.ai.model.openai.autoconfigure.OpenAiAudioSpeechAutoConfiguration.openAiClient(OpenAiAudioSpeechAutoConfiguration.java:66)
+	at org.springframework.ai.model.openai.autoconfigure.OpenAiAudioSpeechAutoConfiguration.openAiSdkAudioSpeechModel(OpenAiAudioSpeechAutoConfiguration.java:56)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.lambda$instantiate$0(SimpleInstantiationStrategy.java:155)
+	... 24 common frames omitted
+2026-05-22 16:39:53 [main] INFO  traceId= spanId= c.j.f.FirstAiProjectApplication - Starting FirstAiProjectApplication using Java 25.0.3 with PID 87829 (/Users/jialli/Documents/spring_ai/first-ai-project/target/classes started by jialli in /Users/jialli/Documents/spring_ai)
+2026-05-22 16:39:53 [main] INFO  traceId= spanId= c.j.f.FirstAiProjectApplication - No active profile set, falling back to 1 default profile: "default"
+2026-05-22 16:39:53 [main] INFO  traceId= spanId= o.s.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8081 (http)
+2026-05-22 16:39:53 [main] INFO  traceId= spanId= o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2026-05-22 16:39:53 [main] INFO  traceId= spanId= o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-05-22 16:39:53 [main] INFO  traceId= spanId= o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.21]
+2026-05-22 16:39:53 [main] INFO  traceId= spanId= o.s.b.w.c.s.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 450 ms
+2026-05-22 16:39:54 [main] INFO  traceId= spanId= o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2026-05-22 16:39:54 [main] INFO  traceId= spanId= o.s.boot.tomcat.TomcatWebServer - Tomcat started on port 8081 (http) with context path '/'
+2026-05-22 16:39:54 [main] INFO  traceId= spanId= c.j.f.FirstAiProjectApplication - Started FirstAiProjectApplication in 1.236 seconds (process running for 1.442)
+2026-05-22 16:40:08 [http-nio-8081-exec-1] INFO  traceId= spanId= o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-05-22 16:40:08 [http-nio-8081-exec-1] INFO  traceId= spanId= o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-05-22 16:40:08 [http-nio-8081-exec-1] INFO  traceId= spanId= o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2026-05-22 16:40:32 [SpringApplicationShutdownHook] INFO  traceId= spanId= o.s.boot.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-05-22 16:40:32 [tomcat-shutdown] INFO  traceId= spanId= o.s.boot.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-05-22 16:40:34 [main] INFO  traceId= spanId= c.j.f.FirstAiProjectApplication - Starting FirstAiProjectApplication using Java 25.0.3 with PID 87863 (/Users/jialli/Documents/spring_ai/first-ai-project/target/classes started by jialli in /Users/jialli/Documents/spring_ai)
+2026-05-22 16:40:34 [main] INFO  traceId= spanId= c.j.f.FirstAiProjectApplication - No active profile set, falling back to 1 default profile: "default"
+2026-05-22 16:40:34 [main] INFO  traceId= spanId= o.s.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8081 (http)
+2026-05-22 16:40:34 [main] INFO  traceId= spanId= o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2026-05-22 16:40:34 [main] INFO  traceId= spanId= o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-05-22 16:40:34 [main] INFO  traceId= spanId= o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.21]
+2026-05-22 16:40:34 [main] INFO  traceId= spanId= o.s.b.w.c.s.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 471 ms
+2026-05-22 16:40:35 [main] INFO  traceId= spanId= o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2026-05-22 16:40:35 [main] INFO  traceId= spanId= o.s.boot.tomcat.TomcatWebServer - Tomcat started on port 8081 (http) with context path '/'
+2026-05-22 16:40:35 [main] INFO  traceId= spanId= c.j.f.FirstAiProjectApplication - Started FirstAiProjectApplication in 1.414 seconds (process running for 1.658)
+2026-05-22 16:40:41 [http-nio-8081-exec-1] INFO  traceId= spanId= o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-05-22 16:40:41 [http-nio-8081-exec-1] INFO  traceId= spanId= o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-05-22 16:40:41 [http-nio-8081-exec-1] INFO  traceId= spanId= o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2026-05-22 21:01:13 [SpringApplicationShutdownHook] INFO  traceId= spanId= o.s.boot.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-05-22 21:01:13 [tomcat-shutdown] INFO  traceId= spanId= o.s.boot.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-05-22 21:01:15 [main] INFO  traceId= spanId= c.j.f.FirstAiProjectApplication - Starting FirstAiProjectApplication using Java 25.0.3 with PID 92558 (/Users/jialli/Documents/spring_ai/first-ai-project/target/classes started by jialli in /Users/jialli/Documents/spring_ai)
+2026-05-22 21:01:15 [main] INFO  traceId= spanId= c.j.f.FirstAiProjectApplication - No active profile set, falling back to 1 default profile: "default"
+2026-05-22 21:01:15 [main] INFO  traceId= spanId= o.s.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8081 (http)
+2026-05-22 21:01:15 [main] INFO  traceId= spanId= o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2026-05-22 21:01:15 [main] INFO  traceId= spanId= o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-05-22 21:01:15 [main] INFO  traceId= spanId= o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.21]
+2026-05-22 21:01:15 [main] INFO  traceId= spanId= o.s.b.w.c.s.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 497 ms
+2026-05-22 21:01:16 [main] INFO  traceId= spanId= o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2026-05-22 21:01:16 [main] INFO  traceId= spanId= o.s.boot.tomcat.TomcatWebServer - Tomcat started on port 8081 (http) with context path '/'
+2026-05-22 21:01:16 [main] INFO  traceId= spanId= c.j.f.FirstAiProjectApplication - Started FirstAiProjectApplication in 1.405 seconds (process running for 1.621)
+2026-05-22 21:02:15 [http-nio-8081-exec-2] INFO  traceId= spanId= o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-05-22 21:02:15 [http-nio-8081-exec-2] INFO  traceId= spanId= o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-05-22 21:02:15 [http-nio-8081-exec-2] INFO  traceId= spanId= o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2026-05-22 21:02:17 [http-nio-8081-exec-2] ERROR traceId= spanId= o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.NullPointerException: Cannot invoke "Object.toString()" because the return value of "java.util.Map.get(Object)" is null] with root cause
+java.lang.NullPointerException: Cannot invoke "Object.toString()" because the return value of "java.util.Map.get(Object)" is null
+	at com.jialli.first_ai_project.chat.gemini.GeminiService.parserResponse(GeminiService.java:72)
+	at com.jialli.first_ai_project.chat.gemini.GeminiService.chat(GeminiService.java:34)
+	at com.jialli.first_ai_project.chat.gemini.GeminiChatController.summarizeWithGenAiJavaClient(GeminiChatController.java:66)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:252)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:184)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:934)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:853)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:86)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:866)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1000)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:649)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:874)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:710)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:128)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:199)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:77)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:492)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1801)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:946)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:480)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:57)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+2026-05-22 21:02:38 [SpringApplicationShutdownHook] INFO  traceId= spanId= o.s.boot.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-05-22 21:02:38 [tomcat-shutdown] INFO  traceId= spanId= o.s.boot.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-05-22 21:02:40 [main] INFO  traceId= spanId= c.j.f.FirstAiProjectApplication - Starting FirstAiProjectApplication using Java 25.0.3 with PID 92589 (/Users/jialli/Documents/spring_ai/first-ai-project/target/classes started by jialli in /Users/jialli/Documents/spring_ai)
+2026-05-22 21:02:40 [main] INFO  traceId= spanId= c.j.f.FirstAiProjectApplication - No active profile set, falling back to 1 default profile: "default"
+2026-05-22 21:02:40 [main] INFO  traceId= spanId= o.s.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8081 (http)
+2026-05-22 21:02:40 [main] INFO  traceId= spanId= o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2026-05-22 21:02:40 [main] INFO  traceId= spanId= o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-05-22 21:02:40 [main] INFO  traceId= spanId= o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.21]
+2026-05-22 21:02:40 [main] INFO  traceId= spanId= o.s.b.w.c.s.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 530 ms
+2026-05-22 21:02:41 [main] INFO  traceId= spanId= o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2026-05-22 21:02:41 [main] INFO  traceId= spanId= o.s.boot.tomcat.TomcatWebServer - Tomcat started on port 8081 (http) with context path '/'
+2026-05-22 21:02:41 [main] INFO  traceId= spanId= c.j.f.FirstAiProjectApplication - Started FirstAiProjectApplication in 1.5 seconds (process running for 2.176)
+2026-05-22 21:02:44 [http-nio-8081-exec-2] INFO  traceId= spanId= o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-05-22 21:02:44 [http-nio-8081-exec-2] INFO  traceId= spanId= o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-05-22 21:02:44 [http-nio-8081-exec-2] INFO  traceId= spanId= o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2026-05-22 21:03:09 [http-nio-8081-exec-2] ERROR traceId= spanId= o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.NullPointerException: Cannot invoke "Object.toString()" because the return value of "java.util.Map.get(Object)" is null] with root cause
+java.lang.NullPointerException: Cannot invoke "Object.toString()" because the return value of "java.util.Map.get(Object)" is null
+	at com.jialli.first_ai_project.chat.gemini.GeminiService.parserResponse(GeminiService.java:72)
+	at com.jialli.first_ai_project.chat.gemini.GeminiService.chat(GeminiService.java:34)
+	at com.jialli.first_ai_project.chat.gemini.GeminiChatController.summarizeWithGenAiJavaClient(GeminiChatController.java:66)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:252)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:184)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:934)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:853)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:86)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:866)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1000)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:649)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:874)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:710)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:128)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:199)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:77)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:492)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1801)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:946)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:480)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:57)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+2026-05-22 21:06:43 [SpringApplicationShutdownHook] INFO  traceId= spanId= o.s.boot.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-05-22 21:06:44 [tomcat-shutdown] INFO  traceId= spanId= o.s.boot.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-05-22 21:11:00 [main] INFO  traceId= spanId= c.j.f.FirstAiProjectApplication - Starting FirstAiProjectApplication using Java 25.0.3 with PID 93794 (/Users/jialli/Documents/spring_ai/first-ai-project/target/classes started by jialli in /Users/jialli/Documents/spring_ai)
+2026-05-22 21:11:00 [main] INFO  traceId= spanId= c.j.f.FirstAiProjectApplication - No active profile set, falling back to 1 default profile: "default"
+2026-05-22 21:11:01 [main] INFO  traceId= spanId= o.s.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8081 (http)
+2026-05-22 21:11:01 [main] INFO  traceId= spanId= o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2026-05-22 21:11:01 [main] INFO  traceId= spanId= o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-05-22 21:11:01 [main] INFO  traceId= spanId= o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.21]
+2026-05-22 21:11:01 [main] INFO  traceId= spanId= o.s.b.w.c.s.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 521 ms
+2026-05-22 21:11:01 [main] INFO  traceId= spanId= o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2026-05-22 21:11:01 [main] INFO  traceId= spanId= o.s.boot.tomcat.TomcatWebServer - Tomcat started on port 8081 (http) with context path '/'
+2026-05-22 21:11:01 [main] INFO  traceId= spanId= c.j.f.FirstAiProjectApplication - Started FirstAiProjectApplication in 1.553 seconds (process running for 2.11)
+2026-05-22 21:11:07 [http-nio-8081-exec-2] INFO  traceId= spanId= o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-05-22 21:11:07 [http-nio-8081-exec-2] INFO  traceId= spanId= o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-05-22 21:11:07 [http-nio-8081-exec-2] INFO  traceId= spanId= o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2026-05-22 21:12:02 [http-nio-8081-exec-2] ERROR traceId= spanId= o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.NullPointerException: Cannot invoke "Object.toString()" because the return value of "java.util.Map.get(Object)" is null] with root cause
+java.lang.NullPointerException: Cannot invoke "Object.toString()" because the return value of "java.util.Map.get(Object)" is null
+	at com.jialli.first_ai_project.chat.gemini.GeminiService.parserResponse(GeminiService.java:72)
+	at com.jialli.first_ai_project.chat.gemini.GeminiService.chat(GeminiService.java:34)
+	at com.jialli.first_ai_project.chat.gemini.GeminiChatController.summarizeWithGenAiJavaClient(GeminiChatController.java:66)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:252)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:184)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:934)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:853)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:86)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:866)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1000)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:649)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:874)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:710)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:128)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:199)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:77)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:492)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1801)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:946)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:480)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:57)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+2026-05-22 21:12:02 [SpringApplicationShutdownHook] INFO  traceId= spanId= o.s.boot.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-05-22 21:12:02 [tomcat-shutdown] INFO  traceId= spanId= o.s.boot.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-05-22 21:12:03 [main] INFO  traceId= spanId= c.j.f.FirstAiProjectApplication - Starting FirstAiProjectApplication using Java 25.0.3 with PID 93848 (/Users/jialli/Documents/spring_ai/first-ai-project/target/classes started by jialli in /Users/jialli/Documents/spring_ai)
+2026-05-22 21:12:03 [main] INFO  traceId= spanId= c.j.f.FirstAiProjectApplication - No active profile set, falling back to 1 default profile: "default"
+2026-05-22 21:12:04 [main] INFO  traceId= spanId= o.s.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8081 (http)
+2026-05-22 21:12:04 [main] INFO  traceId= spanId= o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2026-05-22 21:12:04 [main] INFO  traceId= spanId= o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-05-22 21:12:04 [main] INFO  traceId= spanId= o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.21]
+2026-05-22 21:12:04 [main] INFO  traceId= spanId= o.s.b.w.c.s.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 525 ms
+2026-05-22 21:12:04 [main] INFO  traceId= spanId= o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2026-05-22 21:12:04 [main] INFO  traceId= spanId= o.s.boot.tomcat.TomcatWebServer - Tomcat started on port 8081 (http) with context path '/'
+2026-05-22 21:12:04 [main] INFO  traceId= spanId= c.j.f.FirstAiProjectApplication - Started FirstAiProjectApplication in 1.48 seconds (process running for 1.805)
+2026-05-22 21:12:09 [http-nio-8081-exec-2] INFO  traceId= spanId= o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-05-22 21:12:09 [http-nio-8081-exec-2] INFO  traceId= spanId= o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-05-22 21:12:09 [http-nio-8081-exec-2] INFO  traceId= spanId= o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2026-05-22 21:12:34 [http-nio-8081-exec-2] ERROR traceId= spanId= o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.NullPointerException: Cannot invoke "Object.toString()" because the return value of "java.util.Map.get(Object)" is null] with root cause
+java.lang.NullPointerException: Cannot invoke "Object.toString()" because the return value of "java.util.Map.get(Object)" is null
+	at com.jialli.first_ai_project.chat.gemini.GeminiService.parserResponse(GeminiService.java:72)
+	at com.jialli.first_ai_project.chat.gemini.GeminiService.chat(GeminiService.java:34)
+	at com.jialli.first_ai_project.chat.gemini.GeminiChatController.summarizeWithGenAiJavaClient(GeminiChatController.java:66)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:252)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:184)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:934)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:853)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:86)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:866)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1000)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:649)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:874)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:710)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:128)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:199)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:77)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:492)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1801)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:946)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:480)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:57)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+2026-05-22 21:15:03 [http-nio-8081-exec-4] ERROR traceId= spanId= o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.NullPointerException: Cannot invoke "Object.toString()" because the return value of "java.util.Map.get(Object)" is null] with root cause
+java.lang.NullPointerException: Cannot invoke "Object.toString()" because the return value of "java.util.Map.get(Object)" is null
+	at com.jialli.first_ai_project.chat.gemini.GeminiService.parserResponse(GeminiService.java:72)
+	at com.jialli.first_ai_project.chat.gemini.GeminiService.chat(GeminiService.java:34)
+	at com.jialli.first_ai_project.chat.gemini.GeminiChatController.summarizeWithGenAiJavaClient(GeminiChatController.java:66)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:252)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:184)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:934)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:853)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:86)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:866)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1000)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:649)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:874)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:710)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:128)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:199)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:77)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:492)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1801)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:946)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:480)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:57)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+2026-05-22 21:15:03 [SpringApplicationShutdownHook] INFO  traceId= spanId= o.s.boot.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-05-22 21:15:03 [tomcat-shutdown] INFO  traceId= spanId= o.s.boot.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-05-22 21:15:04 [main] INFO  traceId= spanId= c.j.f.FirstAiProjectApplication - Starting FirstAiProjectApplication using Java 25.0.3 with PID 93927 (/Users/jialli/Documents/spring_ai/first-ai-project/target/classes started by jialli in /Users/jialli/Documents/spring_ai)
+2026-05-22 21:15:04 [main] INFO  traceId= spanId= c.j.f.FirstAiProjectApplication - No active profile set, falling back to 1 default profile: "default"
+2026-05-22 21:15:05 [main] INFO  traceId= spanId= o.s.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8081 (http)
+2026-05-22 21:15:05 [main] INFO  traceId= spanId= o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2026-05-22 21:15:05 [main] INFO  traceId= spanId= o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-05-22 21:15:05 [main] INFO  traceId= spanId= o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.21]
+2026-05-22 21:15:05 [main] INFO  traceId= spanId= o.s.b.w.c.s.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 518 ms
+2026-05-22 21:15:05 [main] INFO  traceId= spanId= o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2026-05-22 21:15:06 [main] INFO  traceId= spanId= o.s.boot.tomcat.TomcatWebServer - Tomcat started on port 8081 (http) with context path '/'
+2026-05-22 21:15:06 [main] INFO  traceId= spanId= c.j.f.FirstAiProjectApplication - Started FirstAiProjectApplication in 1.484 seconds (process running for 1.8)
+2026-05-22 21:15:11 [http-nio-8081-exec-2] INFO  traceId= spanId= o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-05-22 21:15:11 [http-nio-8081-exec-2] INFO  traceId= spanId= o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-05-22 21:15:11 [http-nio-8081-exec-2] INFO  traceId= spanId= o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2026-05-22 21:15:48 [http-nio-8081-exec-2] ERROR traceId= spanId= o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.NullPointerException: Cannot invoke "Object.toString()" because the return value of "java.util.Map.get(Object)" is null] with root cause
+java.lang.NullPointerException: Cannot invoke "Object.toString()" because the return value of "java.util.Map.get(Object)" is null
+	at com.jialli.first_ai_project.chat.gemini.GeminiService.parserResponse(GeminiService.java:72)
+	at com.jialli.first_ai_project.chat.gemini.GeminiService.chat(GeminiService.java:34)
+	at com.jialli.first_ai_project.chat.gemini.GeminiChatController.summarizeWithGenAiJavaClient(GeminiChatController.java:66)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:252)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:184)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:934)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:853)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:86)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:866)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1000)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:649)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:874)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:710)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:128)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:199)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:77)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:492)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1801)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:946)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:480)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:57)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+2026-05-22 21:19:12 [SpringApplicationShutdownHook] INFO  traceId= spanId= o.s.boot.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-05-22 21:19:18 [tomcat-shutdown] INFO  traceId= spanId= o.s.boot.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-05-22 21:19:20 [main] INFO  traceId= spanId= c.j.f.FirstAiProjectApplication - Starting FirstAiProjectApplication using Java 25.0.3 with PID 94043 (/Users/jialli/Documents/spring_ai/first-ai-project/target/classes started by jialli in /Users/jialli/Documents/spring_ai)
+2026-05-22 21:19:20 [main] INFO  traceId= spanId= c.j.f.FirstAiProjectApplication - No active profile set, falling back to 1 default profile: "default"
+2026-05-22 21:19:21 [main] INFO  traceId= spanId= o.s.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8081 (http)
+2026-05-22 21:19:21 [main] INFO  traceId= spanId= o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2026-05-22 21:19:21 [main] INFO  traceId= spanId= o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-05-22 21:19:21 [main] INFO  traceId= spanId= o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.21]
+2026-05-22 21:19:21 [main] INFO  traceId= spanId= o.s.b.w.c.s.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 558 ms
+2026-05-22 21:19:21 [main] INFO  traceId= spanId= o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2026-05-22 21:19:21 [main] INFO  traceId= spanId= o.s.boot.tomcat.TomcatWebServer - Tomcat started on port 8081 (http) with context path '/'
+2026-05-22 21:19:21 [main] INFO  traceId= spanId= c.j.f.FirstAiProjectApplication - Started FirstAiProjectApplication in 1.573 seconds (process running for 1.911)
+2026-05-22 21:20:47 [http-nio-8081-exec-1] INFO  traceId= spanId= o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-05-22 21:20:47 [http-nio-8081-exec-1] INFO  traceId= spanId= o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-05-22 21:20:47 [http-nio-8081-exec-1] INFO  traceId= spanId= o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2026-05-22 21:21:18 [http-nio-8081-exec-1] ERROR traceId= spanId= o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.NullPointerException: Cannot invoke "Object.toString()" because the return value of "java.util.Map.get(Object)" is null] with root cause
+java.lang.NullPointerException: Cannot invoke "Object.toString()" because the return value of "java.util.Map.get(Object)" is null
+	at com.jialli.first_ai_project.chat.gemini.GeminiService.parserResponse(GeminiService.java:72)
+	at com.jialli.first_ai_project.chat.gemini.GeminiService.chat(GeminiService.java:34)
+	at com.jialli.first_ai_project.chat.gemini.GeminiChatController.summarizeWithGenAiJavaClient(GeminiChatController.java:66)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:252)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:184)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:934)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:853)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:86)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:866)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1000)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:649)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:874)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:710)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:128)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:199)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:77)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:492)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1801)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:946)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:480)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:57)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+2026-05-22 21:22:04 [SpringApplicationShutdownHook] INFO  traceId= spanId= o.s.boot.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-05-22 21:22:04 [tomcat-shutdown] INFO  traceId= spanId= o.s.boot.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-05-22 21:22:06 [main] INFO  traceId= spanId= c.j.f.FirstAiProjectApplication - Starting FirstAiProjectApplication using Java 25.0.3 with PID 94138 (/Users/jialli/Documents/spring_ai/first-ai-project/target/classes started by jialli in /Users/jialli/Documents/spring_ai)
+2026-05-22 21:22:06 [main] INFO  traceId= spanId= c.j.f.FirstAiProjectApplication - No active profile set, falling back to 1 default profile: "default"
+2026-05-22 21:22:06 [main] INFO  traceId= spanId= o.s.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8081 (http)
+2026-05-22 21:22:06 [main] INFO  traceId= spanId= o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2026-05-22 21:22:06 [main] INFO  traceId= spanId= o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-05-22 21:22:06 [main] INFO  traceId= spanId= o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.21]
+2026-05-22 21:22:06 [main] INFO  traceId= spanId= o.s.b.w.c.s.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 546 ms
+2026-05-22 21:22:07 [main] INFO  traceId= spanId= o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2026-05-22 21:22:07 [main] INFO  traceId= spanId= o.s.boot.tomcat.TomcatWebServer - Tomcat started on port 8081 (http) with context path '/'
+2026-05-22 21:22:07 [main] INFO  traceId= spanId= c.j.f.FirstAiProjectApplication - Started FirstAiProjectApplication in 1.514 seconds (process running for 1.826)
+2026-05-22 21:22:12 [http-nio-8081-exec-1] INFO  traceId= spanId= o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-05-22 21:22:12 [http-nio-8081-exec-1] INFO  traceId= spanId= o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-05-22 21:22:12 [http-nio-8081-exec-1] INFO  traceId= spanId= o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2026-05-22 22:15:48 [main] INFO  traceId= spanId= c.j.f.FirstAiProjectApplication - Starting FirstAiProjectApplication using Java 25.0.3 with PID 95816 (/Users/jialli/Documents/spring_ai/first-ai-project/target/classes started by jialli in /Users/jialli/Documents/spring_ai)
+2026-05-22 22:15:48 [main] INFO  traceId= spanId= c.j.f.FirstAiProjectApplication - No active profile set, falling back to 1 default profile: "default"
+2026-05-22 22:15:49 [main] INFO  traceId= spanId= o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8081 (http)
+2026-05-22 22:15:49 [main] INFO  traceId= spanId= o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2026-05-22 22:15:49 [main] INFO  traceId= spanId= o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-05-22 22:15:49 [main] INFO  traceId= spanId= o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.49]
+2026-05-22 22:15:49 [main] INFO  traceId= spanId= o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-05-22 22:15:49 [main] INFO  traceId= spanId= o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 487 ms
+2026-05-22 22:15:49 [main] WARN  traceId= spanId= o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'geminiChatController' defined in file [/Users/jialli/Documents/spring_ai/first-ai-project/target/classes/com/jialli/first_ai_project/chat/gemini/GeminiChatController.class]: Unsatisfied dependency expressed through constructor parameter 0: No qualifying bean of type 'org.springframework.ai.chat.client.ChatClient' available: expected single matching bean but found 2: geminiChatClient,openAiChatClient
+2026-05-22 22:15:49 [main] INFO  traceId= spanId= o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2026-05-22 22:15:49 [main] INFO  traceId= spanId= o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2026-05-22 22:15:49 [main] ERROR traceId= spanId= o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of constructor in com.jialli.first_ai_project.chat.gemini.GeminiChatController required a single bean, but 2 were found:
+	- geminiChatClient: defined by method 'geminiChatClient' in class path resource [com/jialli/first_ai_project/config/AIProviderConfig.class]
+	- openAiChatClient: defined by method 'openAiChatClient' in class path resource [com/jialli/first_ai_project/config/AIProviderConfig.class]
+
+This may be due to missing parameter name information
+
+Action:
+
+Consider marking one of the beans as @Primary, updating the consumer to accept multiple beans, or using @Qualifier to identify the bean that should be consumed
+
+Ensure that your compiler is configured to use the '-parameters' flag.
+You may need to update both your build tool settings as well as your IDE.
+(See https://github.com/spring-projects/spring-framework/wiki/Spring-Framework-6.1-Release-Notes#parameter-name-retention)
+
+
+2026-05-22 22:15:54 [main] INFO  traceId= spanId= c.j.f.FirstAiProjectApplication - Starting FirstAiProjectApplication using Java 25.0.3 with PID 95823 (/Users/jialli/Documents/spring_ai/first-ai-project/target/classes started by jialli in /Users/jialli/Documents/spring_ai)
+2026-05-22 22:15:54 [main] INFO  traceId= spanId= c.j.f.FirstAiProjectApplication - No active profile set, falling back to 1 default profile: "default"
+2026-05-22 22:15:55 [main] INFO  traceId= spanId= o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8081 (http)
+2026-05-22 22:15:55 [main] INFO  traceId= spanId= o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2026-05-22 22:15:55 [main] INFO  traceId= spanId= o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-05-22 22:15:55 [main] INFO  traceId= spanId= o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.49]
+2026-05-22 22:15:55 [main] INFO  traceId= spanId= o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-05-22 22:15:55 [main] INFO  traceId= spanId= o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 445 ms
+2026-05-22 22:15:55 [main] WARN  traceId= spanId= o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'geminiChatController' defined in file [/Users/jialli/Documents/spring_ai/first-ai-project/target/classes/com/jialli/first_ai_project/chat/gemini/GeminiChatController.class]: Unsatisfied dependency expressed through constructor parameter 0: No qualifying bean of type 'org.springframework.ai.chat.client.ChatClient' available: expected single matching bean but found 2: geminiChatClient,openAiChatClient
+2026-05-22 22:15:55 [main] INFO  traceId= spanId= o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2026-05-22 22:15:55 [main] INFO  traceId= spanId= o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2026-05-22 22:15:55 [main] ERROR traceId= spanId= o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of constructor in com.jialli.first_ai_project.chat.gemini.GeminiChatController required a single bean, but 2 were found:
+	- geminiChatClient: defined by method 'geminiChatClient' in class path resource [com/jialli/first_ai_project/config/AIProviderConfig.class]
+	- openAiChatClient: defined by method 'openAiChatClient' in class path resource [com/jialli/first_ai_project/config/AIProviderConfig.class]
+
+This may be due to missing parameter name information
+
+Action:
+
+Consider marking one of the beans as @Primary, updating the consumer to accept multiple beans, or using @Qualifier to identify the bean that should be consumed
+
+Ensure that your compiler is configured to use the '-parameters' flag.
+You may need to update both your build tool settings as well as your IDE.
+(See https://github.com/spring-projects/spring-framework/wiki/Spring-Framework-6.1-Release-Notes#parameter-name-retention)
+
+
+2026-05-22 22:16:09 [main] INFO  traceId= spanId= c.j.f.FirstAiProjectApplication - Starting FirstAiProjectApplication using Java 25.0.3 with PID 95838 (/Users/jialli/Documents/spring_ai/first-ai-project/target/classes started by jialli in /Users/jialli/Documents/spring_ai)
+2026-05-22 22:16:09 [main] INFO  traceId= spanId= c.j.f.FirstAiProjectApplication - No active profile set, falling back to 1 default profile: "default"
+2026-05-22 22:16:09 [main] INFO  traceId= spanId= o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8081 (http)
+2026-05-22 22:16:09 [main] INFO  traceId= spanId= o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2026-05-22 22:16:09 [main] INFO  traceId= spanId= o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-05-22 22:16:09 [main] INFO  traceId= spanId= o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.49]
+2026-05-22 22:16:09 [main] INFO  traceId= spanId= o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-05-22 22:16:09 [main] INFO  traceId= spanId= o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 470 ms
+2026-05-22 22:16:09 [main] WARN  traceId= spanId= o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'geminiChatController' defined in file [/Users/jialli/Documents/spring_ai/first-ai-project/target/classes/com/jialli/first_ai_project/chat/gemini/GeminiChatController.class]: Unsatisfied dependency expressed through constructor parameter 0: No qualifying bean of type 'org.springframework.ai.chat.client.ChatClient' available: expected single matching bean but found 2: geminiChatClient,openAiChatClient
+2026-05-22 22:16:09 [main] INFO  traceId= spanId= o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2026-05-22 22:16:09 [main] INFO  traceId= spanId= o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2026-05-22 22:16:09 [main] ERROR traceId= spanId= o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of constructor in com.jialli.first_ai_project.chat.gemini.GeminiChatController required a single bean, but 2 were found:
+	- geminiChatClient: defined by method 'geminiChatClient' in class path resource [com/jialli/first_ai_project/config/AIProviderConfig.class]
+	- openAiChatClient: defined by method 'openAiChatClient' in class path resource [com/jialli/first_ai_project/config/AIProviderConfig.class]
+
+This may be due to missing parameter name information
+
+Action:
+
+Consider marking one of the beans as @Primary, updating the consumer to accept multiple beans, or using @Qualifier to identify the bean that should be consumed
+
+Ensure that your compiler is configured to use the '-parameters' flag.
+You may need to update both your build tool settings as well as your IDE.
+(See https://github.com/spring-projects/spring-framework/wiki/Spring-Framework-6.1-Release-Notes#parameter-name-retention)
+
+
+2026-05-22 22:16:18 [main] INFO  traceId= spanId= c.j.f.FirstAiProjectApplication - Starting FirstAiProjectApplication using Java 25.0.3 with PID 95851 (/Users/jialli/Documents/spring_ai/first-ai-project/target/classes started by jialli in /Users/jialli/Documents/spring_ai)
+2026-05-22 22:16:18 [main] INFO  traceId= spanId= c.j.f.FirstAiProjectApplication - No active profile set, falling back to 1 default profile: "default"
+2026-05-22 22:16:18 [main] INFO  traceId= spanId= o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8081 (http)
+2026-05-22 22:16:18 [main] INFO  traceId= spanId= o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2026-05-22 22:16:18 [main] INFO  traceId= spanId= o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-05-22 22:16:18 [main] INFO  traceId= spanId= o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.49]
+2026-05-22 22:16:18 [main] INFO  traceId= spanId= o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-05-22 22:16:18 [main] INFO  traceId= spanId= o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 458 ms
+2026-05-22 22:16:18 [main] WARN  traceId= spanId= o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'geminiChatController' defined in file [/Users/jialli/Documents/spring_ai/first-ai-project/target/classes/com/jialli/first_ai_project/chat/gemini/GeminiChatController.class]: Unsatisfied dependency expressed through constructor parameter 0: No qualifying bean of type 'org.springframework.ai.chat.client.ChatClient' available: expected single matching bean but found 2: geminiChatClient,openAiChatClient
+2026-05-22 22:16:18 [main] INFO  traceId= spanId= o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2026-05-22 22:16:18 [main] INFO  traceId= spanId= o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2026-05-22 22:16:18 [main] ERROR traceId= spanId= o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of constructor in com.jialli.first_ai_project.chat.gemini.GeminiChatController required a single bean, but 2 were found:
+	- geminiChatClient: defined by method 'geminiChatClient' in class path resource [com/jialli/first_ai_project/config/AIProviderConfig.class]
+	- openAiChatClient: defined by method 'openAiChatClient' in class path resource [com/jialli/first_ai_project/config/AIProviderConfig.class]
+
+This may be due to missing parameter name information
+
+Action:
+
+Consider marking one of the beans as @Primary, updating the consumer to accept multiple beans, or using @Qualifier to identify the bean that should be consumed
+
+Ensure that your compiler is configured to use the '-parameters' flag.
+You may need to update both your build tool settings as well as your IDE.
+(See https://github.com/spring-projects/spring-framework/wiki/Spring-Framework-6.1-Release-Notes#parameter-name-retention)
+
+
+2026-05-22 22:16:32 [main] INFO  traceId= spanId= c.j.f.FirstAiProjectApplication - Starting FirstAiProjectApplication using Java 25.0.3 with PID 95859 (/Users/jialli/Documents/spring_ai/first-ai-project/target/classes started by jialli in /Users/jialli/Documents/spring_ai)
+2026-05-22 22:16:32 [main] INFO  traceId= spanId= c.j.f.FirstAiProjectApplication - No active profile set, falling back to 1 default profile: "default"
+2026-05-22 22:16:32 [main] INFO  traceId= spanId= o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8081 (http)
+2026-05-22 22:16:32 [main] INFO  traceId= spanId= o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2026-05-22 22:16:32 [main] INFO  traceId= spanId= o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-05-22 22:16:32 [main] INFO  traceId= spanId= o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.49]
+2026-05-22 22:16:32 [main] INFO  traceId= spanId= o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-05-22 22:16:32 [main] INFO  traceId= spanId= o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 495 ms
+2026-05-22 22:16:32 [main] WARN  traceId= spanId= o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'geminiChatController' defined in file [/Users/jialli/Documents/spring_ai/first-ai-project/target/classes/com/jialli/first_ai_project/chat/gemini/GeminiChatController.class]: Unsatisfied dependency expressed through constructor parameter 0: No qualifying bean of type 'org.springframework.ai.chat.client.ChatClient' available: expected single matching bean but found 2: geminiChatClient,openAiChatClient
+2026-05-22 22:16:32 [main] INFO  traceId= spanId= o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2026-05-22 22:16:32 [main] INFO  traceId= spanId= o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2026-05-22 22:16:32 [main] ERROR traceId= spanId= o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of constructor in com.jialli.first_ai_project.chat.gemini.GeminiChatController required a single bean, but 2 were found:
+	- geminiChatClient: defined by method 'geminiChatClient' in class path resource [com/jialli/first_ai_project/config/AIProviderConfig.class]
+	- openAiChatClient: defined by method 'openAiChatClient' in class path resource [com/jialli/first_ai_project/config/AIProviderConfig.class]
+
+This may be due to missing parameter name information
+
+Action:
+
+Consider marking one of the beans as @Primary, updating the consumer to accept multiple beans, or using @Qualifier to identify the bean that should be consumed
+
+Ensure that your compiler is configured to use the '-parameters' flag.
+You may need to update both your build tool settings as well as your IDE.
+(See https://github.com/spring-projects/spring-framework/wiki/Spring-Framework-6.1-Release-Notes#parameter-name-retention)
+
+
+2026-05-22 22:16:36 [main] INFO  traceId= spanId= c.j.f.FirstAiProjectApplication - Starting FirstAiProjectApplication using Java 25.0.3 with PID 95867 (/Users/jialli/Documents/spring_ai/first-ai-project/target/classes started by jialli in /Users/jialli/Documents/spring_ai)
+2026-05-22 22:16:36 [main] INFO  traceId= spanId= c.j.f.FirstAiProjectApplication - No active profile set, falling back to 1 default profile: "default"
+2026-05-22 22:16:36 [main] INFO  traceId= spanId= o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8081 (http)
+2026-05-22 22:16:36 [main] INFO  traceId= spanId= o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2026-05-22 22:16:36 [main] INFO  traceId= spanId= o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-05-22 22:16:36 [main] INFO  traceId= spanId= o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.49]
+2026-05-22 22:16:36 [main] INFO  traceId= spanId= o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-05-22 22:16:36 [main] INFO  traceId= spanId= o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 516 ms
+2026-05-22 22:16:37 [main] WARN  traceId= spanId= o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'geminiChatController' defined in file [/Users/jialli/Documents/spring_ai/first-ai-project/target/classes/com/jialli/first_ai_project/chat/gemini/GeminiChatController.class]: Unsatisfied dependency expressed through constructor parameter 0: No qualifying bean of type 'org.springframework.ai.chat.client.ChatClient' available: expected single matching bean but found 2: geminiChatClient,openAiChatClient
+2026-05-22 22:16:37 [main] INFO  traceId= spanId= o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2026-05-22 22:16:37 [main] INFO  traceId= spanId= o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2026-05-22 22:16:37 [main] ERROR traceId= spanId= o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of constructor in com.jialli.first_ai_project.chat.gemini.GeminiChatController required a single bean, but 2 were found:
+	- geminiChatClient: defined by method 'geminiChatClient' in class path resource [com/jialli/first_ai_project/config/AIProviderConfig.class]
+	- openAiChatClient: defined by method 'openAiChatClient' in class path resource [com/jialli/first_ai_project/config/AIProviderConfig.class]
+
+This may be due to missing parameter name information
+
+Action:
+
+Consider marking one of the beans as @Primary, updating the consumer to accept multiple beans, or using @Qualifier to identify the bean that should be consumed
+
+Ensure that your compiler is configured to use the '-parameters' flag.
+You may need to update both your build tool settings as well as your IDE.
+(See https://github.com/spring-projects/spring-framework/wiki/Spring-Framework-6.1-Release-Notes#parameter-name-retention)
+
+
+2026-05-22 22:18:22 [main] INFO  traceId= spanId= c.j.f.FirstAiProjectApplication - Starting FirstAiProjectApplication using Java 25.0.3 with PID 95921 (/Users/jialli/Documents/spring_ai/first-ai-project/target/classes started by jialli in /Users/jialli/Documents/spring_ai)
+2026-05-22 22:18:22 [main] INFO  traceId= spanId= c.j.f.FirstAiProjectApplication - No active profile set, falling back to 1 default profile: "default"
+2026-05-22 22:18:22 [main] INFO  traceId= spanId= o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8081 (http)
+2026-05-22 22:18:22 [main] INFO  traceId= spanId= o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2026-05-22 22:18:22 [main] INFO  traceId= spanId= o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-05-22 22:18:22 [main] INFO  traceId= spanId= o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.49]
+2026-05-22 22:18:22 [main] INFO  traceId= spanId= o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-05-22 22:18:22 [main] INFO  traceId= spanId= o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 497 ms
+2026-05-22 22:18:23 [main] WARN  traceId= spanId= o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'vertexAi' defined in class path resource [org/springframework/ai/model/vertexai/autoconfigure/gemini/VertexAiGeminiChatAutoConfiguration.class]: Failed to instantiate [com.google.cloud.vertexai.VertexAI]: Factory method 'vertexAi' threw exception with message: Vertex AI project-id must be set!
+2026-05-22 22:18:23 [main] INFO  traceId= spanId= o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2026-05-22 22:18:23 [main] INFO  traceId= spanId= o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2026-05-22 22:18:23 [main] ERROR traceId= spanId= o.s.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'vertexAi' defined in class path resource [org/springframework/ai/model/vertexai/autoconfigure/gemini/VertexAiGeminiChatAutoConfiguration.class]: Failed to instantiate [com.google.cloud.vertexai.VertexAI]: Factory method 'vertexAi' threw exception with message: Vertex AI project-id must be set!
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:657)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:645)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1375)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1205)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:569)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:529)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:373)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.instantiateSingleton(DefaultListableBeanFactory.java:1228)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingleton(DefaultListableBeanFactory.java:1194)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:1130)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:990)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:627)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350)
+	at com.jialli.first_ai_project.FirstAiProjectApplication.main(FirstAiProjectApplication.java:10)
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.google.cloud.vertexai.VertexAI]: Factory method 'vertexAi' threw exception with message: Vertex AI project-id must be set!
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.lambda$instantiate$0(SimpleInstantiationStrategy.java:200)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiateWithFactoryMethod(SimpleInstantiationStrategy.java:89)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:169)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653)
+	... 21 common frames omitted
+Caused by: java.lang.IllegalArgumentException: Vertex AI project-id must be set!
+	at org.springframework.util.Assert.hasText(Assert.java:253)
+	at org.springframework.ai.model.vertexai.autoconfigure.gemini.VertexAiGeminiChatAutoConfiguration.vertexAi(VertexAiGeminiChatAutoConfiguration.java:67)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.lambda$instantiate$0(SimpleInstantiationStrategy.java:172)
+	... 24 common frames omitted
+2026-05-22 22:18:26 [main] INFO  traceId= spanId= c.j.f.FirstAiProjectApplication - Starting FirstAiProjectApplication using Java 25.0.3 with PID 95930 (/Users/jialli/Documents/spring_ai/first-ai-project/target/classes started by jialli in /Users/jialli/Documents/spring_ai)
+2026-05-22 22:18:26 [main] INFO  traceId= spanId= c.j.f.FirstAiProjectApplication - No active profile set, falling back to 1 default profile: "default"
+2026-05-22 22:18:26 [main] INFO  traceId= spanId= o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8081 (http)
+2026-05-22 22:18:26 [main] INFO  traceId= spanId= o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2026-05-22 22:18:26 [main] INFO  traceId= spanId= o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-05-22 22:18:26 [main] INFO  traceId= spanId= o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.49]
+2026-05-22 22:18:26 [main] INFO  traceId= spanId= o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-05-22 22:18:26 [main] INFO  traceId= spanId= o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 524 ms
+2026-05-22 22:18:27 [main] WARN  traceId= spanId= o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'vertexAi' defined in class path resource [org/springframework/ai/model/vertexai/autoconfigure/gemini/VertexAiGeminiChatAutoConfiguration.class]: Failed to instantiate [com.google.cloud.vertexai.VertexAI]: Factory method 'vertexAi' threw exception with message: Vertex AI project-id must be set!
+2026-05-22 22:18:27 [main] INFO  traceId= spanId= o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2026-05-22 22:18:27 [main] INFO  traceId= spanId= o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2026-05-22 22:18:27 [main] ERROR traceId= spanId= o.s.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'vertexAi' defined in class path resource [org/springframework/ai/model/vertexai/autoconfigure/gemini/VertexAiGeminiChatAutoConfiguration.class]: Failed to instantiate [com.google.cloud.vertexai.VertexAI]: Factory method 'vertexAi' threw exception with message: Vertex AI project-id must be set!
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:657)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:645)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1375)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1205)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:569)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:529)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:373)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.instantiateSingleton(DefaultListableBeanFactory.java:1228)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingleton(DefaultListableBeanFactory.java:1194)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:1130)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:990)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:627)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350)
+	at com.jialli.first_ai_project.FirstAiProjectApplication.main(FirstAiProjectApplication.java:10)
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.google.cloud.vertexai.VertexAI]: Factory method 'vertexAi' threw exception with message: Vertex AI project-id must be set!
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.lambda$instantiate$0(SimpleInstantiationStrategy.java:200)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiateWithFactoryMethod(SimpleInstantiationStrategy.java:89)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:169)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653)
+	... 21 common frames omitted
+Caused by: java.lang.IllegalArgumentException: Vertex AI project-id must be set!
+	at org.springframework.util.Assert.hasText(Assert.java:253)
+	at org.springframework.ai.model.vertexai.autoconfigure.gemini.VertexAiGeminiChatAutoConfiguration.vertexAi(VertexAiGeminiChatAutoConfiguration.java:67)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.lambda$instantiate$0(SimpleInstantiationStrategy.java:172)
+	... 24 common frames omitted
+2026-05-22 22:19:40 [main] INFO  traceId= spanId= c.j.f.FirstAiProjectApplication - Starting FirstAiProjectApplication using Java 25.0.3 with PID 95972 (/Users/jialli/Documents/spring_ai/first-ai-project/target/classes started by jialli in /Users/jialli/Documents/spring_ai)
+2026-05-22 22:19:40 [main] INFO  traceId= spanId= c.j.f.FirstAiProjectApplication - No active profile set, falling back to 1 default profile: "default"
+2026-05-22 22:19:41 [main] INFO  traceId= spanId= o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8081 (http)
+2026-05-22 22:19:41 [main] INFO  traceId= spanId= o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2026-05-22 22:19:41 [main] INFO  traceId= spanId= o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-05-22 22:19:41 [main] INFO  traceId= spanId= o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.49]
+2026-05-22 22:19:41 [main] INFO  traceId= spanId= o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-05-22 22:19:41 [main] INFO  traceId= spanId= o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 465 ms
+2026-05-22 22:19:41 [main] WARN  traceId= spanId= o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'vertexAi' defined in class path resource [org/springframework/ai/model/vertexai/autoconfigure/gemini/VertexAiGeminiChatAutoConfiguration.class]: Failed to instantiate [com.google.cloud.vertexai.VertexAI]: Factory method 'vertexAi' threw exception with message: Vertex AI project-id must be set!
+2026-05-22 22:19:41 [main] INFO  traceId= spanId= o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2026-05-22 22:19:41 [main] INFO  traceId= spanId= o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2026-05-22 22:19:41 [main] ERROR traceId= spanId= o.s.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'vertexAi' defined in class path resource [org/springframework/ai/model/vertexai/autoconfigure/gemini/VertexAiGeminiChatAutoConfiguration.class]: Failed to instantiate [com.google.cloud.vertexai.VertexAI]: Factory method 'vertexAi' threw exception with message: Vertex AI project-id must be set!
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:657)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:645)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1375)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1205)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:569)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:529)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:373)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.instantiateSingleton(DefaultListableBeanFactory.java:1228)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingleton(DefaultListableBeanFactory.java:1194)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:1130)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:990)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:627)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350)
+	at com.jialli.first_ai_project.FirstAiProjectApplication.main(FirstAiProjectApplication.java:10)
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.google.cloud.vertexai.VertexAI]: Factory method 'vertexAi' threw exception with message: Vertex AI project-id must be set!
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.lambda$instantiate$0(SimpleInstantiationStrategy.java:200)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiateWithFactoryMethod(SimpleInstantiationStrategy.java:89)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:169)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653)
+	... 21 common frames omitted
+Caused by: java.lang.IllegalArgumentException: Vertex AI project-id must be set!
+	at org.springframework.util.Assert.hasText(Assert.java:253)
+	at org.springframework.ai.model.vertexai.autoconfigure.gemini.VertexAiGeminiChatAutoConfiguration.vertexAi(VertexAiGeminiChatAutoConfiguration.java:67)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.lambda$instantiate$0(SimpleInstantiationStrategy.java:172)
+	... 24 common frames omitted
+2026-05-22 22:20:04 [main] INFO  traceId= spanId= c.j.f.FirstAiProjectApplication - Starting FirstAiProjectApplication using Java 25.0.3 with PID 95984 (/Users/jialli/Documents/spring_ai/first-ai-project/target/classes started by jialli in /Users/jialli/Documents/spring_ai)
+2026-05-22 22:20:05 [main] INFO  traceId= spanId= c.j.f.FirstAiProjectApplication - No active profile set, falling back to 1 default profile: "default"
+2026-05-22 22:20:05 [main] INFO  traceId= spanId= o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8081 (http)
+2026-05-22 22:20:05 [main] INFO  traceId= spanId= o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2026-05-22 22:20:05 [main] INFO  traceId= spanId= o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-05-22 22:20:05 [main] INFO  traceId= spanId= o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.49]
+2026-05-22 22:20:05 [main] INFO  traceId= spanId= o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-05-22 22:20:05 [main] INFO  traceId= spanId= o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 538 ms
+2026-05-22 22:20:06 [main] WARN  traceId= spanId= o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'vertexAi' defined in class path resource [org/springframework/ai/model/vertexai/autoconfigure/gemini/VertexAiGeminiChatAutoConfiguration.class]: Failed to instantiate [com.google.cloud.vertexai.VertexAI]: Factory method 'vertexAi' threw exception with message: Vertex AI project-id must be set!
+2026-05-22 22:20:06 [main] INFO  traceId= spanId= o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2026-05-22 22:20:06 [main] INFO  traceId= spanId= o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2026-05-22 22:20:06 [main] ERROR traceId= spanId= o.s.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'vertexAi' defined in class path resource [org/springframework/ai/model/vertexai/autoconfigure/gemini/VertexAiGeminiChatAutoConfiguration.class]: Failed to instantiate [com.google.cloud.vertexai.VertexAI]: Factory method 'vertexAi' threw exception with message: Vertex AI project-id must be set!
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:657)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:645)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1375)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1205)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:569)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:529)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:373)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.instantiateSingleton(DefaultListableBeanFactory.java:1228)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingleton(DefaultListableBeanFactory.java:1194)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:1130)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:990)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:627)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350)
+	at com.jialli.first_ai_project.FirstAiProjectApplication.main(FirstAiProjectApplication.java:10)
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.google.cloud.vertexai.VertexAI]: Factory method 'vertexAi' threw exception with message: Vertex AI project-id must be set!
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.lambda$instantiate$0(SimpleInstantiationStrategy.java:200)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiateWithFactoryMethod(SimpleInstantiationStrategy.java:89)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:169)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653)
+	... 21 common frames omitted
+Caused by: java.lang.IllegalArgumentException: Vertex AI project-id must be set!
+	at org.springframework.util.Assert.hasText(Assert.java:253)
+	at org.springframework.ai.model.vertexai.autoconfigure.gemini.VertexAiGeminiChatAutoConfiguration.vertexAi(VertexAiGeminiChatAutoConfiguration.java:67)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.lambda$instantiate$0(SimpleInstantiationStrategy.java:172)
+	... 24 common frames omitted
+2026-05-22 22:21:01 [main] INFO  traceId= spanId= c.j.f.FirstAiProjectApplication - Starting FirstAiProjectApplication using Java 25.0.3 with PID 96046 (/Users/jialli/Documents/spring_ai/first-ai-project/target/classes started by jialli in /Users/jialli/Documents/spring_ai)
+2026-05-22 22:21:01 [main] INFO  traceId= spanId= c.j.f.FirstAiProjectApplication - No active profile set, falling back to 1 default profile: "default"
+2026-05-22 22:21:02 [main] INFO  traceId= spanId= o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8081 (http)
+2026-05-22 22:21:02 [main] INFO  traceId= spanId= o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2026-05-22 22:21:02 [main] INFO  traceId= spanId= o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-05-22 22:21:02 [main] INFO  traceId= spanId= o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.49]
+2026-05-22 22:21:02 [main] INFO  traceId= spanId= o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-05-22 22:21:02 [main] INFO  traceId= spanId= o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 598 ms
+2026-05-22 22:21:03 [main] INFO  traceId= spanId= o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2026-05-22 22:21:03 [main] WARN  traceId= spanId= o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2026-05-22 22:21:03 [main] WARN  traceId= spanId= o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'vertexAiGeminiChat': java.lang.IllegalStateException: java.io.IOException: Your default credentials were not found. To set up Application Default Credentials for your environment, see https://cloud.google.com/docs/authentication/external/set-up-adc.
+2026-05-22 22:21:03 [main] WARN  traceId= spanId= o.s.b.f.s.DisposableBeanAdapter - Invocation of close method failed on bean with name 'vertexAi': java.lang.IllegalStateException: java.io.IOException: Your default credentials were not found. To set up Application Default Credentials for your environment, see https://cloud.google.com/docs/authentication/external/set-up-adc.
+2026-05-22 22:21:03 [main] INFO  traceId= spanId= o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2026-05-22 22:21:03 [main] ERROR traceId= spanId= o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8081 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8081 or configure this application to listen on another port.
+
+2026-05-22 22:21:31 [main] INFO  traceId= spanId= c.j.f.FirstAiProjectApplication - Starting FirstAiProjectApplication using Java 25.0.3 with PID 96090 (/Users/jialli/Documents/spring_ai/first-ai-project/target/classes started by jialli in /Users/jialli/Documents/spring_ai)
+2026-05-22 22:21:31 [main] INFO  traceId= spanId= c.j.f.FirstAiProjectApplication - No active profile set, falling back to 1 default profile: "default"
+2026-05-22 22:21:31 [main] INFO  traceId= spanId= o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8081 (http)
+2026-05-22 22:21:31 [main] INFO  traceId= spanId= o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2026-05-22 22:21:31 [main] INFO  traceId= spanId= o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-05-22 22:21:31 [main] INFO  traceId= spanId= o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.49]
+2026-05-22 22:21:31 [main] INFO  traceId= spanId= o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-05-22 22:21:31 [main] INFO  traceId= spanId= o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 482 ms
+2026-05-22 22:21:32 [main] INFO  traceId= spanId= o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2026-05-22 22:21:32 [main] INFO  traceId= spanId= o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8081 (http) with context path '/'
+2026-05-22 22:21:32 [main] INFO  traceId= spanId= c.j.f.FirstAiProjectApplication - Started FirstAiProjectApplication in 1.303 seconds (process running for 1.483)
+2026-05-22 22:22:08 [SpringApplicationShutdownHook] INFO  traceId= spanId= o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-05-22 22:22:08 [tomcat-shutdown] INFO  traceId= spanId= o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-05-22 22:22:08 [SpringApplicationShutdownHook] WARN  traceId= spanId= o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'vertexAiGeminiChat': java.lang.IllegalStateException: java.io.IOException: Your default credentials were not found. To set up Application Default Credentials for your environment, see https://cloud.google.com/docs/authentication/external/set-up-adc.
+2026-05-22 22:22:08 [SpringApplicationShutdownHook] WARN  traceId= spanId= o.s.b.f.s.DisposableBeanAdapter - Invocation of close method failed on bean with name 'vertexAi': java.lang.IllegalStateException: java.io.IOException: Your default credentials were not found. To set up Application Default Credentials for your environment, see https://cloud.google.com/docs/authentication/external/set-up-adc.
+2026-05-22 22:22:28 [main] INFO  traceId= spanId= c.j.f.FirstAiProjectApplication - Starting FirstAiProjectApplication using Java 25.0.3 with PID 96290 (/Users/jialli/Documents/spring_ai/first-ai-project/target/classes started by jialli in /Users/jialli/Documents/spring_ai)
+2026-05-22 22:22:28 [main] INFO  traceId= spanId= c.j.f.FirstAiProjectApplication - No active profile set, falling back to 1 default profile: "default"
+2026-05-22 22:22:28 [main] INFO  traceId= spanId= o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8081 (http)
+2026-05-22 22:22:28 [main] INFO  traceId= spanId= o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2026-05-22 22:22:28 [main] INFO  traceId= spanId= o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-05-22 22:22:28 [main] INFO  traceId= spanId= o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.49]
+2026-05-22 22:22:28 [main] INFO  traceId= spanId= o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-05-22 22:22:28 [main] INFO  traceId= spanId= o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 466 ms
+2026-05-22 22:22:29 [main] INFO  traceId= spanId= o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2026-05-22 22:22:29 [main] INFO  traceId= spanId= o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8081 (http) with context path '/'
+2026-05-22 22:22:29 [main] INFO  traceId= spanId= c.j.f.FirstAiProjectApplication - Started FirstAiProjectApplication in 1.307 seconds (process running for 1.48)
+2026-05-22 22:22:44 [SpringApplicationShutdownHook] INFO  traceId= spanId= o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-05-22 22:22:44 [tomcat-shutdown] INFO  traceId= spanId= o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-05-22 22:22:44 [SpringApplicationShutdownHook] WARN  traceId= spanId= o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'vertexAiGeminiChat': java.lang.IllegalStateException: java.io.IOException: Your default credentials were not found. To set up Application Default Credentials for your environment, see https://cloud.google.com/docs/authentication/external/set-up-adc.
+2026-05-22 22:22:44 [SpringApplicationShutdownHook] WARN  traceId= spanId= o.s.b.f.s.DisposableBeanAdapter - Invocation of close method failed on bean with name 'vertexAi': java.lang.IllegalStateException: java.io.IOException: Your default credentials were not found. To set up Application Default Credentials for your environment, see https://cloud.google.com/docs/authentication/external/set-up-adc.
+2026-05-22 22:22:45 [main] INFO  traceId= spanId= c.j.f.FirstAiProjectApplication - Starting FirstAiProjectApplication using Java 25.0.3 with PID 96299 (/Users/jialli/Documents/spring_ai/first-ai-project/target/classes started by jialli in /Users/jialli/Documents/spring_ai)
+2026-05-22 22:22:45 [main] INFO  traceId= spanId= c.j.f.FirstAiProjectApplication - No active profile set, falling back to 1 default profile: "default"
+2026-05-22 22:22:46 [main] INFO  traceId= spanId= o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8081 (http)
+2026-05-22 22:22:46 [main] INFO  traceId= spanId= o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2026-05-22 22:22:46 [main] INFO  traceId= spanId= o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-05-22 22:22:46 [main] INFO  traceId= spanId= o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.49]
+2026-05-22 22:22:46 [main] INFO  traceId= spanId= o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-05-22 22:22:46 [main] INFO  traceId= spanId= o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 498 ms
+2026-05-22 22:22:46 [main] INFO  traceId= spanId= o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2026-05-22 22:22:46 [main] INFO  traceId= spanId= o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8081 (http) with context path '/'
+2026-05-22 22:22:46 [main] INFO  traceId= spanId= c.j.f.FirstAiProjectApplication - Started FirstAiProjectApplication in 1.399 seconds (process running for 1.677)
+2026-05-22 22:23:08 [SpringApplicationShutdownHook] INFO  traceId= spanId= o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-05-22 22:23:08 [tomcat-shutdown] INFO  traceId= spanId= o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-05-22 22:23:08 [SpringApplicationShutdownHook] WARN  traceId= spanId= o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'vertexAiGeminiChat': java.lang.IllegalStateException: java.io.IOException: Your default credentials were not found. To set up Application Default Credentials for your environment, see https://cloud.google.com/docs/authentication/external/set-up-adc.
+2026-05-22 22:23:08 [SpringApplicationShutdownHook] WARN  traceId= spanId= o.s.b.f.s.DisposableBeanAdapter - Invocation of close method failed on bean with name 'vertexAi': java.lang.IllegalStateException: java.io.IOException: Your default credentials were not found. To set up Application Default Credentials for your environment, see https://cloud.google.com/docs/authentication/external/set-up-adc.
+2026-05-22 22:23:54 [main] INFO  traceId= spanId= c.j.f.FirstAiProjectApplication - Starting FirstAiProjectApplication using Java 25.0.3 with PID 96553 (/Users/jialli/Documents/spring_ai/first-ai-project/target/classes started by jialli in /Users/jialli/Documents/spring_ai)
+2026-05-22 22:23:54 [main] INFO  traceId= spanId= c.j.f.FirstAiProjectApplication - No active profile set, falling back to 1 default profile: "default"
+2026-05-22 22:23:55 [main] INFO  traceId= spanId= o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8081 (http)
+2026-05-22 22:23:55 [main] INFO  traceId= spanId= o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2026-05-22 22:23:55 [main] INFO  traceId= spanId= o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-05-22 22:23:55 [main] INFO  traceId= spanId= o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.49]
+2026-05-22 22:23:55 [main] INFO  traceId= spanId= o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-05-22 22:23:55 [main] INFO  traceId= spanId= o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 511 ms
+2026-05-22 22:23:55 [main] INFO  traceId= spanId= o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2026-05-22 22:23:55 [main] INFO  traceId= spanId= o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8081 (http) with context path '/'
+2026-05-22 22:23:55 [main] INFO  traceId= spanId= c.j.f.FirstAiProjectApplication - Started FirstAiProjectApplication in 1.377 seconds (process running for 1.575)
+2026-05-22 22:27:13 [SpringApplicationShutdownHook] INFO  traceId= spanId= o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-05-22 22:27:13 [tomcat-shutdown] INFO  traceId= spanId= o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-05-22 22:27:13 [SpringApplicationShutdownHook] WARN  traceId= spanId= o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'vertexAiGeminiChat': java.lang.IllegalStateException: java.io.IOException: Your default credentials were not found. To set up Application Default Credentials for your environment, see https://cloud.google.com/docs/authentication/external/set-up-adc.
+2026-05-22 22:27:13 [SpringApplicationShutdownHook] WARN  traceId= spanId= o.s.b.f.s.DisposableBeanAdapter - Invocation of close method failed on bean with name 'vertexAi': java.lang.IllegalStateException: java.io.IOException: Your default credentials were not found. To set up Application Default Credentials for your environment, see https://cloud.google.com/docs/authentication/external/set-up-adc.
+2026-05-22 22:27:15 [main] INFO  traceId= spanId= c.j.f.FirstAiProjectApplication - Starting FirstAiProjectApplication using Java 25.0.3 with PID 96813 (/Users/jialli/Documents/spring_ai/first-ai-project/target/classes started by jialli in /Users/jialli/Documents/spring_ai)
+2026-05-22 22:27:15 [main] INFO  traceId= spanId= c.j.f.FirstAiProjectApplication - No active profile set, falling back to 1 default profile: "default"
+2026-05-22 22:27:15 [main] INFO  traceId= spanId= o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8081 (http)
+2026-05-22 22:27:15 [main] INFO  traceId= spanId= o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2026-05-22 22:27:15 [main] INFO  traceId= spanId= o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-05-22 22:27:15 [main] INFO  traceId= spanId= o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.49]
+2026-05-22 22:27:15 [main] INFO  traceId= spanId= o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-05-22 22:27:15 [main] INFO  traceId= spanId= o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 488 ms
+2026-05-22 22:27:16 [main] INFO  traceId= spanId= o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2026-05-22 22:27:16 [main] INFO  traceId= spanId= o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8081 (http) with context path '/'
+2026-05-22 22:27:16 [main] INFO  traceId= spanId= c.j.f.FirstAiProjectApplication - Started FirstAiProjectApplication in 1.352 seconds (process running for 1.541)
+2026-05-22 22:28:23 [http-nio-8081-exec-2] INFO  traceId= spanId= o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-05-22 22:28:23 [http-nio-8081-exec-2] INFO  traceId= spanId= o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-05-22 22:28:23 [http-nio-8081-exec-2] INFO  traceId= spanId= o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
