@@ -13,7 +13,7 @@ import reactor.core.publisher.Flux;
 @Slf4j
 @Component
 public class ValidationAdvisor implements CallAdvisor, StreamAdvisor {
-    private static final int MAX_TOKENS_INPUT = 10;
+    private static final int MAX_TOKENS_INPUT = 4000;
     @Override
     public ChatClientResponse adviseCall(ChatClientRequest chatClientRequest, CallAdvisorChain callAdvisorChain) {
         validateInput(chatClientRequest);
@@ -31,7 +31,7 @@ public class ValidationAdvisor implements CallAdvisor, StreamAdvisor {
     private void validateInput(ChatClientRequest chatClientRequest) {
         String input = chatClientRequest.prompt().getContents();
         if(input.length() > MAX_TOKENS_INPUT) {
-            throw new IllegalArgumentException("Prompt too long: exceeds " + MAX_TOKENS_INPUT + "characters!");
+            throw new IllegalArgumentException("Prompt too long: exceeds " + MAX_TOKENS_INPUT + " characters!");
         }
     }
 

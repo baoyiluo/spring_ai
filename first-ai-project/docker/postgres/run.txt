@@ -1,0 +1,3 @@
+docker compose  -f pgvector.yml up -d
+docker compose  -f pgvector.yml down
+

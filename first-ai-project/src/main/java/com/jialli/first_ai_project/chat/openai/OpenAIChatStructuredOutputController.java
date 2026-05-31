@@ -35,7 +35,7 @@ public class OpenAIChatStructuredOutputController {
                 .entity(new MapOutputConverter());
     }
 
-    @PostMapping("/general-chat")
+   /* @PostMapping("/general-chat")
     public String generalChat(@RequestBody String message) {
         ChatOptions chatOptions = ChatOptions.builder()
                 .maxTokens(1000)
@@ -49,6 +49,6 @@ public class OpenAIChatStructuredOutputController {
                 .user(message)
                 .call()
                 .content();
-    }
+    }*/
 
 }
