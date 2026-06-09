@@ -9,6 +9,7 @@ import com.jialli.first_ai_project.rag.config.data.RagConfigData;
 import com.jialli.first_ai_project.rag.config.postprocessor.CitationHeaderPostProcessor;
 import com.jialli.first_ai_project.rag.config.postprocessor.NeighbourStitchPostProcessor;
 import com.jialli.first_ai_project.rag.config.preprocessor.DomainSynonymTransformer;
+import com.jialli.first_ai_project.rag.rerank.processor.RerankPostProcessor;
 import org.springframework.ai.chat.client.ChatClient;
 import org.springframework.ai.chat.client.advisor.MessageChatMemoryAdvisor;
 import org.springframework.ai.chat.client.advisor.PromptChatMemoryAdvisor;
@@ -106,6 +107,7 @@ public class AIProviderConfig {
                                             DomainSynonymTransformer domainSynonymTransformer,
                                             NeighbourStitchPostProcessor neighbourStitchPostProcessor,
                                             CitationHeaderPostProcessor citationHeaderPostProcessor,
+                                            RerankPostProcessor rerankPostProcessor,
                                             @Qualifier("queryExpanderChatClientBuilder") ChatClient.Builder queryExpanderChatClientBuilder) {
         return RetrievalAugmentationAdvisor.builder()
                 .queryTransformers(domainSynonymTransformer)
@@ -119,7 +121,7 @@ public class AIProviderConfig {
                         .topK(ragConfigData.getTopK())
                         .similarityThreshold(ragConfigData.getSimilarityThreshold())
                         .build())
-                .documentPostProcessors(neighbourStitchPostProcessor, citationHeaderPostProcessor)
+                .documentPostProcessors(rerankPostProcessor, neighbourStitchPostProcessor, citationHeaderPostProcessor)
                 .queryAugmenter(ContextualQueryAugmenter.builder()
                         .allowEmptyContext(false)
                         .build())

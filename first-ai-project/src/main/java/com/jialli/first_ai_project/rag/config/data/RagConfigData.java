@@ -18,6 +18,7 @@ public class RagConfigData {
     private PdfProperties pdf;
     private Map<String, String> synonyms;
     private QueryExpansionProperties queryExpander;
+    private RerankProperties rerank;
     @Data
     public static class ChunkProperties {
         private int size;

@@ -11,8 +11,9 @@ public class RagConstants {
     public static final String UPDATED_AT = "updated_at";
     public static final String UNKNOWN = "unknown";
     public static final String CHUNK_INDEX = "chunk_index";
+    public static final String CHECK_SUM = "checksum";
     public static final String PAGE_SNAKE = "page_number";
     public static final String PAGE_CAMEL = "pageNumber";
     public static final String PAGE = "page";
-    
+
 }

@@ -1,206 +1,22 @@
-2026-05-31 00:00:14 [HikariPool-1:housekeeper] WARN  traceId= spanId= com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=58s528ms).
-2026-05-31 00:17:03 [HikariPool-1:housekeeper] WARN  traceId= spanId= com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=16m19s54ms).
-2026-05-31 00:33:30 [HikariPool-1:housekeeper] WARN  traceId= spanId= com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m56s951ms).
-2026-05-31 00:51:53 [HikariPool-1:housekeeper] WARN  traceId= spanId= com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=17m23s113ms).
-2026-05-31 02:45:31 [HikariPool-1:housekeeper] WARN  traceId= spanId= com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=17m7s400ms).
-2026-05-31 03:03:19 [HikariPool-1:housekeeper] WARN  traceId= spanId= com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=17m18s162ms).
-2026-05-31 05:56:51 [HikariPool-1:housekeeper] WARN  traceId= spanId= com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m29s754ms).
-2026-05-31 08:56:56 [HikariPool-1:housekeeper] WARN  traceId= spanId= com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=18m3s682ms).
-2026-05-31 10:16:56 [HikariPool-1:housekeeper] WARN  traceId= spanId= com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m28s832ms).
-2026-05-31 12:57:55 [HikariPool-1:housekeeper] WARN  traceId= spanId= com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=6m57s409ms).
-2026-05-31 15:59:03 [HikariPool-1:housekeeper] WARN  traceId= spanId= com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=10m6s156ms).
-2026-05-31 17:01:57 [SpringApplicationShutdownHook] INFO  traceId= spanId= o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
-2026-05-31 17:01:57 [tomcat-shutdown] INFO  traceId= spanId= o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
-2026-05-31 17:01:57 [SpringApplicationShutdownHook] WARN  traceId= spanId= o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'vertexAiGeminiChat': java.lang.IllegalStateException: java.io.IOException: Your default credentials were not found. To set up Application Default Credentials for your environment, see https://cloud.google.com/docs/authentication/external/set-up-adc.
-2026-05-31 17:01:57 [SpringApplicationShutdownHook] WARN  traceId= spanId= o.s.b.f.s.DisposableBeanAdapter - Invocation of close method failed on bean with name 'vertexAi': java.lang.IllegalStateException: java.io.IOException: Your default credentials were not found. To set up Application Default Credentials for your environment, see https://cloud.google.com/docs/authentication/external/set-up-adc.
-2026-05-31 17:01:57 [SpringApplicationShutdownHook] INFO  traceId= spanId= com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
-2026-05-31 17:01:57 [SpringApplicationShutdownHook] INFO  traceId= spanId= com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
-2026-05-31 17:01:59 [main] INFO  traceId= spanId= c.j.f.FirstAiProjectApplication - Starting FirstAiProjectApplication using Java 25.0.3 with PID 51913 (/Users/jialli/Documents/spring_ai/first-ai-project/target/classes started by jialli in /Users/jialli/Documents/spring_ai)
-2026-05-31 17:01:59 [main] INFO  traceId= spanId= c.j.f.FirstAiProjectApplication - No active profile set, falling back to 1 default profile: "default"
-2026-05-31 17:02:00 [main] INFO  traceId= spanId= o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8081 (http)
-2026-05-31 17:02:00 [main] INFO  traceId= spanId= o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
-2026-05-31 17:02:00 [main] INFO  traceId= spanId= o.a.catalina.core.StandardService - Starting service [Tomcat]
-2026-05-31 17:02:00 [main] INFO  traceId= spanId= o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.49]
-2026-05-31 17:02:00 [main] INFO  traceId= spanId= o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2026-05-31 17:02:00 [main] INFO  traceId= spanId= o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 804 ms
-2026-05-31 17:02:00 [main] INFO  traceId= spanId= com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
-2026-05-31 17:02:00 [main] INFO  traceId= spanId= com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@404ced67
-2026-05-31 17:02:00 [main] INFO  traceId= spanId= com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
-2026-05-31 17:02:01 [main] INFO  traceId= spanId= o.s.a.v.pgvector.PgVectorStore - Using the vector table name: rag_vector_store. Is empty: false
-2026-05-31 17:02:01 [main] INFO  traceId= spanId= o.s.a.v.pgvector.PgVectorStore - Initializing PGVectorStore schema for table: rag_vector_store in schema: public
-2026-05-31 17:02:01 [main] INFO  traceId= spanId= o.s.a.v.pgvector.PgVectorStore - vectorTableValidationsEnabled false
-2026-05-31 17:02:01 [main] INFO  traceId= spanId= o.s.a.v.pgvector.PgVectorStore - Using the vector table name: vector_store. Is empty: false
-2026-05-31 17:02:01 [main] INFO  traceId= spanId= o.s.a.v.pgvector.PgVectorStore - Initializing PGVectorStore schema for table: vector_store in schema: public
-2026-05-31 17:02:01 [main] INFO  traceId= spanId= o.s.a.v.pgvector.PgVectorStore - vectorTableValidationsEnabled false
-2026-05-31 17:02:01 [main] INFO  traceId= spanId= c.j.f.r.c.SimpleRagConfiguration - Creating a new vector store file at: first-ai-project/src/main/resources/rag/mini-employee-handbook/vector-store/vectorstore.json
-2026-05-31 17:02:01 [main] INFO  traceId= spanId= o.s.a.t.splitter.TextSplitter - Splitting up document into 2 chunks.
-2026-05-31 17:02:01 [main] INFO  traceId= spanId= o.s.a.t.splitter.TextSplitter - Splitting up document into 3 chunks.
-2026-05-31 17:02:01 [main] INFO  traceId= spanId= o.s.a.t.splitter.TextSplitter - Splitting up document into 2 chunks.
-2026-05-31 17:02:01 [main] INFO  traceId= spanId= o.s.a.t.splitter.TextSplitter - Splitting up document into 2 chunks.
-2026-05-31 17:02:01 [main] INFO  traceId= spanId= o.s.a.t.splitter.TextSplitter - Splitting up document into 2 chunks.
-2026-05-31 17:02:02 [main] INFO  traceId= spanId= o.s.ai.vectorstore.SimpleVectorStore - Calling EmbeddingModel for document id = 8b4e5cbc-752d-4a43-9947-a671a5fd7284
-2026-05-31 17:02:02 [main] INFO  traceId= spanId= o.s.ai.vectorstore.SimpleVectorStore - Calling EmbeddingModel for document id = c9223547-0d39-4cfa-bb1e-8ee863e3b932
-2026-05-31 17:02:02 [main] INFO  traceId= spanId= o.s.ai.vectorstore.SimpleVectorStore - Calling EmbeddingModel for document id = 024cc3f8-167e-40ad-80e4-e5391117c2bd
-2026-05-31 17:02:02 [main] INFO  traceId= spanId= o.s.ai.vectorstore.SimpleVectorStore - Calling EmbeddingModel for document id = 5402b119-7108-4e5c-95b0-c6222aab96c2
-2026-05-31 17:02:02 [main] INFO  traceId= spanId= o.s.ai.vectorstore.SimpleVectorStore - Calling EmbeddingModel for document id = d3b97dcf-e2d7-498c-903f-f67d528629e7
-2026-05-31 17:02:02 [main] INFO  traceId= spanId= o.s.ai.vectorstore.SimpleVectorStore - Calling EmbeddingModel for document id = 398df6ae-5140-412e-8f64-18f8a2636678
-2026-05-31 17:02:02 [main] INFO  traceId= spanId= o.s.ai.vectorstore.SimpleVectorStore - Calling EmbeddingModel for document id = de485e7a-fb18-47da-8d49-f06a327481ae
-2026-05-31 17:02:03 [main] INFO  traceId= spanId= o.s.ai.vectorstore.SimpleVectorStore - Calling EmbeddingModel for document id = 05dae23b-eda7-4779-82f9-bb761c2144ec
-2026-05-31 17:02:03 [main] INFO  traceId= spanId= o.s.ai.vectorstore.SimpleVectorStore - Calling EmbeddingModel for document id = f2b6d96a-8a01-453b-98c3-193b7ede91cc
-2026-05-31 17:02:03 [main] INFO  traceId= spanId= o.s.ai.vectorstore.SimpleVectorStore - Calling EmbeddingModel for document id = f021c2c6-b672-454b-9160-ba73f9cf09e8
-2026-05-31 17:02:03 [main] INFO  traceId= spanId= o.s.ai.vectorstore.SimpleVectorStore - Calling EmbeddingModel for document id = 81dfa2d6-ce57-4a71-bc01-dc9eb058f0fe
-2026-05-31 17:02:03 [main] INFO  traceId= spanId= o.s.ai.vectorstore.SimpleVectorStore - Overwriting existing vector store file: first-ai-project/src/main/resources/rag/mini-employee-handbook/vector-store/vectorstore.json
-2026-05-31 17:02:03 [main] INFO  traceId= spanId= o.s.a.v.pgvector.PgVectorStore - Using the vector table name: vector_store. Is empty: false
-2026-05-31 17:02:03 [main] INFO  traceId= spanId= o.s.a.v.pgvector.PgVectorStore - Initializing PGVectorStore schema for table: vector_store in schema: public
-2026-05-31 17:02:03 [main] INFO  traceId= spanId= o.s.a.v.pgvector.PgVectorStore - vectorTableValidationsEnabled false
-2026-05-31 17:02:03 [main] INFO  traceId= spanId= o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
-2026-05-31 17:02:03 [main] INFO  traceId= spanId= o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8081 (http) with context path '/'
-2026-05-31 17:02:03 [main] INFO  traceId= spanId= c.j.f.FirstAiProjectApplication - Started FirstAiProjectApplication in 4.217 seconds (process running for 4.463)
-2026-05-31 17:02:03 [main] INFO  traceId= spanId= c.j.f.r.service.RagIngestionService - force-build=true -> truncating rag_vector_store
-2026-05-31 17:02:03 [main] INFO  traceId= spanId= o.s.a.r.pdf.PagePdfDocumentReader - Processing PDF page: 1
-2026-05-31 17:02:03 [main] INFO  traceId= spanId= o.s.a.r.pdf.PagePdfDocumentReader - Processing PDF page: 2
-2026-05-31 17:02:03 [main] INFO  traceId= spanId= o.s.a.r.pdf.PagePdfDocumentReader - Processing PDF page: 3
-2026-05-31 17:02:03 [main] INFO  traceId= spanId= o.s.a.r.pdf.PagePdfDocumentReader - Processing PDF page: 4
-2026-05-31 17:02:03 [main] INFO  traceId= spanId= o.s.a.r.pdf.PagePdfDocumentReader - Processing PDF page: 5
-2026-05-31 17:02:03 [main] INFO  traceId= spanId= o.s.a.r.pdf.PagePdfDocumentReader - Processed total 5 pages
-2026-05-31 17:02:03 [main] INFO  traceId= spanId= o.s.a.r.pdf.PagePdfDocumentReader - Processing PDF page: 1
-2026-05-31 17:02:03 [main] INFO  traceId= spanId= o.s.a.r.pdf.PagePdfDocumentReader - Processing PDF page: 2
-2026-05-31 17:02:03 [main] WARN  traceId= spanId= o.a.p.contentstream.PDFStreamEngine - Cannot execute restore, the graphics stack is empty
-org.apache.pdfbox.contentstream.operator.state.EmptyGraphicsStackException: Cannot execute restore, the graphics stack is empty
-	at org.apache.pdfbox.contentstream.operator.state.Restore.process(Restore.java:51)
-	at org.apache.pdfbox.contentstream.PDFStreamEngine.processOperator(PDFStreamEngine.java:924)
-	at org.apache.pdfbox.contentstream.PDFStreamEngine.processStreamOperators(PDFStreamEngine.java:557)
-	at org.apache.pdfbox.contentstream.PDFStreamEngine.processStream(PDFStreamEngine.java:515)
-	at org.apache.pdfbox.contentstream.PDFStreamEngine.processPage(PDFStreamEngine.java:158)
-	at org.apache.pdfbox.text.LegacyPDFStreamEngine.processPage(LegacyPDFStreamEngine.java:153)
-	at org.apache.pdfbox.text.PDFTextStripper.processPage(PDFTextStripper.java:379)
-	at org.springframework.ai.reader.pdf.layout.ForkPDFLayoutTextStripper.processPage(ForkPDFLayoutTextStripper.java:71)
-	at org.springframework.ai.reader.pdf.layout.PDFLayoutTextStripperByArea.extractRegions(PDFLayoutTextStripperByArea.java:123)
-	at org.springframework.ai.reader.pdf.PagePdfDocumentReader.handleSinglePage(PagePdfDocumentReader.java:147)
-	at org.springframework.ai.reader.pdf.PagePdfDocumentReader.get(PagePdfDocumentReader.java:116)
-	at org.springframework.ai.reader.pdf.PagePdfDocumentReader.get(PagePdfDocumentReader.java:50)
-	at org.springframework.ai.document.DocumentReader.read(DocumentReader.java:25)
-	at com.jialli.first_ai_project.rag.service.RagIngestionService.getDocumentParts(RagIngestionService.java:133)
-	at com.jialli.first_ai_project.rag.service.RagIngestionService.getDocuments(RagIngestionService.java:120)
-	at com.jialli.first_ai_project.rag.service.RagIngestionService.ingestDocumentChunksToVectoreStore(RagIngestionService.java:110)
-	at com.jialli.first_ai_project.rag.service.RagIngestionService.initializePgVectorStore(RagIngestionService.java:74)
-	at com.jialli.first_ai_project.FirstAiProjectApplication.run(FirstAiProjectApplication.java:24)
-	at org.springframework.boot.SpringApplication.lambda$callRunner$5(SpringApplication.java:788)
-	at org.springframework.util.function.ThrowingConsumer$1.acceptWithException(ThrowingConsumer.java:82)
-	at org.springframework.util.function.ThrowingConsumer.accept(ThrowingConsumer.java:60)
-	at org.springframework.util.function.ThrowingConsumer$1.accept(ThrowingConsumer.java:86)
-	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:796)
-	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:787)
-	at org.springframework.boot.SpringApplication.lambda$callRunners$3(SpringApplication.java:772)
-	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:186)
-	at java.base/java.util.stream.SortedOps$SizedRefSortingSink.end(SortedOps.java:357)
-	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:571)
-	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:560)
-	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:153)
-	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:176)
-	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:265)
-	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:632)
-	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:772)
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:325)
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361)
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350)
-	at com.jialli.first_ai_project.FirstAiProjectApplication.main(FirstAiProjectApplication.java:18)
-2026-05-31 17:02:03 [main] WARN  traceId= spanId= o.a.p.contentstream.PDFStreamEngine - Cannot execute restore, the graphics stack is empty
-org.apache.pdfbox.contentstream.operator.state.EmptyGraphicsStackException: Cannot execute restore, the graphics stack is empty
-	at org.apache.pdfbox.contentstream.operator.state.Restore.process(Restore.java:51)
-	at org.apache.pdfbox.contentstream.PDFStreamEngine.processOperator(PDFStreamEngine.java:924)
-	at org.apache.pdfbox.contentstream.PDFStreamEngine.processStreamOperators(PDFStreamEngine.java:557)
-	at org.apache.pdfbox.contentstream.PDFStreamEngine.processStream(PDFStreamEngine.java:515)
-	at org.apache.pdfbox.contentstream.PDFStreamEngine.processPage(PDFStreamEngine.java:158)
-	at org.apache.pdfbox.text.LegacyPDFStreamEngine.processPage(LegacyPDFStreamEngine.java:153)
-	at org.apache.pdfbox.text.PDFTextStripper.processPage(PDFTextStripper.java:379)
-	at org.springframework.ai.reader.pdf.layout.ForkPDFLayoutTextStripper.processPage(ForkPDFLayoutTextStripper.java:71)
-	at org.springframework.ai.reader.pdf.layout.PDFLayoutTextStripperByArea.extractRegions(PDFLayoutTextStripperByArea.java:123)
-	at org.springframework.ai.reader.pdf.PagePdfDocumentReader.handleSinglePage(PagePdfDocumentReader.java:147)
-	at org.springframework.ai.reader.pdf.PagePdfDocumentReader.get(PagePdfDocumentReader.java:116)
-	at org.springframework.ai.reader.pdf.PagePdfDocumentReader.get(PagePdfDocumentReader.java:50)
-	at org.springframework.ai.document.DocumentReader.read(DocumentReader.java:25)
-	at com.jialli.first_ai_project.rag.service.RagIngestionService.getDocumentParts(RagIngestionService.java:133)
-	at com.jialli.first_ai_project.rag.service.RagIngestionService.getDocuments(RagIngestionService.java:120)
-	at com.jialli.first_ai_project.rag.service.RagIngestionService.ingestDocumentChunksToVectoreStore(RagIngestionService.java:110)
-	at com.jialli.first_ai_project.rag.service.RagIngestionService.initializePgVectorStore(RagIngestionService.java:74)
-	at com.jialli.first_ai_project.FirstAiProjectApplication.run(FirstAiProjectApplication.java:24)
-	at org.springframework.boot.SpringApplication.lambda$callRunner$5(SpringApplication.java:788)
-	at org.springframework.util.function.ThrowingConsumer$1.acceptWithException(ThrowingConsumer.java:82)
-	at org.springframework.util.function.ThrowingConsumer.accept(ThrowingConsumer.java:60)
-	at org.springframework.util.function.ThrowingConsumer$1.accept(ThrowingConsumer.java:86)
-	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:796)
-	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:787)
-	at org.springframework.boot.SpringApplication.lambda$callRunners$3(SpringApplication.java:772)
-	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:186)
-	at java.base/java.util.stream.SortedOps$SizedRefSortingSink.end(SortedOps.java:357)
-	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:571)
-	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:560)
-	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:153)
-	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:176)
-	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:265)
-	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:632)
-	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:772)
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:325)
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361)
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350)
-	at com.jialli.first_ai_project.FirstAiProjectApplication.main(FirstAiProjectApplication.java:18)
-2026-05-31 17:02:03 [main] INFO  traceId= spanId= o.s.a.r.pdf.PagePdfDocumentReader - Processing PDF page: 3
-2026-05-31 17:02:03 [main] INFO  traceId= spanId= o.s.a.r.pdf.PagePdfDocumentReader - Processing PDF page: 4
-2026-05-31 17:02:03 [main] INFO  traceId= spanId= o.s.a.r.pdf.PagePdfDocumentReader - Processed total 4 pages
-2026-05-31 17:02:03 [main] INFO  traceId= spanId= o.s.a.r.pdf.PagePdfDocumentReader - Processing PDF page: 1
-2026-05-31 17:02:03 [main] INFO  traceId= spanId= o.s.a.r.pdf.PagePdfDocumentReader - Processing PDF page: 2
-2026-05-31 17:02:03 [main] INFO  traceId= spanId= o.s.a.r.pdf.PagePdfDocumentReader - Processing PDF page: 3
-2026-05-31 17:02:03 [main] INFO  traceId= spanId= o.s.a.r.pdf.PagePdfDocumentReader - Processing PDF page: 4
-2026-05-31 17:02:03 [main] INFO  traceId= spanId= o.s.a.r.pdf.PagePdfDocumentReader - Processed total 4 pages
-2026-05-31 17:02:03 [main] INFO  traceId= spanId= o.s.a.r.pdf.PagePdfDocumentReader - Processing PDF page: 1
-2026-05-31 17:02:03 [main] INFO  traceId= spanId= o.s.a.r.pdf.PagePdfDocumentReader - Processing PDF page: 2
-2026-05-31 17:02:03 [main] INFO  traceId= spanId= o.s.a.r.pdf.PagePdfDocumentReader - Processing PDF page: 3
-2026-05-31 17:02:03 [main] INFO  traceId= spanId= o.s.a.r.pdf.PagePdfDocumentReader - Processing PDF page: 4
-2026-05-31 17:02:03 [main] INFO  traceId= spanId= o.s.a.r.pdf.PagePdfDocumentReader - Processing PDF page: 5
-2026-05-31 17:02:03 [main] INFO  traceId= spanId= o.s.a.r.pdf.PagePdfDocumentReader - Processing PDF page: 6
-2026-05-31 17:02:03 [main] INFO  traceId= spanId= o.s.a.r.pdf.PagePdfDocumentReader - Processing PDF page: 7
-2026-05-31 17:02:03 [main] INFO  traceId= spanId= o.s.a.r.pdf.PagePdfDocumentReader - Processing PDF page: 8
-2026-05-31 17:02:03 [main] INFO  traceId= spanId= o.s.a.r.pdf.PagePdfDocumentReader - Processed total 8 pages
-2026-05-31 17:02:03 [main] INFO  traceId= spanId= o.s.a.r.pdf.PagePdfDocumentReader - Processing PDF page: 1
-2026-05-31 17:02:03 [main] INFO  traceId= spanId= o.s.a.r.pdf.PagePdfDocumentReader - Processing PDF page: 2
-2026-05-31 17:02:03 [main] INFO  traceId= spanId= o.s.a.r.pdf.PagePdfDocumentReader - Processing PDF page: 3
-2026-05-31 17:02:03 [main] INFO  traceId= spanId= o.s.a.r.pdf.PagePdfDocumentReader - Processing PDF page: 4
-2026-05-31 17:02:03 [main] INFO  traceId= spanId= o.s.a.r.pdf.PagePdfDocumentReader - Processing PDF page: 5
-2026-05-31 17:02:03 [main] INFO  traceId= spanId= o.s.a.r.pdf.PagePdfDocumentReader - Processing PDF page: 6
-2026-05-31 17:02:03 [main] INFO  traceId= spanId= o.s.a.r.pdf.PagePdfDocumentReader - Processing PDF page: 7
-2026-05-31 17:02:03 [main] INFO  traceId= spanId= o.s.a.r.pdf.PagePdfDocumentReader - Processed total 7 pages
-2026-05-31 17:02:03 [main] INFO  traceId= spanId= o.s.a.r.pdf.PagePdfDocumentReader - Processing PDF page: 1
-2026-05-31 17:02:03 [main] INFO  traceId= spanId= o.s.a.r.pdf.PagePdfDocumentReader - Processing PDF page: 2
-2026-05-31 17:02:03 [main] INFO  traceId= spanId= o.s.a.r.pdf.PagePdfDocumentReader - Processing PDF page: 3
-2026-05-31 17:02:03 [main] INFO  traceId= spanId= o.s.a.r.pdf.PagePdfDocumentReader - Processing PDF page: 4
-2026-05-31 17:02:03 [main] INFO  traceId= spanId= o.s.a.r.pdf.PagePdfDocumentReader - Processed total 4 pages
-2026-05-31 17:02:03 [main] INFO  traceId= spanId= o.s.a.t.splitter.TextSplitter - Splitting up document into 4 chunks.
-2026-05-31 17:02:03 [main] INFO  traceId= spanId= o.s.a.t.splitter.TextSplitter - Splitting up document into 2 chunks.
-2026-05-31 17:02:03 [main] INFO  traceId= spanId= o.s.a.t.splitter.TextSplitter - Splitting up document into 4 chunks.
-2026-05-31 17:02:03 [main] INFO  traceId= spanId= o.s.a.t.splitter.TextSplitter - Splitting up document into 2 chunks.
-2026-05-31 17:02:03 [main] INFO  traceId= spanId= o.s.a.t.splitter.TextSplitter - Splitting up document into 3 chunks.
-2026-05-31 17:02:03 [main] INFO  traceId= spanId= o.s.a.t.splitter.TextSplitter - Splitting up document into 2 chunks.
-2026-05-31 17:02:03 [main] INFO  traceId= spanId= o.s.a.t.splitter.TextSplitter - Splitting up document into 3 chunks.
-2026-05-31 17:02:03 [main] INFO  traceId= spanId= o.s.a.t.splitter.TextSplitter - Splitting up document into 3 chunks.
-2026-05-31 17:02:03 [main] INFO  traceId= spanId= o.s.a.t.splitter.TextSplitter - Splitting up document into 2 chunks.
-2026-05-31 17:02:03 [main] INFO  traceId= spanId= o.s.a.t.splitter.TextSplitter - Splitting up document into 2 chunks.
-2026-05-31 17:02:03 [main] INFO  traceId= spanId= o.s.a.t.splitter.TextSplitter - Splitting up document into 4 chunks.
-2026-05-31 17:02:03 [main] INFO  traceId= spanId= o.s.a.t.splitter.TextSplitter - Splitting up document into 3 chunks.
-2026-05-31 17:02:03 [main] INFO  traceId= spanId= o.s.a.t.splitter.TextSplitter - Splitting up document into 2 chunks.
-2026-05-31 17:02:03 [main] INFO  traceId= spanId= o.s.a.t.splitter.TextSplitter - Splitting up document into 3 chunks.
-2026-05-31 17:02:03 [main] INFO  traceId= spanId= o.s.a.t.splitter.TextSplitter - Splitting up document into 2 chunks.
-2026-05-31 17:02:03 [main] INFO  traceId= spanId= o.s.a.t.splitter.TextSplitter - Splitting up document into 3 chunks.
-2026-05-31 17:02:03 [main] INFO  traceId= spanId= o.s.a.t.splitter.TextSplitter - Splitting up document into 2 chunks.
-2026-05-31 17:02:03 [main] INFO  traceId= spanId= o.s.a.t.splitter.TextSplitter - Splitting up document into 2 chunks.
-2026-05-31 17:02:03 [main] INFO  traceId= spanId= o.s.a.t.splitter.TextSplitter - Splitting up document into 2 chunks.
-2026-05-31 17:02:03 [main] INFO  traceId= spanId= o.s.a.t.splitter.TextSplitter - Splitting up document into 2 chunks.
-2026-05-31 17:02:03 [main] INFO  traceId= spanId= o.s.a.t.splitter.TextSplitter - Splitting up document into 3 chunks.
-2026-05-31 17:02:03 [main] INFO  traceId= spanId= o.s.a.t.splitter.TextSplitter - Splitting up document into 3 chunks.
-2026-05-31 17:02:03 [main] INFO  traceId= spanId= o.s.a.t.splitter.TextSplitter - Splitting up document into 3 chunks.
-2026-05-31 17:02:03 [main] INFO  traceId= spanId= o.s.a.t.splitter.TextSplitter - Splitting up document into 2 chunks.
-2026-05-31 17:02:05 [main] INFO  traceId= spanId= c.j.f.r.service.RagIngestionService - Ingest 71 chunks into PgVectorStore
-2026-05-31 17:02:31 [http-nio-8081-exec-1] INFO  traceId= spanId= o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-2026-05-31 17:02:31 [http-nio-8081-exec-1] INFO  traceId= spanId= o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
-2026-05-31 17:02:31 [http-nio-8081-exec-1] INFO  traceId= spanId= o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
-2026-05-31 17:02:31 [http-nio-8081-exec-1] INFO  traceId= spanId= c.j.f.r.c.p.DomainSynonymTransformer - Transformed query: How should I handle single sign-on?
+2026-06-05 00:00:27 [HikariPool-1:housekeeper] WARN  traceId= spanId= com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=16m56s790ms).
+2026-06-05 00:17:35 [HikariPool-1:housekeeper] WARN  traceId= spanId= com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=16m38s85ms).
+2026-06-05 03:04:44 [HikariPool-1:housekeeper] WARN  traceId= spanId= com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=17m6s807ms).
+2026-06-05 06:50:45 [HikariPool-1:housekeeper] WARN  traceId= spanId= com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=16m58s380ms).
+2026-06-05 08:08:19 [HikariPool-1:housekeeper] WARN  traceId= spanId= com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=16m33s346ms).
+2026-06-05 16:47:43 [HikariPool-1:housekeeper] WARN  traceId= spanId= com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@36595026 (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+2026-06-05 16:47:56 [traceableWatchLoopExecutor-1] WARN  traceId= spanId= c.j.f.rag.service.PdfWatcherService - Error in watcher loop!
+java.nio.file.ClosedWatchServiceException: null
+	at java.base/sun.nio.fs.AbstractWatchService.checkOpen(AbstractWatchService.java:80)
+	at java.base/sun.nio.fs.AbstractWatchService.checkKey(AbstractWatchService.java:92)
+	at java.base/sun.nio.fs.AbstractWatchService.take(AbstractWatchService.java:119)
+	at com.jialli.first_ai_project.rag.service.PdfWatcherService.watchDir(PdfWatcherService.java:98)
+	at com.jialli.first_ai_project.rag.service.PdfWatcherService.lambda$doStart$0(PdfWatcherService.java:74)
+	at io.micrometer.context.ContextSnapshot.lambda$wrap$0(ContextSnapshot.java:91)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+2026-06-05 16:47:56 [SpringApplicationShutdownHook] INFO  traceId= spanId= o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-06-05 16:47:57 [tomcat-shutdown] INFO  traceId= spanId= o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-06-05 16:47:58 [SpringApplicationShutdownHook] WARN  traceId= spanId= o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'vertexAiGeminiChat': java.lang.IllegalStateException: java.io.IOException: Your default credentials were not found. To set up Application Default Credentials for your environment, see https://cloud.google.com/docs/authentication/external/set-up-adc.
+2026-06-05 16:47:58 [SpringApplicationShutdownHook] WARN  traceId= spanId= o.s.b.f.s.DisposableBeanAdapter - Invocation of close method failed on bean with name 'vertexAi': java.lang.IllegalStateException: java.io.IOException: Your default credentials were not found. To set up Application Default Credentials for your environment, see https://cloud.google.com/docs/authentication/external/set-up-adc.
+2026-06-05 16:47:58 [SpringApplicationShutdownHook] INFO  traceId= spanId= com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...

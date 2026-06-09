@@ -13,17 +13,26 @@ import org.springframework.ai.reader.pdf.config.PdfDocumentReaderConfig;
 import org.springframework.ai.transformer.splitter.TokenTextSplitter;
 import org.springframework.ai.vectorstore.VectorStore;
 import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.core.io.FileSystemResource;
 import org.springframework.core.io.Resource;
 import org.springframework.core.io.support.PathMatchingResourcePatternResolver;
+import org.springframework.dao.DataAccessException;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.stereotype.Component;
 
 import javax.print.Doc;
 import java.io.IOException;
+import java.io.InputStream;
+import java.io.OutputStream;
 import java.net.URL;
+import java.nio.file.Path;
+import java.security.DigestInputStream;
+import java.security.MessageDigest;
+import java.security.NoSuchAlgorithmException;
 import java.time.ZonedDateTime;
 import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.HexFormat;
 import java.util.List;
 import java.util.Map;
 import java.util.Set;
@@ -73,9 +82,31 @@ public class RagIngestionService {
         }
         ingestDocumentChunksToVectoreStore(pdfResources);
     }
+    public void upsertOneByPath(Path path) {
+        log.info("Processing new path for ingestion {}", path);
+        FileSystemResource resource = new FileSystemResource(path.toFile());
+        String source = resource.getFilename();
+        String checkSum  = sha256Hex(resource);
+        // if same checksum already in DB, skip
+        Integer count = jdbcTemplate.queryForObject(
+                "SELECT count(*) FROM " + ragVectorStoreTableName + " WHERE metadata->>'source'=? AND metadata->>'checksum'=?",
+                Integer.class, source, checkSum);
+        if (count != null && count > 0) {
+            log.warn("Skipping new entry: Checksum already in DB!");
+            return;
+        }
+        deleteBySource(source);
+        ingestDocumentChunksToVectoreStore(new Resource[]{resource});
+    }
 
-
-
+    public void deleteBySource(String source) {
+        try {
+            jdbcTemplate.update("DELETE FROM " + ragVectorStoreTableName + " WHERE metadata->>'source' = ?", source);
+            log.info("Delete source: {} from vector store", source);
+        } catch (DataAccessException e) {
+            throw new RagException("Error deleting source: " + source + " from vector store!", e);
+        }
+    }
 
     private boolean skipIngest(JdbcTemplate jdbcTemplate) {
         if (ragConfigData.isForceRebuild()) {
@@ -140,6 +171,8 @@ public class RagIngestionService {
             part.getMetadata().putIfAbsent(RagConstants.DOC_TYPE,
                     pdfResource.getFilename().substring(0, pdfResource.getFilename().indexOf(".")));
             part.getMetadata().putIfAbsent(RagConstants.UPDATED_AT, ZonedDateTime.now().toLocalDate().toString());
+            String checksum = sha256Hex(pdfResource);
+            part.getMetadata().put(RagConstants.CHECK_SUM, checksum);
         }
     }
 
@@ -156,4 +189,32 @@ public class RagIngestionService {
             chunk.getMetadata().put(RagConstants.CHUNK_INDEX, index);
         }
     }
+
+    /**
+     * Computes the SHA 256 hex digest of the given resource via DigestInputStream.
+     * @param resource
+     * @return
+     */
+    private String sha256Hex(Resource resource) {
+        try {
+            final MessageDigest messageDigest = newMessageDigest("SHA-256");
+            try (InputStream inputStream = resource.getInputStream();
+                 DigestInputStream digestInputStream = new DigestInputStream(inputStream, messageDigest)) {
+                //Drain the stream -> digestInputStream upated messageDigest under the hood
+                digestInputStream.transferTo(OutputStream.nullOutputStream());
+            }
+            return HexFormat.of().formatHex(messageDigest.digest());
+        } catch (IOException e) {
+            throw new RagException("Error creating sha256Hex for resource " + resource.getFilename(), e);
+        }
+    }
+
+    private MessageDigest newMessageDigest(String algorithm) {
+        try {
+            return MessageDigest.getInstance(algorithm);
+        } catch (NoSuchAlgorithmException e) {
+            throw new RagException("Missing JCA provider for " + algorithm, e);
+        }
+    }
+
 }

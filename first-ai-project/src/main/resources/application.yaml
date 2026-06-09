@@ -1,10 +1,15 @@
 app:
   ai:
     provider: google # or OpenAI
+  agent:
+    upload-dir: /Users/jialli/Documents/spring_ai/agent-files/uploads
+    diagram-tool:
+      temperature: 0.2
+
   rag:
     force-rebuild: true
-    top-k: 3
-    similarity-threshold: 0.60
+    top-k: 20
+    similarity-threshold: 0.0 # re-ranker will filter out the relevant docs
     radius: 1
     chunk:
       size: 100
@@ -21,6 +26,11 @@ app:
       number-of-bottom-text-lines-to-delete: 0
     query-expander:
       number-of-queries: 4
+    rerank:
+      url: "https://api.cohere.com/v2/rerank"
+      api-key: ${COHERE_API_KEY}
+      model: "rerank-english-v3.0"
+      top-n: 6
     synonyms:
       PTO: "paid time off"
       SSO: "single sign-on"
